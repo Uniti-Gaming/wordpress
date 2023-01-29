@@ -1,0 +1,15 @@
+.download__card {
+    border-radius: 20px;
+    width: 490px;
+    height: 590px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.download__card:first-of-type{
+    background: #393942;
+}
+.download__card:last-of-type {
+    background: #79109D;
+}

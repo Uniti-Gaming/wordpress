@@ -1,0 +1,7 @@
+.start-game {
+    margin-top: 166px;
+    margin-bottom: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

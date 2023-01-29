@@ -1,0 +1,8 @@
+.first-screen__text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.005em;
+    max-width: 441px;
+    margin: 0;
+}

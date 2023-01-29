@@ -1,0 +1,14 @@
+.button {
+    background: #79109D;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    border: 0;
+    font-family: 'Manrope', sans-serif;
+    padding: 13px 20px;
+}
+.button:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.social__image-container {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}

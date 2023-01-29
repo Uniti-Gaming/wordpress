@@ -1,0 +1,6 @@
+.card__img:first-of-type {
+    margin-top: 66px;
+}
+.card__img:last-of-type {
+    transform: translateX(40px);
+}

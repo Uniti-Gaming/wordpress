@@ -1,0 +1,9 @@
+.industry__title {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.015em;
+    max-width: 694px;
+    margin: 0;
+}

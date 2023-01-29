@@ -1,0 +1,11 @@
+.our-products__card-link {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    margin: 0;
+    position: absolute;
+    left: 38px;
+    bottom: 44px;
+}

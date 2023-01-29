@@ -1,0 +1,8 @@
+.first-screen {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    position: relative;
+    max-width: 1050px;
+    margin: 160px auto 0;
+}

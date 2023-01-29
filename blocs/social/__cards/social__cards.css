@@ -1,0 +1,6 @@
+.social__cards {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

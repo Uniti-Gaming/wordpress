@@ -1,0 +1,9 @@
+.footer__links-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding-bottom: 47px;
+    margin: 0 auto;
+    max-width: 1200px;
+}

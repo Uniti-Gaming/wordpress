@@ -1,0 +1,8 @@
+.our-products__card-title {
+    font-weight: 800;
+    font-size: 38px;
+    letter-spacing: -0.01em;
+    margin: 0 38px;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,11 @@
+.download__card-image_phone {
+    position: absolute;
+}
+.download__card-image_phone:first-of-type {
+    right: -15px;
+    bottom: -5px;
+}
+.download__card-image_phone:last-of-type {
+    right: 67px;
+    bottom: 45px;
+}

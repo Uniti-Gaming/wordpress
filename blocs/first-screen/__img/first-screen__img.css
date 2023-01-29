@@ -1,0 +1,6 @@
+.first-screen__img {
+    border-radius: 20px;
+    height: 320px;
+    margin-top: 89px;
+    z-index: 1;
+}

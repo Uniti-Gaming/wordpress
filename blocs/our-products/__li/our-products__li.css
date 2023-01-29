@@ -1,0 +1,14 @@
+.our-products__li {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.015em;
+    width: 240px;
+    height: 145px;
+    background: linear-gradient(180deg, #393942 0%, rgba(57, 57, 66, 0.35) 100%);
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(65, 65, 73, 0.6);
+}

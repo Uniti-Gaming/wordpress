@@ -1,0 +1,10 @@
+.first-screen__backgroun {
+    background: rgba(121, 16, 157, 0.25);
+    filter: blur(100px);
+    position: absolute;
+    width: 534px;
+    height: 482px;
+    top: 0;
+    right: 86px;
+    border-radius: 50%;
+}

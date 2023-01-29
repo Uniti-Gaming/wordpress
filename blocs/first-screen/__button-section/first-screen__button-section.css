@@ -1,0 +1,6 @@
+.first-screen__button-section {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    margin-top: 27px;
+}

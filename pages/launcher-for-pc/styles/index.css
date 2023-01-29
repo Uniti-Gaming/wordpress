@@ -1,0 +1,54 @@
+@import url(../../../vendor/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+@import url(../../../blocs/header/header.css);
+@import url(../../../blocs/header/__lang/header__lang.css);
+@import url(../../../blocs/header/__link/header__link.css);
+@import url(../../../blocs/header/__logo/header__logo.css);
+@import url(../../../blocs/header/__menu/header__menu.css);
+
+@import url(../../../blocs/button/button.css);
+@import url(../../../blocs/body/body.css);
+
+@import url(../../../blocs/game-icon/game-icon.css);
+@import url(../../../blocs/game-icon/__7days/game-icon__7days.css);
+@import url(../../../blocs/game-icon/__call-of-duty/game-icon__call-of-duty.css);
+@import url(../../../blocs/game-icon/__container/game-icon__container.css);
+@import url(../../../blocs/game-icon/__cs-go/game-icon__cs-go.css);
+@import url(../../../blocs/game-icon/__factory/game-icon__factory.css);
+@import url(../../../blocs/game-icon/__forest/game-icon__forest.css);
+@import url(../../../blocs/game-icon/__garrys-mod/game-icon__garrys-mod.css);
+@import url(../../../blocs/game-icon/__gta-5/game-icon__gta-5.css);
+@import url(../../../blocs/game-icon/__gta/game-icon__gta.css);
+@import url(../../../blocs/game-icon/__left-4-dead/game-icon__left-4-dead.css);
+@import url(../../../blocs/game-icon/__warcraft3/game-icon__warcraft3.css);
+@import url(../../../blocs/game-icon/__warcraft/_pandaria/game-icon__warcraft_pandaria.css);
+@import url(../../../blocs/game-icon/__warcraft/game-icon__warcraft.css);
+@import url(../../../blocs/game-icon/__minecraft/game-icon__minecraft.css);
+@import url(../../../blocs/game-icon/__portal/game-icon__portal.css);
+@import url(../../../blocs/game-icon/__pubg/game-icon__pubg.css);
+@import url(../../../blocs/game-icon/__rust/game-icon__rust.css);
+@import url(../../../blocs/game-icon/__scrabble/game-icon__scrabble.css);
+
+@import url(../blocs/download/download.css);
+@import url(../blocs/download/__buttons/download__buttons.css);
+@import url(../blocs/download/__subtitle/download__subtitle.css);
+@import url(../blocs/download/__text/download__text.css);
+@import url(../blocs/download/__title/download__title.css);
+@import url(../blocs/download/__container/download__container.css);
+
+
+
+
+
+
+@import url(../../../blocs/footer/__link/footer__link.css);
+@import url(../../../blocs/footer/__link/_title/footer__link_title.css);
+@import url(../../../blocs/footer/__links-container/footer__links-container.css);
+@import url(../../../blocs/footer/__links/footer__links.css);
+@import url(../../../blocs/footer/__logo/footer__logo.css);
+@import url(../../../blocs/footer/__social-img/footer__social-img.css);
+@import url(../../../blocs/footer/__under-link/footer__under-link.css);
+@import url(../../../blocs/footer/__under-links/footer__under-links.css);
+@import url(../../../blocs/footer/__under/footer__under.css);
