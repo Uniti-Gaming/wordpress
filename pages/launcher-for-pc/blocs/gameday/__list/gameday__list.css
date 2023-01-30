@@ -1,0 +1,8 @@
+.gameday__list {
+    list-style: none;
+    padding: 0;
+    margin: 48px -113px 0 0;
+    display: flex;
+    gap: 30px;
+    z-index: 1;
+}

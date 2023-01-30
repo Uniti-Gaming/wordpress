@@ -1,7 +1,6 @@
 @import url(../../../vendor/normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-
 @import url(../../../blocs/header/header.css);
 @import url(../../../blocs/header/__lang/header__lang.css);
 @import url(../../../blocs/header/__link/header__link.css);
@@ -38,10 +37,67 @@
 @import url(../blocs/download/__title/download__title.css);
 @import url(../blocs/download/__container/download__container.css);
 
+@import url(../blocs/card/card.css);
+@import url(../blocs/card/__text/card__text.css);
+@import url(../blocs/card/__title/card__title.css);
+@import url(../blocs/card/__text/_launcher/card__text_launcher.css);
+@import url(../blocs/card/__title/_launcher/card__title_launcher.css);
+@import url(../blocs/card/_server/card_server.css);
+@import url(../blocs/card/_launcher/card_launcher.css);
+@import url(../blocs/card/__link/card__link.css);
+@import url(../blocs/card/__link/_server/card__link_server.css);
+@import url(../blocs/card/__text/_server/card__text_server.css);
+@import url(../blocs/card/__title/_server/card__title_server.css);
+@import url(../blocs/card/__link/_hamachi/card__link_hamachi.css);
+@import url(../blocs/card/__text/_hamachi/card__text_hamachi.css);
+@import url(../blocs/card/__title/_hamachi/card__title_hamachi.css);
+@import url(../blocs/card/_hamachi/card_hamachi.css);
+@import url(../blocs/card/__image/_hamachi/card__image_hamachi.css);
+@import url(../blocs/card/_events/card_events.css);
+@import url(../blocs/card/__image/_events/card__image_events.css);
+@import url(../blocs/card/__text/_events/card__text_events.css);
+@import url(../blocs/card/__title/_events/card__title_events.css);
+@import url(../blocs/card/__link/_events/card__link_events.css);
+@import url(../blocs/card/__link/_gameday/card__link_gameday.css);
+@import url(../blocs/card/__text/_gameday/card__text_gameday.css);
+@import url(../blocs/card/__title/_gameday/card__title_gameday.css);
+@import url(../blocs/card/_gameday/card_gameday.css);
+@import url(../blocs/card/background/card__background.css);
+@import url(../blocs/card/__btn-download/card__btn-download.css);
+@import url(../blocs/card/__image-document/card__image-document.css);
+@import url(../blocs/card/__link/_download/card__link_download.css);
+@import url(../blocs/card/__name-document/card__name-document.css);
+@import url(../blocs/card/__text/_download/card__text_download.css);
+@import url(../blocs/card/__title/_download/card__title_download.css);
+@import url(../blocs/card/_download/card_download.css);
+@import url(../blocs/card/);
+
+@import url(../blocs/cards/cards.css);
+
+@import url(../blocs/gameday/__card/gameday__card.css);
+@import url(../blocs/gameday/__image/gameday__image.css);
+@import url(../blocs/gameday/__list/gameday__list.css);
+@import url(../blocs/gameday/__name/gameday__name.css);
+@import url(../blocs/gameday/__text/ngameday__text.css);
+@import url(../blocs/gameday/__time/gameday__time.css);
 
 
 
 
+
+
+
+@import url(../../../blocs/start-game/start-game.css);
+@import url(../../../blocs/start-game/__text/start-game__text.css);
+@import url(../../../blocs/start-game/__title/start-game__title.css);
+
+@import url(../../../blocs/news/news.css);
+@import url(../../../blocs/news/__card/news__card.css);
+@import url(../../../blocs/news/__list/news__list.css);
+@import url(../../../blocs/news/__name/news__name.css);
+@import url(../../../blocs/news/__text/news__text.css);
+@import url(../../../blocs/news/__time/news__time.css);
+@import url(../../../blocs/news/__title/news__title.css);
 
 @import url(../../../blocs/footer/__link/footer__link.css);
 @import url(../../../blocs/footer/__link/_title/footer__link_title.css);

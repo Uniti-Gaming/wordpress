@@ -1,2 +1,2 @@
 # unite
-https://bababum95.github.io/unite/pages/launcher-for-pc/index.html
+[ссылка на GitHub Pages](https://bababum95.github.io/unite/index.html) 

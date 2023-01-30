@@ -1,0 +1,9 @@
+.card__background {
+    background: rgba(121, 16, 157, 0.25);
+    filter: blur(100px);
+    position: absolute;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    width: 470px;
+}

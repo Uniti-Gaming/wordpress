@@ -1,0 +1,15 @@
+.card__name-document {
+    background: rgba(73, 72, 79, 0.35);
+    border-radius: 16px;
+    width: 234px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    color: #B8B8B8;
+    border: 1px Outset rgba(255, 255, 255, 0.25);
+    margin: 57px 39px 10px 199px;
+}

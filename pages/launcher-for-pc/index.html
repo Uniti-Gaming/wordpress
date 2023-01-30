@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Unity Gaming</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
+
 <body class="body">
     <header class="header">
         <img class="header__logo" src="../../images/logo.svg" alt="логотип">
@@ -97,9 +99,110 @@
             </div>
         </section>
         <section>
-            <ul>
-                <li></li>
+            <ul class="cards">
+                <li class="card card_launcher">
+                    <div>
+                        <h3 class="card__title card__title_launcher">Как работает Launcher?</h3>
+                        <p class="card__text card__text_launcher">Launcher подключает вас к единой локальной сети и даёт
+                            возможность играть с друзьями с низким пингом в Туркменистане</p>
+                    </div>
+                    <img src="../../images/launcher.png" alt="">
+                </li>
+                <li class="card card_server">
+                    <img src="../../images/server.png" alt="">
+                    <div>
+                        <h3 class="card__title card__title_server">Играй на серверах Unite Gaming</h3>
+                        <p class="card__text card__text_server">Можно подключиться к играм на наших серверах и
+                            проводить весело время с десятками других игроков!</p>
+                        <a class="card__link card__link_server" href="#">Перейти к играм ></a>
+                    </div>
+                </li>
+                <li class="card card_hamachi">
+                    <div>
+                        <h3 class="card__title card__title_hamachi">Как Hamachi, но лучше</h3>
+                        <p class="card__text card__text_hamachi">Unite Gaming предоставляет игры бесплатно. Если нет
+                            желаемой игры, можете скачать её самостоятельно и играть с друзьями!</p>
+                        <a class="card__link card__link_hamachi" href="#">Перейти к играм ></a>
+                    </div>
+                    <img class="card__image_hamachi" src="../../images/hamachi.png" alt="">
+                </li>
+                <li class="card card_events">
+                    <img class="card__image_events" src="../../images/events.png" alt="">
+                    <div>
+                        <h3 class="card__title card__title_events">Еженедельные мероприятия</h3>
+                        <p class="card__text card__text_events">Каждую неделю проводим турниры и мероприятия.
+                            Отслеживай информацию в новостях или ICQ канале</p>
+                        <a class="card__link card__link_events" href="#">Текущие мероприятия ></a>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card__background"></div>
+                    <div>
+                        <h3 class="card__title card__title_gameday">Механика - Игра дня</h3>
+                        <p class="card__text card__text_gameday">Каждые 2 дня на главной странице меняется игра.
+                            Позволяет увеличить кол-во игроков по определенной игре</p>
+                        <a class="card__link card__link_gameday" href="#">Посмотреть игру ></a>
+                    </div>
+                    <ul class="gameday__list">
+                        <li class="gameday__card">
+                            <img class="gameday__image" src="../../images/watchdogsnew.png" alt="афиша Watchdogs">
+                            <p class="gameday__text">Игра дня</p>
+                            <h3 class="gameday__name">Watchdogs новый релиз</h3>
+                            <time class="gameday__time">16 Января 2023</time>
+                        </li>
+                        <li class="gameday__card">
+                            <img class="gameday__image" src="../../images/mincraftnew.png" alt="афиша мфйнкрафт">
+                            <p class="gameday__text">Игра дня</p>
+                            <h3 class="gameday__name">Minecraft PE</h3>
+                            <time class="gameday__time">16 Января 2023</time>
+                        </li>
+                    </ul>
+                </li>
+                <li class="card card_download">
+                    <div>
+                        <p class="card__name-document">Unite gaming.docx</p>
+                        <div class="card__image-document">
+                            <img src="../../images/document.png" alt="">
+                        </div>
+                        <button class="card__btn-download">Скачай</button>
+                    </div>
+                    <div>
+                        <h3 class="card__title card__title_download">Инструкция по установке</h3>
+                        <p class="card__text card__text_download">Не знаешь как установить Unite Gaming Launcher? Мы
+                            подготовили краткую инструкцию!</p>
+                        <a class="card__link card__link_download" href="#">Скачать инструкцию ></a>
+                    </div>
+                </li>
             </ul>
+        </section>
+        <section class="news">
+            <h2 class="news__title">Новости и мероприятия</h2>
+            <ul class="news__list">
+                <li class="news__card">
+                    <img class="news__img" src="../../images/watchdogsnew.png" alt="афиша Watchdogs">
+                    <p class="news__text">Игра дня</p>
+                    <h3 class="news__name">Watchdogs новый релиз</h3>
+                    <time class="news__time">16 Января 2023</time>
+                </li>
+                <li class="news__card">
+                    <img class="news__img" src="../../images/mincraftnew.png" alt="афиша мфйнкрафт">
+                    <p class="news__text">Мероприятия</p>
+                    <h3 class="news__name">“Mine, Minecraft Fest 2023”</h3>
+                    <time class="news__time">16 Января 2023</time>
+                </li>
+                <li class="news__card">
+                    <img class="news__img" src="../../images/rustnew.png" alt="афиша rust">
+                    <p class="news__text">Новости</p>
+                    <h3 class="news__name">Новый Ивент на Rust “Король Горы”</h3>
+                    <time class="news__time">16 Января 2023</time>
+                </li>
+            </ul>
+            <button class="button">Все новости</button>
+        </section>
+        <section class="start-game">
+            <h2 class="start-game__title">Как начать играть на платформе?</h2>
+            <p class="start-game__text">Пройди регистрацию, получи индивидуальный ключ и начни играть с нами!</p>
+            <button class="button">Регистрация</button>
         </section>
     </main>
     <footer class="footer">
@@ -206,4 +309,5 @@
         </div>
     </footer>
 </body>
+
 </html>
