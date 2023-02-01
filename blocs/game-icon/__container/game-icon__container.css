@@ -1,6 +1,7 @@
 .game-icon__container {
     width: 325px;
-    height: 549px;
+    height: 600px;
     position: relative;
-    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }

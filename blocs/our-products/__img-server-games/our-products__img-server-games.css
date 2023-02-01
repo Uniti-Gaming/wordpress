@@ -3,5 +3,5 @@
     top: 93px;
     right: 0;
     width: 721px;
-    height: 342px;
+    transition: all 500ms ease-in-out;
 }

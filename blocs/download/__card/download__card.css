@@ -13,3 +13,10 @@
 .download__card:last-of-type {
     background: #79109D;
 }
+.download__card:hover .download__card-image {
+    transform: scale(105%);
+}
+.download__card:hover .download__link {
+    color: #393942;
+    background-color: #fff;
+}

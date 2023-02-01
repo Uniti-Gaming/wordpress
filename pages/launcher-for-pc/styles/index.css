@@ -9,6 +9,8 @@
 
 @import url(../../../blocs/button/button.css);
 @import url(../../../blocs/body/body.css);
+@import url(../../../blocs/title/title.css);
+@import url(../../../blocs/subtitle/subtitle.css);
 
 @import url(../../../blocs/game-icon/game-icon.css);
 @import url(../../../blocs/game-icon/__7days/game-icon__7days.css);
@@ -61,7 +63,6 @@
 @import url(../blocs/card/__link/_gameday/card__link_gameday.css);
 @import url(../blocs/card/__text/_gameday/card__text_gameday.css);
 @import url(../blocs/card/__title/_gameday/card__title_gameday.css);
-@import url(../blocs/card/_gameday/card_gameday.css);
 @import url(../blocs/card/background/card__background.css);
 @import url(../blocs/card/__btn-download/card__btn-download.css);
 @import url(../blocs/card/__image-document/card__image-document.css);
@@ -81,8 +82,9 @@
 @import url(../blocs/gameday/__text/ngameday__text.css);
 @import url(../blocs/gameday/__time/gameday__time.css);
 
+@import url(../blocs/server-games/__name/server-games__name.css);
 
-
+@import url(../blocs/slider/slider.css);
 
 
 

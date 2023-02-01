@@ -1,12 +1,14 @@
 .header__lang {
     border: 0;
-    background:rgba(34, 34, 40);
     color: #fff;
     margin: 0 55px;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
 }
+
 .header__lang:hover {
     cursor: pointer;
 }

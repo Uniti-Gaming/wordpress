@@ -1,8 +1,8 @@
 .game-icon__rust {
     width: 88px;
     height: 88px;
-    right: 0;
-    bottom: 177px;
+    right: -30px;
+    bottom: 100px;
     background: #FF6E6E;
     border-radius: 14px;
 }

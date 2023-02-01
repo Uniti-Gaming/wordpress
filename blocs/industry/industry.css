@@ -3,4 +3,6 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 220px;
+    margin-bottom: 100px;
+    overflow: hidden;
 }

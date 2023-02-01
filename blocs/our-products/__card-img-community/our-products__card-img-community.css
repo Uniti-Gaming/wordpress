@@ -3,4 +3,5 @@
     bottom: 0;
     right: -17px;
     width: 660px;
+    transition: all 500ms ease-in-out;
 }

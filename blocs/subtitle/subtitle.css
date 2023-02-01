@@ -1,6 +1,7 @@
-.our-products__subtitle {
+.subtitle {
     font-weight: 800;
     font-size: 22px;
+    line-height: 30px;
     text-align: center;
-    margin: 0 auto 24px;
+    margin: 24px 0 0;
 }

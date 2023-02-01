@@ -6,6 +6,9 @@
 @import url(../blocs/button/button.css);
 
 @import url(../blocs/header/header.css);
+@import url(../blocs/header/__submenu/header__submenu.css);
+@import url(../blocs/header/__sublink/header__sublink.css);
+@import url(../blocs/header);
 @import url(../blocs/header/__lang/header__lang.css);
 @import url(../blocs/header/__link/header__link.css);
 @import url(../blocs/header/__logo/header__logo.css);
@@ -62,6 +65,7 @@
 @import url(../blocs/our-products/__li/our-products__li.css);
 
 @import url(../blocs/download/download.css);
+@import url(../blocs/download/__card-image/download__card-image.css);
 @import url(../blocs/download/__card-image/_laptop/download__card-image_laptop.css);
 @import url(../blocs/download/__card-image/_monoblock/download__card-image_monoblock.css);
 @import url(../blocs/download/__card-image/_phone/download__card-image_phone.css);
@@ -109,7 +113,6 @@
 @import url(../blocs/start-game/__text/start-game__text.css);
 @import url(../blocs/start-game/__title/start-game__title.css);
 
-@import url(../blocs/footer/footer.css);
 @import url(../blocs/footer/__link/footer__link.css);
 @import url(../blocs/footer/__link/_title/footer__link_title.css);
 @import url(../blocs/footer/__links-container/footer__links-container.css);

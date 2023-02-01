@@ -1,0 +1,13 @@
+.header__submenu {
+    margin: 0;
+    list-style: none;
+    background: #2F2F32;
+    border-radius: 20px;
+    width: 185px;
+    height: 186px;
+    padding: 21px 17px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 14px;
+    display: none;
+}

@@ -4,4 +4,10 @@
     font-weight: 600;
     font-size: 15px;
     letter-spacing: -0.005em;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header__link:hover {
+    background: #18181B;
+    border-radius: 10px;
 }
