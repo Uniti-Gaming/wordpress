@@ -1,30 +1,46 @@
 .other__card {
-    width: 1000px;
+    max-width: 1000px;
     height: 525px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto 20px;
     border-radius: 20px;
 }
+
 .other__card img {
     transition: all 500ms ease-in-out;
 }
-.other__card:hover .card__link{
+
+.other__card:hover .card__link {
     color: #372A59;
     background-color: #fff;
 }
+
 .other__card:hover .card__img-epic {
     transform: scale(105%);
 }
-.other__card:hover .card__img-battle{
- transform: translateX(62px) scale(105%);
+
+.other__card:hover .card__img-battle {
+    transform: translateX(62px) scale(105%);
 }
-.other__card:hover .card__img-steam{
+
+.other__card:hover .card__img-steam {
     transform: translateY(-45px) scale(105%);
 }
-.other__card:hover .card__img{
+
+.other__card:hover .card__img {
     transform: scale(105%);
 }
+
 .other__card:hover .card__img:last-of-type {
     transform: translateX(40px) scale(105%);
+}
+
+@media screen and (max-width:700px) {
+    .other__card {
+        width: 335px;
+        height: 525px;
+        flex-direction: column;
+        justify-content: normal;
+    }
 }

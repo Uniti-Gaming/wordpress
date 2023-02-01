@@ -2,3 +2,11 @@
     margin-top: 130px;
     transform: translateX(62px);
 }
+@media screen and (max-width:700px) {
+    .card__img-battle {
+        margin-top: 50px;
+        margin-left: 71px;
+        transform: none;
+        width: 192px;
+    }
+}

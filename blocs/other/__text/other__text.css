@@ -1,7 +1,10 @@
 .other__text {
-    font-weight: 600;
-    font-size: 22px;
-    text-align: center;
     margin-top: 24px;
     margin-bottom: 72px;
+}
+@media screen and (max-width:700px) {
+    .other__text {
+        margin: 24px auto 67px;
+        max-width: 219px;
+    }
 }

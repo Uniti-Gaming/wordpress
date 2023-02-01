@@ -5,3 +5,9 @@
     letter-spacing: -0.01em;
     margin: 38px 38px 0;
 }
+
+@media screen and (max-width:450px) {
+    .download__card-title {
+        font-size: 34px;
+    }
+}

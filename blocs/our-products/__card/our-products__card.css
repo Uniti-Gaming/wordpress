@@ -1,5 +1,5 @@
 .our-products__card {
-    width: 1000px;
+    max-width: 1000px;
     height: 525px;
     margin: 20px auto 0;
     border-radius: 20px;
@@ -22,4 +22,9 @@
 .our-products__card:hover .our-products__card-link {
     color: #393942;
     background-color: #fff;
+}
+@media screen and (max-width:700px) {
+    .our-products__card {
+        max-width: 490px;
+    }
 }

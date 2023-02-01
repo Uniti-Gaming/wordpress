@@ -5,3 +5,11 @@
     width: 660px;
     transition: all 500ms ease-in-out;
 }
+@media screen and (max-width:700px) {
+    .our-products__card-img-community {
+        max-width: 100%;
+        right: auto;
+        left: 0;
+        top: 251px;
+    }
+}

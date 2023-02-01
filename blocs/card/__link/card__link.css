@@ -9,3 +9,9 @@
     border-radius: 18px;
     padding: 4px 14px 4px 18px;
 }
+@media screen and (max-width:700px) {
+    .card__link {
+        margin: 6px;
+        font-size: 18px;
+    }
+}

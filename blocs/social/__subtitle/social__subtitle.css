@@ -3,5 +3,10 @@
     font-weight: 800;
     font-size: 22px;
     text-align: center;
-
+}
+@media screen and (max-width:1009px) {
+    .social__subtitle {
+        margin-top: 85px;
+        font-size: 16px;
+    }
 }

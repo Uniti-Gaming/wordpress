@@ -1,8 +1,5 @@
 .our-products__text {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
     max-width: 744px;
     margin: 24px auto 72px;
+    padding: 0 20px;
 }

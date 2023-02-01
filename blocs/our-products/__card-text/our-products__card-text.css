@@ -7,3 +7,10 @@
     position: relative;
     z-index: 1;
 }
+@media screen and (max-width: 700px) {
+    .our-products__card-text {
+        font-size: 16px;
+        max-width: 213px;
+        line-height: 22px;
+    }
+}

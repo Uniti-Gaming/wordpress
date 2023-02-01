@@ -11,3 +11,14 @@
     background: #18181B;
     border-radius: 10px;
 }
+@media screen and (max-width: 1009px) {
+    .header__link {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
+@media screen and (max-width:800px) {
+    .header__link {
+        font-size: 0;
+    }
+}

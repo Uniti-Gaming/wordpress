@@ -1,3 +1,8 @@
 .social__image {
     max-width: 128px;
 }
+@media screen and (max-width:700px) {
+    .social__image {
+        max-width: 87.5px;
+    }
+}

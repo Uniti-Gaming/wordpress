@@ -2,3 +2,11 @@
     margin-left: 20px;
     transform: translateY(-45px);
 }
+@media screen and (max-width:700px) {
+    .card__img-steam {
+        margin-left: 36px;
+        width: 150px;
+        transform: translateY(-16px);
+
+    }
+}

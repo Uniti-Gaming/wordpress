@@ -4,3 +4,9 @@
     align-items: center;
     margin-top: 27px;
 }
+@media screen and (max-width:700px) {
+    .first-screen__button-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -2,3 +2,8 @@
     background-color: #393942;
     padding-top: 168px;
 }
+@media screen and (max-width:700px) {
+    .our-products__card_popular-games {
+        padding-top: 32px;
+    }
+}

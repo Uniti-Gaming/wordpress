@@ -1,3 +1,9 @@
 .social__insta {
     margin: 38px 38px 18px;
 }
+@media screen and (max-width:700px) {
+    .social__insta {
+        max-width: 169px;
+        margin: 26px 26px 12px;
+    }
+}

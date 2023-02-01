@@ -1,9 +1,5 @@
 .our-products__title {
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 110%;
-    text-align: center;
-    letter-spacing: -0.015em;
     max-width: 861px;
+    padding: 0 20px;
     margin: 0 auto;
 }
