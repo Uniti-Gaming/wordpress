@@ -6,6 +6,9 @@
 @import url(../../../blocs/header/__link/header__link.css);
 @import url(../../../blocs/header/__logo/header__logo.css);
 @import url(../../../blocs/header/__menu/header__menu.css);
+@import url(../../../blocs/header/__btn-menu/header__btn-menu.css);
+@import url(../../../blocs/header/__submenu/header__submenu.css);
+@import url(../../../blocs/header/__sublink/header__sublink.css);
 
 @import url(../../../blocs/button/button.css);
 @import url(../../../blocs/body/body.css);
@@ -85,9 +88,35 @@
 @import url(../blocs/server-games/__name/server-games__name.css);
 
 @import url(../blocs/slider/slider.css);
+@import url(../blocs/slider/__item/slider__item.css);
 
+@import url(../blocs/popular/popular.css);
+@import url(../blocs/popular/__grid/popular__grid.css);
 
+@import url(../blocs/item/item.css);
+@import url(../blocs/item/__img/item__img.css);
+@import url(../blocs/item/__junre/item__junre.css);
+@import url(../blocs/item/__name/item__name.css);
 
+@import url(../blocs/voice/voice.css);
+@import url(../blocs/voice/__download/voice__download.css);
+@import url(../blocs/voice/__grid/voice__grid.css);
+@import url(../blocs/voice/__img/voice__img.css);
+@import url(../blocs/voice/__mumble/voice__mumble.css);
+@import url(../blocs/voice/__name/voice__name.css);
+@import url(../blocs/voice/__search/voice__search.css);
+@import url(../blocs/voice/__teamspeak/voice__teamspeak.css);
+@import url(../blocs/voice/__search-img/voice__search-img.css);
+@import url(../blocs/voice/__search-link/voice__search-link.css);
+@import url(../blocs/voice/__search-text/voice__search-text.css);
+@import url(../blocs/voice/__search-title/voice__search-title.css);
+
+@import url(../blocs/suport/suport.css);
+@import url(../blocs/suport/__card/suport__card.css);
+@import url(../blocs/suport/__img/suport__img.css);
+@import url(../blocs/suport/__link/suport__link.css);
+@import url(../blocs/suport/__title/suport__title.css);
+@import url(../blocs/suport/__text/suport__text.css);
 
 @import url(../../../blocs/start-game/start-game.css);
 @import url(../../../blocs/start-game/__text/start-game__text.css);

@@ -1,0 +1,10 @@
+.popular__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    gap: 72px 35px;
+    margin: 72px auto 0;
+    max-width: 1000px;
+}
+.popular__grid a {
+    text-decoration-line: none;
+}

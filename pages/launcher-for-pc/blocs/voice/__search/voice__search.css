@@ -1,0 +1,7 @@
+.voice__search {
+    background-color: #232229;
+    border-radius: 20px;
+    grid-column: span 2;
+    position: relative;
+    overflow: hidden;
+}

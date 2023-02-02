@@ -1,0 +1,9 @@
+.suport__card {
+    max-width: 1000px;
+    border-radius: 20px;
+    margin: 172px auto 0;
+    height: 525px;
+    position: relative;
+    background-color: #232229;
+    overflow: hidden;
+}

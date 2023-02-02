@@ -11,22 +11,83 @@
 
 <body class="body">
     <header class="header">
-        <img class="header__logo" src="../../images/logo.svg" alt="логотип">
+        <a href="../../index.html"><img class="header__logo" src="../../images/logo.svg" alt="логотип"></a>
         <nav>
             <ul class="header__menu">
-                <li><a href="!#" class="header__link">Наши продукты</a></li>
-                <li><a href="!#" class="header__link">Игры</a></li>
-                <li><a href="!#" class="header__link">Донат</a></li>
-                <li><a href="!#" class="header__link">О нас</a></li>
-                <li><a href="!#" class="header__link">Партнёры</a></li>
-                <li><a href="!#" class="header__link">Сообщество</a></li>
-                <li><a href="!#" class="header__link">Поддержка</a></li>
+                <li><a href="#" class="header__link">Наши продукты</a>
+                    <div>
+                        <ul class="header__submenu">
+                            <li>
+                                <a href="./pages/launcher-for-pc/index.html" class="header__sublink">Launcher for PC</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Launcher for Android</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">TeamSpeak for PC</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Mumble for Android</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Покупка игр</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#" class="header__link">Игры</a>
+                    <div>
+                        <ul class="header__submenu">
+                            <li>
+                                <a href="#" class="header__sublink">Серверные игры</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Сетевые игры</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Одиночные игры</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Программы для игр</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Игры на Android</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#" class="header__link">Донат</a></li>
+                <li><a href="#" class="header__link">О нас</a>
+                    <div>
+                        <ul class="header__submenu">
+                            <li>
+                                <a href="#" class="header__sublink">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Команда</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Культура</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__sublink">Карьера </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#" class="header__link">Партнёры</a></li>
+                <li><a href="#" class="header__link">Сообщество</a></li>
+                <li><a href="#" class="header__link">Поддержка</a></li>
             </ul>
         </nav>
         <select class="header__lang" name="lang">
             <option class="header__lang_ru" value="ru" selected>RU</option>
             <option class="header__lang_ru" value="ru">RU</option>
         </select>
+        <button class="header__btn-menu"></button>
         <button class="button">Регистрация</button>
     </header>
     <main>
@@ -184,7 +245,8 @@
                     <p class="server-games__name">World of Warcraft</p>
                 </div>
                 <div class="slider__item">
-                    <img src="../../images/world-of-warcraft-wrath-of-the-lich-king-hd-wallpaper-1920x1200.png" alt="">
+                    <img src="../../images/samp.png" alt="">
+                    <p class="server-games__name">SAMP</p>
                 </div>
                 <div class="slider__item">
                     <img src="../../images/world-of-warcraft-wrath-of-the-lich-king-hd-wallpaper-1920x1200.png" alt="">
@@ -200,8 +262,64 @@
                 </div>
             </div>
         </section>
+        <section class="popular">
+            <h2 class="title">Популярные игры</h2>
+            <h5 class="subtitle">Обожаемые всеми сетевые и одиночные игры на любой вкус!</h5>
+            <div class="popular__grid">
+                <a href="#">
+                    <div class="popular__item item">
+                        <img class="item__img" src="../../images/csgo-item.png" alt="">
+                        <p class="item__junre">Шутер</p>
+                        <h4 class="item__name">CS:GO</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="popular__item item">
+                        <img class="item__img" src="../../images/csgo-item.png" alt="">
+                        <p class="item__junre">Шутер</p>
+                        <h4 class="item__name">CS:GO</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="popular__item item">
+                        <img class="item__img" src="../../images/csgo-item.png" alt="">
+                        <p class="item__junre">Шутер</p>
+                        <h4 class="item__name">CS:GO</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="popular__item item">
+                        <img class="item__img" src="../../images/csgo-item.png" alt="">
+                        <p class="item__junre">Шутер</p>
+                        <h4 class="item__name">CS:GO</h4>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="voice">
+            <h2 class="title">Голосовой чат в играх</h2>
+            <h5 class="subtitle">Общайтесь, болтайте и разговаривайте с друзьями!</h5>
+            <div class="voice__grid">
+                <div class="voice__teamspeak">
+                    <h4 class="voice__name">Teamspeak</h4>
+                    <img class="voice__img" src="../../images/teamspeak.png" alt="">
+                    <a class="voice__download" href="">Скачать ></a>
+                </div>
+                <div class="voice__mumble">
+                    <h4 class="voice__name">Mumble</h4>
+                    <img class="voice__img" src="../../images/mumble.png" alt="">
+                    <a class="voice__download" href="">Скачать ></a>
+                </div>
+                <div class="voice__search">
+                    <h4 class="voice__search-title">Поиск напарников</h4>
+                    <p class="voice__search-text">Найди друзей с которыми будешь играть в нашем сообществе!</p>
+                    <a class="voice__search-link" href="#">Перейти в сообщество ></a>
+                    <div class="voice__search-img"></div>
+                </div>
+            </div>
+        </section>
         <section class="news">
-            <h2 class="news__title">Новости и мероприятия</h2>
+            <h2 class="news__title title">Новости и мероприятия</h2>
             <ul class="news__list">
                 <li class="news__card">
                     <img class="news__img" src="../../images/watchdogsnew.png" alt="афиша Watchdogs">
@@ -224,11 +342,22 @@
             </ul>
             <button class="button">Все новости</button>
         </section>
+        <section class="suport">
+            <a href="#">
+                <div class="suport__card">
+                    <h4 class="suport__title">Поддержка</h4>
+                    <p class="suport__text">Столкнулись с проблемой? Решение найдется в поддержке!</p>
+                    <a href="#" class="suport__link">Перейти в поддержку ></a>
+                    <div class="suport__img"></div>
+                </div>
+            </a>
+        </section>
         <section class="start-game">
             <h2 class="start-game__title">Как начать играть на платформе?</h2>
             <p class="start-game__text">Пройди регистрацию, получи индивидуальный ключ и начни играть с нами!</p>
             <button class="button">Регистрация</button>
         </section>
+
     </main>
     <footer class="footer">
         <div class="footer__links-container">
@@ -327,9 +456,15 @@
                 </li>
             </ul>
             <div class="footer__social-img">
-                <img src="../../images/tiktok.svg" alt="">
-                <img src="../../images/instagram.svg" alt="">
-                <img src="../../images/isq.svg" alt="">
+                <a href="">
+                    <img src="../../images/tiktok.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="../../images/instagram.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="../../images/isq.svg" alt="">
+                </a>
             </div>
         </div>
     </footer>

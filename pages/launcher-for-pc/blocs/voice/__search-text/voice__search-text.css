@@ -1,0 +1,9 @@
+.voice__search-text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+    max-width: 415px;
+    margin: 24px 0 0 38px;
+}

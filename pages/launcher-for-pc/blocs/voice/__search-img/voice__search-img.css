@@ -1,0 +1,9 @@
+.voice__search-img {
+    background-image: url(../../../../../images/hs.png);
+    width: 784px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

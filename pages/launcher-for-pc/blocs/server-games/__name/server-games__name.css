@@ -4,6 +4,15 @@
     font-size: 42px;
     line-height: 110%;
     text-align: center;
-    margin: -50px 0 0;
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: 391px;
+    width: 300px;
+    margin: 0;
+    height: 129px;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    padding-bottom: 73px;
+    padding-top: 10px;
+    box-sizing: border-box;
 }

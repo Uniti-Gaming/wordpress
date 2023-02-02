@@ -1,0 +1,9 @@
+.voice__grid {
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 490px);
+    grid-template-rows: 590px 525px;
+    gap: 20px 20px;
+    margin-top: 72px;
+}
