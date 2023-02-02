@@ -8,5 +8,6 @@
     .first-screen__button-section {
         flex-wrap: wrap;
         justify-content: center;
+        max-width: 190px;
     }
 }

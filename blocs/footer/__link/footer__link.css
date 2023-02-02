@@ -7,3 +7,8 @@
     margin: 0 0 13px;
     display: block;
 }
+@media screen and (max-width:850px) {
+    .footer__link {
+        font-size: 14px;
+    }
+}

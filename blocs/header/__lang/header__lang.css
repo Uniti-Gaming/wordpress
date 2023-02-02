@@ -12,6 +12,7 @@
 .header__lang:hover {
     cursor: pointer;
 }
+
 @media screen and (max-width:1100px) {
     .header__lang {
         margin: 0 10px 0 0;
@@ -19,7 +20,7 @@
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .header__lang {
         display: none;
     }

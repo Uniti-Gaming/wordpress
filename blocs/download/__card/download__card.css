@@ -1,6 +1,6 @@
 .download__card {
     border-radius: 20px;
-    width: 490px;
+    max-width: 490px;
     height: 590px;
     position: relative;
     display: flex;
@@ -19,4 +19,10 @@
 .download__card:hover .download__link {
     color: #393942;
     background-color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .download__card {
+        height: 510px;
+    }
 }

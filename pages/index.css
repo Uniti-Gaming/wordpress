@@ -8,6 +8,7 @@
 @import url(../blocs/subtitle/subtitle.css);
 
 @import url(../blocs/header/header.css);
+@import url(../blocs/header/__btn-menu/header__btn-menu.css);
 @import url(../blocs/header/__submenu/header__submenu.css);
 @import url(../blocs/header/__sublink/header__sublink.css);
 @import url(../blocs/header/__lang/header__lang.css);
@@ -18,7 +19,6 @@
 @import url(../blocs/first-screen/first-screen.css);
 @import url(../blocs/first-screen/__backgroun/first-screen__backgroun.css);
 @import url(../blocs/first-screen/__button-section/first-screen__button-section.css);
-@import url(../blocs/first-screen/__button/first-screen__button.css);
 @import url(../blocs/first-screen/__img/first-screen__img.css);
 @import url(../blocs/first-screen/__subtext/first-screen__subtext.css);
 @import url(../blocs/first-screen/__text/first-screen__text.css);
@@ -48,6 +48,7 @@
 @import url(../blocs/game-icon/__warcraft/game-icon__warcraft.css);
 @import url(../blocs/game-icon/__warcraft/_pandaria/game-icon__warcraft_pandaria.css);
 
+@import url(../blocs/our-products/our-products.css);
 @import url(../blocs/our-products/__subtitle/our-products__subtitle.css);
 @import url(../blocs/our-products/__text/our-products__text.css);
 @import url(../blocs/our-products/__title/our-products__title.css);

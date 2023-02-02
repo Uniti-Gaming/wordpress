@@ -1,0 +1,17 @@
+.header__btn-menu {
+    background-image: url(../../../images/btnmenu.png);
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #79109D;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .header__btn-menu {
+        display: block;
+    }
+}

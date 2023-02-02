@@ -8,20 +8,28 @@
     margin: 206px auto 0;
     padding: 0 20px;
 }
-.first-screen div {
+
+.first-screen .button {
+    width: 190px;
+}
+
+.first-screen>div {
     max-width: 50%;
 }
+
 @media screen and (max-width:1009px) {
     .first-screen {
         gap: 20px;
     }
 }
+
 @media screen and (max-width:700px) {
     .first-screen {
         flex-direction: column;
         padding-bottom: 50px;
         margin-top: 108px;
     }
+
     .first-screen>div {
         display: flex;
         flex-direction: column;

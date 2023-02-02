@@ -3,12 +3,19 @@
     justify-content: center;
     gap: 100px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-    padding-bottom: 47px;
+    padding: 0 0 47px 20px;
     margin: 0 auto;
     max-width: 1200px;
 }
-@media screen and (max-width:1009px) {
+@media screen and (max-width:850px) {
     .footer__links-container {
         flex-wrap: wrap;
+        row-gap: 50px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer__links-container {
+        column-gap: 0;
+        justify-content: space-between;
     }
 }

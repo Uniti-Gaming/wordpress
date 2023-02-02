@@ -3,3 +3,10 @@
     left: 158px;
     top: 301px;
 }
+@media screen and (max-width:600px) {
+    .download__card-image_laptop {
+        width: 250px;
+        left: 110px;
+        top: 290px;
+    }
+}

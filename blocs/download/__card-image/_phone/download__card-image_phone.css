@@ -9,3 +9,15 @@
     right: 67px;
     bottom: 45px;
 }
+@media screen and (max-width:600px) {
+    .download__card-image_phone:last-of-type {
+        right: 47px;
+        bottom: 63px;
+        width: 145px;
+    }
+    .download__card-image_phone:first-of-type {
+        right: -8px;
+        bottom: 29px;
+        width: 160px;
+    }
+}
