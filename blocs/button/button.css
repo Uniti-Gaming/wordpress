@@ -8,6 +8,7 @@
     border: 0;
     font-family: 'Manrope', sans-serif;
     padding: 13px 20px;
+    z-index: 3;
 }
 .button:hover {
     cursor: pointer;

@@ -3,3 +3,6 @@
     color: #fff;
     font-family: 'Manrope', sans-serif;
 }
+.body.lock {
+    overflow: hidden;
+}

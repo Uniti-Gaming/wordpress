@@ -8,11 +8,18 @@
     position: relative;
 }
 .header__menu div {
-    padding-top: 35px;
+    padding-top: 43px;
     position: absolute;
-    top: 20px;
+    z-index: 3;
+    top: 23px;
     left: 0;
 }
 .header__menu li:hover .header__submenu {
     display: flex;
+}
+@media screen and (max-width:800px) {
+    .header__menu {
+        display: block;
+    }
+    
 }

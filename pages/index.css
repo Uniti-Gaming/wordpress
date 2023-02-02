@@ -8,6 +8,7 @@
 @import url(../blocs/subtitle/subtitle.css);
 
 @import url(../blocs/header/header.css);
+@import url(../blocs/header/__list/header__list.css);
 @import url(../blocs/header/__btn-menu/header__btn-menu.css);
 @import url(../blocs/header/__submenu/header__submenu.css);
 @import url(../blocs/header/__sublink/header__sublink.css);

@@ -7,6 +7,7 @@
     font-size: 18px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
+    z-index: 3;
 }
 
 .header__lang:hover {

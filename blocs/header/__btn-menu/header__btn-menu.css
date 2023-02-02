@@ -8,10 +8,16 @@
     background-repeat: no-repeat;
     background-position: center;
     display: none;
+    z-index: 3;
+    transition: all 500ms ease-in-out;
 }
 
 @media screen and (max-width:800px) {
     .header__btn-menu {
         display: block;
     }
+}
+.header__btn-menu.active {
+    background-image: url(../../../images/close-small.svg);
+    background-color: #fff;
 }
