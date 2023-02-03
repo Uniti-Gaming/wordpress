@@ -11,3 +11,11 @@
     gap: 14px;
     display: none;
 }
+@media screen and (max-width:800px) {
+    .header__submenu {
+        width: 100vh;
+        height: auto;
+        padding: 0 0 14px;
+        background: #18181B;
+    }
+}

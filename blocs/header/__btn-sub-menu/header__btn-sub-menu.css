@@ -1,0 +1,18 @@
+.header__btn-sub-menu {
+    background-image: url(../../../images/v.svg);
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 3;
+    background-position: center;
+    display: none;
+    background-repeat: no-repeat;
+}
+.header__btn-sub-menu.active {
+    transform: rotate(180deg);
+}
+@media screen and (max-width:800px) {
+    .header__btn-sub-menu {
+        display: block;
+    }
+}
