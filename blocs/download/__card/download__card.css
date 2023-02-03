@@ -7,19 +7,26 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.download__card:first-of-type{
+
+.download__card:first-of-type {
     background: #393942;
 }
+
 .download__card:last-of-type {
     background: #79109D;
 }
-.download__card:hover .download__card-image {
-    transform: scale(105%);
+
+@media (any-hover: hover) {
+    .download__card:hover .download__card-image {
+        transform: scale(105%);
+    }
+
+    .download__card:hover .download__link {
+        color: #393942;
+        background-color: #fff;
+    }
 }
-.download__card:hover .download__link {
-    color: #393942;
-    background-color: #fff;
-}
+
 
 @media screen and (max-width:600px) {
     .download__card {

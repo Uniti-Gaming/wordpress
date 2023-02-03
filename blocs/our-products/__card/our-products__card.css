@@ -7,22 +7,29 @@
     box-sizing: border-box;
     overflow: hidden;
 }
- .our-products__card:hover .our-products__card-img-popular-game {
-    transform: scale(105%);
-} 
-.our-products__card:hover .our-products__img-server-games {
-    top: 80px;
-    right: -14px;
-    width: 730px;
+
+@media (any-hover: hover) {
+    .our-products__card:hover .our-products__card-img-popular-game {
+        transform: scale(105%);
+    }
+
+    .our-products__card:hover .our-products__img-server-games {
+        top: 80px;
+        right: -14px;
+        width: 730px;
+    }
+
+    .our-products__card:hover .our-products__card-img-community {
+        right: -10px;
+        width: 666px;
+    }
+
+    .our-products__card:hover .our-products__card-link {
+        color: #393942;
+        background-color: #fff;
+    }
 }
-.our-products__card:hover .our-products__card-img-community {
-    right: -10px;
-    width: 666px;
-}
-.our-products__card:hover .our-products__card-link {
-    color: #393942;
-    background-color: #fff;
-}
+
 @media screen and (max-width:700px) {
     .our-products__card {
         max-width: 490px;
