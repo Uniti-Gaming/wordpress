@@ -36,3 +36,8 @@
     top: 358px;
     left: 9%;
 }
+@media screen and (min-width:700px) {
+    .industry__mobile {
+        display: none;
+    }
+}
