@@ -1,0 +1,9 @@
+.social__insta_isq {
+    margin-bottom: 23px;
+}
+
+@media screen and (max-width:700px) {
+    .social__insta_isq {
+        width: 98px;
+    }
+}
