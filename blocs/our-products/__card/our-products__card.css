@@ -6,6 +6,9 @@
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    display: block;
 }
 
 @media (any-hover: hover) {

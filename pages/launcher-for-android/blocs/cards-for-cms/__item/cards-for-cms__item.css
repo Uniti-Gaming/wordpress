@@ -1,0 +1,16 @@
+.cards-for-cms__item {
+    display: grid;
+    grid-template-columns: 470px 510px;
+    gap: 20px;
+    max-width: 1000px;
+    height: 475px;
+    text-decoration-line: none;
+    background: #232229;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+
+.cards-for-cms__item:last-of-type {
+    margin-bottom: 0;
+}

@@ -1,0 +1,9 @@
+.social__a {
+    font-family: 'Manrope';
+    color: #FFFFFF;
+    text-decoration-line: none;
+    display: block;
+}
+.social__a>img {
+    width: 98px;
+}

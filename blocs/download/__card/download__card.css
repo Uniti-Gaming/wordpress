@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: #FFFFFF;
+    text-decoration-line: none;
 }
 
 .download__card:first-of-type {

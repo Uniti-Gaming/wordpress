@@ -1,0 +1,10 @@
+.cards-for-cms__text {
+    max-width: 440px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 24px 0 0 38px;
+}

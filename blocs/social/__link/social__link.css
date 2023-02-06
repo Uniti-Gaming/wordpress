@@ -1,12 +1,9 @@
 .social__link {
-    font-family: 'Manrope';
     font-weight: 700;
     font-size: 32px;
     letter-spacing: -0.01em;
-    color: #FFFFFF;
     margin: 57px 7px 51px 20px;
     display: block;
-    text-decoration-line: none;
     border-radius: 18px;
     padding: 4px 10px 4px 18px;
     box-sizing: border-box;

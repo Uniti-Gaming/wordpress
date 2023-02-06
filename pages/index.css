@@ -27,6 +27,8 @@
 @import url(../blocs/first-screen/__title/first-screen__title.css);
 
 @import url(../blocs/industry/industry.css);
+@import url(../blocs/industry/__mobile/industry__mobile.css);
+@import url(../blocs/industry/__text-container/industry__text-container.css);
 @import url(../blocs/industry/__text/industry__text.css);
 @import url(../blocs/industry/__title/industry__title.css);
 
@@ -85,6 +87,7 @@
 @import url(../blocs/news/__time/news__time.css);
 
 @import url(../blocs/social/__card/social__card.css);
+@import url(../blocs/social/__a/social__a.css);
 @import url(../blocs/social/__cards/social__cards.css);
 @import url(../blocs/social/__image-container/social__image-container.css);
 @import url(../blocs/social/__image/social__image.css);

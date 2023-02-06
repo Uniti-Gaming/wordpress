@@ -6,6 +6,24 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width:1300px) {
+    .game-icon__container:first-of-type {
+        margin-left: calc((100vw - 1300px) / 2);
+    }
+
+    .game-icon__container:last-of-type {
+        margin-right: calc((100vw - 1300px) / 2);
+    }
+}
+@media screen and (max-width:1000px) {
+    .game-icon__container:first-of-type {
+        margin-left: -150px;
+    }
+
+    .game-icon__container:last-of-type {
+        margin-right: -150px;
+    }
+}
 @media screen and (max-width:700px) {
     .game-icon__container {
         display: none;

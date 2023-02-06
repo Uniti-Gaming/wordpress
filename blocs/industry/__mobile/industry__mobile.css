@@ -1,0 +1,38 @@
+.industry__mobile {
+    position: relative;
+    width: 100vw;
+    height: 496px;
+}
+.industry__mobile .game-icon__gta-5 {
+    top: 118px;
+    left: 11%;
+}
+.industry__mobile .game-icon__pubg {
+    top: 76px;
+    right: 9%;
+}
+.industry__mobile .game-icon__portal {
+    top: 236px;
+    left: 30%;
+}
+.industry__mobile .game-icon__minecraft {
+    top: 252px;
+    left: -18px;
+}
+.industry__mobile .game-icon__7days {
+    top: 241px;
+    right: -35px;
+}
+.industry__mobile .game-icon__warcraft3 {
+    top: 273px;
+    right: 22%;
+}
+.industry__mobile .game-icon__forest {
+   top: 393px;
+   right: 14%;
+   left: auto;
+}
+.industry__mobile .game-icon__gta {
+    top: 358px;
+    left: 9%;
+}
