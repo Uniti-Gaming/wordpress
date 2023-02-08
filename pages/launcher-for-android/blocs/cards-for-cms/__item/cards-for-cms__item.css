@@ -9,8 +9,17 @@
     border-radius: 20px;
     margin: 0 auto 20px;
     overflow: hidden;
+    position: relative;
 }
 
 .cards-for-cms__item:last-of-type {
     margin-bottom: 0;
+}
+.cards-for-cms__item .card__btn-download {
+    position: absolute;
+    width: 159px;
+    transform: none;
+    margin: 0;
+    top: 349px;
+    left: 449px;
 }

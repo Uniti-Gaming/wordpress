@@ -1,0 +1,6 @@
+.server-games__container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 72px 43px;
+    margin-top: 75px;
+}

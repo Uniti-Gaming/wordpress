@@ -1,0 +1,8 @@
+.serser-games__card {
+    height: 520px;
+    width: 300px;
+    border-radius: 36px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}

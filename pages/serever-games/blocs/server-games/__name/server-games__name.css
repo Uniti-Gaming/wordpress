@@ -1,0 +1,16 @@
+.server-games__name {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 110%;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.12) 48.88%, rgba(0, 0, 0, 0.48) 74.43%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    left: 0;
+    top: 391px;
+    width: 300px;
+    margin: 0;
+    height: 129px;
+    padding-bottom: 73px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}

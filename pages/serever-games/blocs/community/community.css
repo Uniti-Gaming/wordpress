@@ -1,0 +1,11 @@
+.community {
+    background-color: #232229;
+    border-radius: 20px;
+    margin: 172px auto;
+    max-width: 1000px;
+}
+.community a {
+    display: flex;
+    text-decoration-line: none;
+    color: #fff;
+}

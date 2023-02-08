@@ -52,11 +52,12 @@
 @import url(../blocs/cards-for-cms/__link/cards-for-cms__link.css);
 @import url(../blocs/cards-for-cms/__first-img/cards-for-cms__first-img.css);
 @import url(../blocs/cards-for-cms/__img/_game-collection/cards-for-cms__img_game-collection.css);
+@import url(../blocs/cards-for-cms/__img/_game-events/cards-for-cms__img_game-events.css);
+@import url(../blocs/cards-for-cms/__img/_server/cards-for-cms__img_server.css);
 @import url(../blocs/cards-for-cms);
 
 @import url(../../launcher-for-pc/blocs/card/__name-document/card__name-document.css);
-
-
+@import url(../../launcher-for-pc/blocs/card/__btn-download/card__btn-download.css);
 
 @import url(../blocs/popular/__title/popular__title.css);
 
