@@ -6,3 +6,7 @@
     background: #FFF170;
     border-radius: 13px;
 }
+@media screen and (min-width:1600px) {
+    .game-icon__7days {
+        right: 80px;
+    }}

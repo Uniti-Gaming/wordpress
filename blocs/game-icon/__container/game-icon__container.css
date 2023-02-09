@@ -6,6 +6,10 @@
     margin-bottom: 50px;
 }
 
+@media screen and (min-width:1600px) {
+    .game-icon__container {
+        width: 450px;
+    }}
 @media screen and (max-width:1300px) {
     .game-icon__container:first-of-type {
         margin-left: calc((100vw - 1300px) / 2);

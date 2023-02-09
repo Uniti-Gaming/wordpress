@@ -1,0 +1,11 @@
+.mumble-main__buttons {
+    display: flex;
+    justify-content: center;
+    margin: 24px auto 0;
+    gap: 18px;
+}
+.mumble-main__buttons .button {
+    display: flex;
+    align-items: center;
+    padding: 13px 24px;
+}

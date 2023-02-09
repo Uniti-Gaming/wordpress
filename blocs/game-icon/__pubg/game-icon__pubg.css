@@ -6,3 +6,8 @@
     background: #FFFFFF;
     border-radius: 21px;
 }
+
+@media screen and (min-width:1600px) {
+    .game-icon__pubg {
+        right: 17px;
+    }}

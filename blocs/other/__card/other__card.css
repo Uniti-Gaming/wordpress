@@ -1,10 +1,15 @@
 .other__card {
     max-width: 1000px;
     height: 525px;
-    display: flex;
-    justify-content: space-between;
     margin: 0 auto 20px;
     border-radius: 20px;
+}
+
+.other__card a {
+    color: #fff;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .other__card img {

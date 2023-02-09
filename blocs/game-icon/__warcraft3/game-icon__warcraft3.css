@@ -6,3 +6,7 @@
     background: #FFFFFF;
     border-radius: 14px;
 }
+@media screen and (min-width:1600px) {
+    .game-icon__warcraft3 {
+        right: 234px;
+    }}

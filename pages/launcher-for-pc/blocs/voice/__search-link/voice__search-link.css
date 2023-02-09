@@ -1,13 +1,8 @@
 .voice__search-link {
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 700;
     font-size: 28px;
     margin: 190px 0 0 38px;
     letter-spacing: -0.01em;
-    text-decoration-line: none;
-    color: #FFFFFF;
-    display: block;
     position: relative;
     z-index: 2;
 }

@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 142px;
+    overflow: hidden;
 }
 .download .game-icon__warcraft_pandaria {
     top: 150px;

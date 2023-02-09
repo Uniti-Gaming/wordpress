@@ -2,3 +2,8 @@
     background: #232229;
     border-radius: 20px;
 }
+.voice__teamspeak a {
+    color: #FFFFFF;
+    text-decoration-line: none;
+    display: block;
+}

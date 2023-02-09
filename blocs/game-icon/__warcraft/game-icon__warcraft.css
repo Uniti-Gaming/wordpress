@@ -6,3 +6,8 @@
     border-radius: 15px;
     top: 630px;
 }
+
+@media screen and (min-width:1600px) {
+    .game-icon__warcraft {
+        left: 300px;
+    }}

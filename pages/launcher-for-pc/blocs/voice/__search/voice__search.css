@@ -5,3 +5,8 @@
     position: relative;
     overflow: hidden;
 }
+.voice__search a {
+    color: #FFFFFF;
+    text-decoration-line: none;
+    display: block;
+}

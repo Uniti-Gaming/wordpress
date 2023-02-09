@@ -2,3 +2,8 @@
     background: #79109D;
     border-radius: 20px;
 }
+.voice__mumble a {
+    color: #FFFFFF;
+    text-decoration-line: none;
+    display: block;
+}
