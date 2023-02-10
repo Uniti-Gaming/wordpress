@@ -1,0 +1,10 @@
+.application {
+    max-width: 1000px;
+    margin: 190px auto 0;
+}
+.application .title {
+    text-align: start;
+}
+.application .subtitle {
+    text-align: start;
+}

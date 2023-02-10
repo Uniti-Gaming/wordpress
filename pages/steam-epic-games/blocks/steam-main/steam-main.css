@@ -1,0 +1,10 @@
+.steam-main {
+    margin: 230px auto 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.steam-main .button {
+    margin-top: 24px;
+    padding: 13px 44px;
+}

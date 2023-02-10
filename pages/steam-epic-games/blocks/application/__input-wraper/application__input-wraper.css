@@ -1,0 +1,6 @@
+.application__input-wraper {
+    display: grid;
+    grid-template-columns: repeat(2, 435px);
+    gap: 38px 54px;
+    padding: 55px 38px 0;
+}

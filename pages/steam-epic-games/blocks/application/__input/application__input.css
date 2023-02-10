@@ -1,0 +1,13 @@
+.application__input {
+    width: 435px;
+    height: 59px;
+    background: #34323C;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    border: 0;
+    box-sizing: border-box;
+    padding-left: 18px;
+}
