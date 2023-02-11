@@ -1,0 +1,32 @@
+.donat-main {
+    margin: 277px auto 286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donat-main .button {
+    padding: 13px 44px;
+}
+.donat-main .subtitle {
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+.donat-main img {
+    position: absolute;
+}
+.donat-main img:first-of-type {
+    top: 177.5px;
+    right: -3px;
+}
+.donat-main img:nth-of-type(2) {
+    top: 332px;
+    right: 72px;
+}
+.donat-main img:nth-of-type(3) {
+    top: 121px;
+    left: 0;
+}
+.donat-main img:nth-of-type(4) {
+    top: 366px;
+    left: 100px;
+}
