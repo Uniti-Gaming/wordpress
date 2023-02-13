@@ -50,3 +50,11 @@
 @import url(../../launcher-for-pc/blocs/item/__img/item__img.css);
 @import url(../../launcher-for-pc/blocs/item/__junre/item__junre.css);
 @import url(../../launcher-for-pc/blocs/item/__name/item__name.css);
+
+@import url(../blocks/donat-card/donat-card.css);
+@import url(../blocks/donat-card/__btn-instruction/donat-card__btn-instruction.css);
+@import url(../blocks/donat-card/__img-instruction/donat-card__img-instruction.css);
+@import url(../blocks/donat-card/__link-instruction/donat-card__link-instruction.css);
+@import url(../blocks/donat-card/__text-container/donat-card__text-container.css);
+@import url(../blocks/donat-card/__img-aplicatin/donat-card__img-aplicatin.css);
+@import url(../blocks/donat-card/__link-aplication/donat-card__link-aplication.css);

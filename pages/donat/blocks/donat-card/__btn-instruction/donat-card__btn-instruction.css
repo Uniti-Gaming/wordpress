@@ -1,0 +1,15 @@
+.donat-card__btn-instruction {
+    background: linear-gradient(180deg, #4B4A51 0%, rgba(63, 62, 68, 0.25) 100%);
+    box-shadow: 0px -10px 25px 6px rgba(179, 182, 187, 0.06);
+    border-radius: 16px;
+    width: 209px;
+    height: 55px;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    color: #B8B8B8;
+    margin: 97px 117px 28px 161px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -15,18 +15,26 @@
     position: absolute;
 }
 .donat-main img:first-of-type {
-    top: 177.5px;
-    right: -3px;
+    top: 88px;
+    left: -3px;
 }
 .donat-main img:nth-of-type(2) {
-    top: 332px;
-    right: 72px;
+    top: 346px;
+    right: 0;
 }
 .donat-main img:nth-of-type(3) {
-    top: 121px;
-    left: 0;
+    top: 75px;
+    right: 0;
 }
 .donat-main img:nth-of-type(4) {
-    top: 366px;
-    left: 100px;
+    top: 493px;
+    right: 202px;
+}
+.donat-main img:nth-of-type(5) {
+    top: 344px;
+    left: 77px;
+}
+.donat-main img:nth-of-type(6) {
+    top: 577px;
+    left: 00px;
 }
