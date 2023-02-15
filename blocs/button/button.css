@@ -14,3 +14,11 @@
     cursor: pointer;
     background: #9F2EC7;
 }
+.button_white {
+    background: #FFFFFF;
+    color: #18181B;
+}
+.button_white:hover {
+    background: #393942;
+    color: #fff;
+}

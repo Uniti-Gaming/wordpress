@@ -1,0 +1,6 @@
+.buy-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 172px auto 310px;
+}

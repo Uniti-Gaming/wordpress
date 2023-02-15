@@ -52,9 +52,22 @@
 @import url(../../launcher-for-pc/blocs/item/__name/item__name.css);
 
 @import url(../blocks/donat-card/donat-card.css);
+@import url(../blocks/donat-card/__list-item/donat-card__list-item.css);
+@import url(../blocks/donat-card/__list/donat-card__list.css);
 @import url(../blocks/donat-card/__btn-instruction/donat-card__btn-instruction.css);
 @import url(../blocks/donat-card/__img-instruction/donat-card__img-instruction.css);
 @import url(../blocks/donat-card/__link-instruction/donat-card__link-instruction.css);
 @import url(../blocks/donat-card/__text-container/donat-card__text-container.css);
 @import url(../blocks/donat-card/__img-aplicatin/donat-card__img-aplicatin.css);
 @import url(../blocks/donat-card/__link-aplication/donat-card__link-aplication.css);
+
+@import url(../blocks/buy-game/buy-game.css);
+@import url(../blocks/buy-game/__img-battle/buy-game__img-battle.css);
+@import url(../blocks/buy-game/__img-epic/buy-game__img-epic.css);
+@import url(../blocks/buy-game/__img-parent/buy-game__img-parent.css);
+@import url(../blocks/buy-game/__img-steam/buy-game__img-steam.css);
+@import url(../blocks/buy-game/__text-container/buy-game__text-container.css);
+@import url(../blocks/buy-game/__text/buy-game__text.css);
+@import url(../blocks/buy-game/__title/buy-game__title.css);
+@import url(../blocks/buy-game);
+@import url(../blocks/buy-game);
