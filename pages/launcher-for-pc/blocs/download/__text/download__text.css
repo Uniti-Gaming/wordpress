@@ -7,5 +7,6 @@
 @media screen and (max-width:700px) {
     .download__text {
         font-size: 16px;
+        max-width: 250px;
     }
 }

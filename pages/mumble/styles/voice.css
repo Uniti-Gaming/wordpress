@@ -15,9 +15,6 @@
 @import url(../../../blocs/body/body.css);
 @import url(../../../blocs/title/title.css);
 @import url(../../../blocs/subtitle/subtitle.css);
-@import url(../../../blocs/card-title/card-title.css);
-@import url(../../../blocs/card-text/card-text.css);
-@import url(../../../blocs/card-link/card-link.css);
 
 @import url(../../launcher-for-pc/blocs/suport/suport.css);
 @import url(../../launcher-for-pc/blocs/suport/__card/suport__card.css);
@@ -39,6 +36,12 @@
 @import url(../../../blocs/footer/__under-link/footer__under-link.css);
 @import url(../../../blocs/footer/__under-links/footer__under-links.css);
 @import url(../../../blocs/footer/__under/footer__under.css);
+
+@import url(../../launcher-for-pc/blocs/card/card.css);
+@import url(../../launcher-for-pc/blocs/card/__link/card__link.css);
+@import url(../../launcher-for-pc/blocs/card/__text/card__text.css);
+@import url(../../launcher-for-pc/blocs/card/__textarea/card__textarea.css);
+@import url(../../launcher-for-pc/blocs/card/__title/card__title.css);
 /* _______________________________________________________________________ */
 
 @import url(../../../blocs/button/__icon/button__icon.css);
@@ -52,7 +55,6 @@
 @import url(../blocs/voice-card/__btn-instruction/voice-card__btn-instruction.css);
 @import url(../blocs/voice-card/__img-instruction/voice-card__img-instruction.css);
 @import url(../blocs/voice-card/__link-instruction/voice-card__link-instruction.css);
-@import url(../blocs/voice-card/__text-container/voice-card__text-container.css);
 @import url(../blocs/voice-card/__list-ip/voice-card__list-ip.css);
 @import url(../blocs/voice-card/__img-ip/voice-card__img-ip.css);
 @import url(../blocs/voice-card/__title-ip/voice-card__title-ip.css);

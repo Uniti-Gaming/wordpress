@@ -11,5 +11,6 @@
 @media screen and (max-width:550px) {
     .suport__card {
         height: 598px;
+        margin-top: 80px;
     }
 }

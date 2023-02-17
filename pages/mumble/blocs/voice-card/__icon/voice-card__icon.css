@@ -1,3 +1,9 @@
 .voice-card__icon {
     margin: 98px 60px 0 98px;
 }
+
+@media screen and (max-width:700px) {
+    .voice-card__icon {
+        margin: 26px 60px 0 calc((100% - 280px)/2);
+    }
+}

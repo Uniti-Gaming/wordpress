@@ -4,6 +4,6 @@
 @media screen and (max-width:700px) {
     .card__img_game-events {
         width: 260px;
-        margin: 65px 0 0 calc((100% - 260px)/2);
+        margin: 65px 0 0 calc((100% - 210px)/2);
     }
 }

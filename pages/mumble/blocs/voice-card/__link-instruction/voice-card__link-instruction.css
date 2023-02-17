@@ -1,3 +1,8 @@
 .voice-card__link-instruction {
     margin-top: 85px;
 }
+@media screen and (max-width:700px) {
+    .voice-card__link-instruction {
+        margin-top: 20px;
+    }
+}

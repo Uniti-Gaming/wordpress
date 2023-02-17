@@ -7,9 +7,14 @@
     font-size: 18px;
     letter-spacing: -0.015em;
     color: #B8B8B8;
-    margin: 97px 0 28px 105px;
+    margin: 97px 0 28px 200px;
     border: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (max-width:700px) {
+    .voice-card__btn-instruction {
+        margin: 39px 0 28px 50px;
+    }
 }

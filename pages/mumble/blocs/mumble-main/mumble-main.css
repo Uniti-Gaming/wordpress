@@ -1,7 +1,16 @@
 .mumble-main {
     margin: 316px auto 244px;
+    padding: 0 20px;
 }
 .mumble-main .subtitle {
     max-width: 320px;
     margin: 24px auto 0;
+}
+@media screen and (max-width:700px) {
+    .mumble-main {
+        margin: 130px auto 97px;
+    }
+}
+.information {
+    padding: 0 20px;
 }

@@ -1,3 +1,13 @@
 .voice-card__img-ip {
     margin: 74px 0 0 81px;
 }
+
+@media screen and (max-width:700px) {
+    .voice-card__img-ip {
+        margin: 139px 0 0 42px;
+        width: 278px;
+    }
+    .voice-card__img-ip_ts {
+        margin-top: 73px;
+    }
+}

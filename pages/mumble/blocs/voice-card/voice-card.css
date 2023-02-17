@@ -1,17 +1,5 @@
-.voice-card {
-    background-color: #232229;
-    border-radius: 20px;
-    max-width: 1000px;
-    height: 475px;
-    margin: 20px auto 0;
+@media screen and (max-width:700px) {
+    .voice-card .card__textarea{
+        max-width: 291px;
+    }
 }
-.voice-card:first-of-type {
-    margin-top: 0;
-}
-.voice-card a {
-    text-decoration-line: none;
-    color: #fff;
-    display: flex;
-    align-items: flex-start;
-}
-    
