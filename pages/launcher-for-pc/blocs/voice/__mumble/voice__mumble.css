@@ -7,3 +7,8 @@
     text-decoration-line: none;
     display: block;
 }
+@media screen and (max-width:570px) {
+    .voice__mumble {
+        height: 525px;
+    }
+}

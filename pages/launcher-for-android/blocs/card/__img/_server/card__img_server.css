@@ -1,0 +1,13 @@
+.card__img_server {
+    position: absolute;
+    right: -10px;
+    top: 50px;
+}
+
+@media screen and (max-width:700px) {
+    .card__img_server {
+        width: 380px;
+        top: 287px;
+        right: -30px;
+    }
+}

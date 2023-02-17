@@ -47,6 +47,10 @@
     .other__card {
         width: 335px;
         height: 525px;
+
+    }
+
+    .other__card a {
         flex-direction: column;
         justify-content: normal;
     }

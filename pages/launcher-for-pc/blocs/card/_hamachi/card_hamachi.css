@@ -1,3 +1,9 @@
-.card_hamachi {
-    align-items: center;
+.card_hamachi .card__textarea {
+    margin-left: 434px;
+}
+
+@media screen and (max-width:700px) {
+    .card_hamachi .card__textarea {
+        margin-left: 0;
+    }
 }

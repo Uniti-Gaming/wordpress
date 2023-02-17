@@ -6,3 +6,10 @@
     position: relative;
     z-index: 2;
 }
+
+@media screen and (max-width:570px) {
+    .voice__search-link {
+        margin: 20px 0 0 24px;
+        font-size: 18px;
+    }
+}

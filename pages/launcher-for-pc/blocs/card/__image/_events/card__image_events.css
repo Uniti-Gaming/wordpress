@@ -1,3 +1,10 @@
 .card__image_events {
-    margin: 0 114px;
+    margin: 84px 56px 0 114px;
+}
+
+@media screen and (max-width:700px) {
+    .card__image_events {
+        height: 300px;
+        margin: 65px 0 0 calc((100% - 205px)/2);
+    }
 }

@@ -1,3 +1,10 @@
 .voice__img {
     margin: 100px 0 0 188px;
 }
+
+@media screen and (max-width:1000px) {
+    .voice__img {
+        margin-top: 70px;
+        margin-left: calc((100% - 272px) / 2);
+    }
+}

@@ -1,12 +1,15 @@
 .suport__link {
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 700;
     font-size: 28px;
     margin: 190px 0 0 38px;
     letter-spacing: -0.01em;
-    color: #FFFFFF;
     display: block;
     position: relative;
     z-index: 2;
+}
+@media screen and (max-width:550px) {
+    .suport__link {
+        font-size: 18px;
+        margin: 20px 0 0 24px;
+    }
 }

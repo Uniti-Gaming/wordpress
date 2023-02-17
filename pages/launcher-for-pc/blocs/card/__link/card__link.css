@@ -1,8 +1,10 @@
 .card__link {
-    text-decoration-line: none;
     font-weight: 700;
     font-size: 28px;
     letter-spacing: -0.01em;
-    color: #FFFFFF;
-    display: block;
+}
+@media screen and (max-width:700px) {
+    .card__link {
+        font-size: 18px;
+    }
 }

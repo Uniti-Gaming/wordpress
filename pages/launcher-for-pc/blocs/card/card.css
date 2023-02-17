@@ -2,10 +2,25 @@
     background: #232229;
     border-radius: 20px;
     margin: 0 auto 20px;
-    width: 1000px;
+    max-width: 1000px;
     height: 475px;
-    display: flex;
-    justify-content: space-between;
     position: relative;
     overflow: hidden;
+}
+
+.card a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:700px) {
+    .card {
+        height: 598px;
+    }
+    .card a {
+        flex-direction: column;
+    }
 }

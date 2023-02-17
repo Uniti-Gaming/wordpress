@@ -5,3 +5,10 @@
     letter-spacing: -0.01em;
     margin: 0 21px;
 }
+
+@media screen and (max-width:700px) {
+    .gameday__name {
+        font-size: 12.5px;
+        margin-left: 12.5px;
+    }
+}

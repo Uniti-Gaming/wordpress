@@ -10,3 +10,9 @@
     text-decoration-line: none;
     display: block;
 }
+@media screen and (max-width:570px) {
+    .voice__search {
+        grid-column: span 1;
+        height: 598px;
+    }
+}

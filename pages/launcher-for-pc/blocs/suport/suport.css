@@ -1,3 +1,7 @@
+.suport {
+    padding: 0 20px;
+}
 .suport a{
     text-decoration-line: none;
+    color: #fff;
 }

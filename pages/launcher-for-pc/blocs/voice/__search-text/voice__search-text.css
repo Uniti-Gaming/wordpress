@@ -7,3 +7,12 @@
     max-width: 415px;
     margin: 24px 0 0 38px;
 }
+
+@media screen and (max-width:570px) {
+    .voice__search-text {
+        margin: 20px 0 0 24px;
+        font-size: 16px;
+        max-width: 275px;
+        line-height: 22px;
+    }
+}

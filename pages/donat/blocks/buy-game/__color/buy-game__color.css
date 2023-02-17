@@ -1,0 +1,11 @@
+.buy-game__color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: #79109D;
+    opacity: 0.3;
+    filter: blur(100px);
+}

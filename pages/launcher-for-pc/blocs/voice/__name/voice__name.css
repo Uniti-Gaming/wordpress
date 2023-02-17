@@ -4,3 +4,10 @@
     letter-spacing: -0.01em;
     margin: 38px 0 0 38px;
 }
+
+@media screen and (max-width:570px) {
+    .voice__name {
+        font-size: 28px;
+        margin: 32px 0 0 24px;
+    }
+}

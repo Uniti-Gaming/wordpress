@@ -1,10 +1,17 @@
 .popular__grid {
     display: grid;
-    grid-template-columns: repeat(3, 310px);
+    grid-template-columns: repeat(auto-fill, 310px);
+    justify-content: center;
     gap: 72px 35px;
     margin: 72px auto 0;
     max-width: 1000px;
 }
 .popular__grid a {
     text-decoration-line: none;
+}
+
+@media screen and (max-width:450px) {
+    .popular__grid {
+        gap: 20px 20px;
+    }
 }

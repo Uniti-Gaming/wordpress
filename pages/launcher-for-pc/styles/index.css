@@ -11,6 +11,8 @@
 @import url(../../../blocs/header/__submenu/header__submenu.css);
 @import url(../../../blocs/header/__sublink/header__sublink.css);
 
+@import url(../../../blocs/industry/__mobile/industry__mobile.css);
+
 @import url(../../../blocs/button/button.css);
 @import url(../../../blocs/body/body.css);
 @import url(../../../blocs/title/title.css);
@@ -45,38 +47,25 @@
 @import url(../blocs/download/__container/download__container.css);
 
 @import url(../blocs/card/card.css);
+@import url(../blocs/card/__textarea/card__textarea.css);
 @import url(../blocs/card/__text/card__text.css);
 @import url(../blocs/card/__title/card__title.css);
-@import url(../blocs/card/__text/_launcher/card__text_launcher.css);
-@import url(../blocs/card/__title/_launcher/card__title_launcher.css);
+@import url(../blocs/card/__image/_launcher/card__image_launcher.css);
 @import url(../blocs/card/_server/card_server.css);
 @import url(../blocs/card/_launcher/card_launcher.css);
 @import url(../blocs/card/__link/card__link.css);
-@import url(../blocs/card/__link/_server/card__link_server.css);
-@import url(../blocs/card/__text/_server/card__text_server.css);
-@import url(../blocs/card/__title/_server/card__title_server.css);
 @import url(../blocs/card/__link/_hamachi/card__link_hamachi.css);
-@import url(../blocs/card/__text/_hamachi/card__text_hamachi.css);
-@import url(../blocs/card/__title/_hamachi/card__title_hamachi.css);
 @import url(../blocs/card/_hamachi/card_hamachi.css);
 @import url(../blocs/card/__image/_hamachi/card__image_hamachi.css);
-@import url(../blocs/card/_events/card_events.css);
 @import url(../blocs/card/__image/_events/card__image_events.css);
-@import url(../blocs/card/__text/_events/card__text_events.css);
-@import url(../blocs/card/__title/_events/card__title_events.css);
 @import url(../blocs/card/__link/_events/card__link_events.css);
 @import url(../blocs/card/__link/_gameday/card__link_gameday.css);
-@import url(../blocs/card/__text/_gameday/card__text_gameday.css);
-@import url(../blocs/card/__title/_gameday/card__title_gameday.css);
-@import url(../blocs/card/background/card__background.css);
+@import url(../blocs/card/__background/card__background.css);
 @import url(../blocs/card/__btn-download/card__btn-download.css);
 @import url(../blocs/card/__image-document/card__image-document.css);
 @import url(../blocs/card/__link/_download/card__link_download.css);
 @import url(../blocs/card/__name-document/card__name-document.css);
-@import url(../blocs/card/__text/_download/card__text_download.css);
-@import url(../blocs/card/__title/_download/card__title_download.css);
 @import url(../blocs/card/_download/card_download.css);
-@import url(../blocs/card/);
 
 @import url(../blocs/cards/cards.css);
 

@@ -13,3 +13,13 @@
     border: 1px Outset rgba(255, 255, 255, 0.25);
     margin: 57px 39px 10px 199px;
 }
+
+@media screen and (max-width:700px) {
+    .card__name-document {
+        margin: 74px 0 7.5px 139px;
+        width: 175px;
+        height: 44px;
+        font-size: 15px;
+        border-radius: 12px;
+    }
+}

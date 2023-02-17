@@ -3,3 +3,10 @@
     font-size: 14px;
     margin: 26px 21px 10px; 
 }
+
+@media screen and (max-width:700px) {
+    .gameday__text {
+        font-size: 8.4px;
+        margin: 15.5px 21px 0 12.5px; 
+    }
+}

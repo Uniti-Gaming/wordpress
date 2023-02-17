@@ -1,5 +1,14 @@
 .card__image_hamachi {
     position: absolute;
-    right: 0;
-    top: 35px;
+    left: 0;
+    top: 51px;
+}
+
+@media screen and (max-width:700px) {
+    .card__image_hamachi {
+        top: auto;
+        bottom: 20px;
+        width: calc(100% + 50px);
+        max-width: 435px;
+    }
 }

@@ -1,6 +1,7 @@
 .buy-game__text-container {
     margin-left: 46px;
     max-width: 384px;
+    position: relative;
 }
 .buy-game__text-container .button_white {
     margin-right: 14px;

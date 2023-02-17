@@ -3,5 +3,12 @@
     font-size: 60px;
     text-align: center;
     letter-spacing: -0.015em;
+    line-height: 110%;
     margin: 0;
+}
+
+@media screen and (max-width:700px) {
+    .download__title {
+        font-size: 34px;
+    }
 }

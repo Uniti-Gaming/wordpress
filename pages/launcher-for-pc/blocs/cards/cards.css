@@ -2,4 +2,11 @@
     list-style: none;
     padding: 0;
     margin: 94px auto 172px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width:450px) {
+    .cards {
+        margin-bottom: 105px;
+    }
 }

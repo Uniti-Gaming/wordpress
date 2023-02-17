@@ -69,5 +69,4 @@
 @import url(../blocks/buy-game/__text-container/buy-game__text-container.css);
 @import url(../blocks/buy-game/__text/buy-game__text.css);
 @import url(../blocks/buy-game/__title/buy-game__title.css);
-@import url(../blocks/buy-game);
-@import url(../blocks/buy-game);
+@import url(../blocks/buy-game/__color/buy-game__color.css);

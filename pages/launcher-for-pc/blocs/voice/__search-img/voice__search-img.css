@@ -1,9 +1,24 @@
 .voice__search-img {
     background-image: url(../../../../../images/hs.png);
-    width: 784px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 78.4%;
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
+}
+@media screen and (max-width:570px) {
+    .voice__search-img {
+        background-image: url(../../../../../images/launcher-pc/search-phone.png);
+        width: 100%;
+        height: 365px;
+        top: auto;
+        }
+}
+@media screen and (max-width:350px) {
+    .voice__search-img {
+        height: 320px;
+    }
 }

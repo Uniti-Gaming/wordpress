@@ -3,3 +3,11 @@
     gap: 24px;
     justify-content: center;
 }
+
+@media screen and (max-width:700px) {
+    .download__buttons {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 340px;
+    }
+}

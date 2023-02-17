@@ -1,12 +1,17 @@
 .suport__text {
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
     margin: 24px 0 0 38px;
-    color: #FFFFFF;
     max-width: 384px;
     position: relative;
     z-index: 2;
+}
+
+@media screen and (max-width:550px) {
+    .suport__text {
+        font-size: 16px;
+        margin: 24px 0 0 24px;
+        line-height: 22px;
+    }
 }

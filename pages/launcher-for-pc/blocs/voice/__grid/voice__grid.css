@@ -2,8 +2,15 @@
     display: grid;
     max-width: 1000px;
     margin: 0 auto;
-    grid-template-columns: repeat(2, 490px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 590px 525px;
     gap: 20px 20px;
     margin-top: 72px;
+}
+
+@media screen and (max-width:570px) {
+    .voice__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 }

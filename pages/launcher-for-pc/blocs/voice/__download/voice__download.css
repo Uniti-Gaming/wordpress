@@ -4,3 +4,9 @@
     letter-spacing: -0.01em;
     margin: 55px 0 0 38px;
 }
+@media screen and (max-width:1000px) {
+    .voice__download {
+        font-size: 18px;
+        margin-left: 24px;
+    }
+}

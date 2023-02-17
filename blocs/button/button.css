@@ -9,6 +9,7 @@
     font-family: 'Manrope', sans-serif;
     padding: 13px 20px;
     z-index: 3;
+    position: relative;
 }
 .button:hover {
     cursor: pointer;

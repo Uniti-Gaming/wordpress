@@ -1,11 +1,15 @@
 .suport__title {
-    font-family: 'Manrope';
-    font-style: normal;
     font-weight: 800;
     font-size: 38px;
     letter-spacing: -0.015em;
     margin: 88px 0 0 37px;
-    color: #FFFFFF;
     position: relative;
     z-index: 2;
+}
+
+@media screen and (max-width:550px) {
+    .suport__title {
+        font-size: 28px;
+        margin: 32px 0 0 24px;
+    }
 }

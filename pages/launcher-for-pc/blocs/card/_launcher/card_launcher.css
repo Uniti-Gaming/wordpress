@@ -1,3 +1,10 @@
 .card_launcher {
-    align-items: flex-end;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:700px) {
+    .card_launcher {
+        flex-direction: column;
+    }
 }

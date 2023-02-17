@@ -2,54 +2,77 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 142px;
+    margin-top: 66px;
     overflow: hidden;
 }
-.download .game-icon__warcraft_pandaria {
-    top: 150px;
-}
-.download .game-icon__call-of-duty {
-    top: -50px;
-}
-.download .game-icon__cs-go {
-    top: -100px;
-}
-.download .game-icon__garrys-mod {
-    top: 100px;
-}
-.download .game-icon__factory {
-    top: 550px;
-}
-.download .game-icon__rust {
-    right: 5px;
-    top: 400px;
-}
-.download .game-icon__warcraft {
-    top: 600px;
-}
-.download .game-icon__gta-5{
-    top: 150px;
+
+@media screen and (min-width:700px) {
+    .download .game-icon__warcraft_pandaria {
+        top: 150px;
+    }
+
+    .download .game-icon__call-of-duty {
+        top: -50px;
+    }
+
+    .download .game-icon__cs-go {
+        top: -100px;
+    }
+
+    .download .game-icon__garrys-mod {
+        top: 100px;
+    }
+
+    .download .game-icon__factory {
+        top: 550px;
+    }
+
+    .download .game-icon__rust {
+        right: 5px;
+        top: 400px;
+    }
+
+    .download .game-icon__warcraft {
+        top: 600px;
+    }
+
+    .download .game-icon__gta-5 {
+        top: 150px;
+    }
+
+    .download .game-icon__pubg {
+        top: -90px;
+    }
+
+    .download .game-icon__portal {
+        top: -70px;
+    }
+
+    .download .game-icon__minecraft {
+        top: 30px;
+    }
+
+    .download .game-icon__7days {
+        top: 250px;
+    }
+
+    .download .game-icon__forest {
+        top: 400px;
+        left: 5px;
+    }
+
+    .download .game-icon__scrabble {
+        top: 500px;
+    }
+
+    .download .game-icon__gta {
+        top: 580px;
+    }
 }
 
-.download .game-icon__pubg {
-    top: -90px;
-}
-.download .game-icon__portal {
-    top: -70px;
-}
-.download .game-icon__minecraft {
-    top: 30px;
-}
-.download .game-icon__7days {
-    top: 250px;
-}
-.download .game-icon__forest {
-    top: 400px;
-    left: 5px;
-}
-.download .game-icon__scrabble {
-    top: 500px;
-}
-.download .game-icon__gta {
-    top: 580px;
+@media screen and (max-width:700px) {
+    .download {
+        flex-direction: column;
+        gap: 124.5px;
+    }
 }
