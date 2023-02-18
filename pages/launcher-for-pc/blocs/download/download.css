@@ -6,6 +6,10 @@
     overflow: hidden;
 }
 
+.download .game-icon__container {
+    margin: 142px 0 100px;
+}
+
 @media screen and (min-width:700px) {
     .download .game-icon__warcraft_pandaria {
         top: 150px;

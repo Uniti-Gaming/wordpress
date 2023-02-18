@@ -1,6 +1,16 @@
 .ruls__nickname {
+    background-image: url(../../../../../images/server-games/nickname.png);
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
+    width: 55%;
+}
+@media screen and (max-width:700px) {
+    .ruls__nickname {
+        background-image: url(../../../../../images/server-games/nickname-phone.png);
+        width: 100%;
+        top: auto;
+        height: 300px;
+    }
 }

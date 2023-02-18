@@ -1,0 +1,16 @@
+.ruls {
+    padding: 0 20px;
+    margin-top: 172px;
+}
+.ruls .subtitle {
+    margin-bottom: 72px;
+}
+
+@media screen and (max-width:700px) {
+    .ruls {
+        margin-top: 137px;
+    }
+    .ruls .subtitle {
+        margin-bottom: 103px;
+    }
+}

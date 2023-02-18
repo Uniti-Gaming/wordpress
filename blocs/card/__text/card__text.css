@@ -1,11 +1,11 @@
-.card__text {
+.card__text_partners {
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
     margin: 0 38px;
 }
 @media screen and (max-width:700px) {
-    .card__text {
+    .card__text_partners {
         margin: 0 24px;
         font-size: 16px;
         line-height: 22px;

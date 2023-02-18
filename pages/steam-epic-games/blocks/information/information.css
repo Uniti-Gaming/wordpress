@@ -1,0 +1,9 @@
+.information {
+    padding: 0 20px;
+}
+.information .card__textarea {
+    max-width: 490px;
+}
+.information .card__link {
+    margin-top: 99px;
+}

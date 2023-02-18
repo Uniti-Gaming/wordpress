@@ -1,6 +1,7 @@
 .card__img-epic {
     margin-top: 21px;
     margin-left: 22px;
+    width: 129px;
 }
 @media screen and (max-width:700px) {
     .card__img-epic {

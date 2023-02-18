@@ -17,7 +17,7 @@
 }
 
 @media (any-hover: hover) {
-    .other__card:hover .card__link {
+    .other__card:hover .card__link_partners {
         color: #372A59;
         background-color: #fff;
     }
@@ -34,11 +34,11 @@
         transform: translateY(-45px) scale(105%);
     }
 
-    .other__card:hover .card__img {
+    .other__card:hover .card__img_partners {
         transform: scale(105%);
     }
 
-    .other__card:hover .card__img:last-of-type {
+    .other__card:hover .card__img_partners:last-of-type {
         transform: translateX(40px) scale(105%);
     }
 }
