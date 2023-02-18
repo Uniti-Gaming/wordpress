@@ -1,3 +1,16 @@
 .information__img-2-card {
     margin: 37px 0 0 110px;
+    background-image: url(../../../../../images/steam/2card.png);
+    width: 384px;
+    height: 380px;
+    background-size: cover;
+}
+
+@media screen and (max-width:700px) {
+    .information__img-2-card {
+        background-image: url(../../../../../images/steam/2card-phone.png);
+        width: 290px;
+        height: 287px;
+        margin: 97px calc((100% - 290px)/2) 0;
+    }
 }

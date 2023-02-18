@@ -46,7 +46,6 @@
 @import url(../../launcher-for-pc/blocs/download/__text/download__text.css);
 @import url(../../launcher-for-pc/blocs/download/__title/download__title.css);
 
-@import url(../blocs/card/cards-for-cms.css);
 @import url(../../launcher-for-pc/blocs/card/card.css);
 @import url(../../launcher-for-pc/blocs/card/__link/card__link.css);
 @import url(../../launcher-for-pc/blocs/card/__text/card__text.css);
@@ -60,8 +59,7 @@
 @import url(../blocs/card/__img/_game-collection/card__img_game-collection.css);
 @import url(../blocs/card/__img/_server/card__img_server.css);
 @import url(../blocs/card/__img/_game-events/card__img_game-events.css);
-@import url(../blocs/card);
-@import url(../blocs/card);
+@import url(../blocs/card/cards-for-cms.css);
 
 @import url(../blocs/popular/__title/popular__title.css);
 

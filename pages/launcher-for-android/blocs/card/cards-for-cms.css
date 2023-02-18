@@ -20,14 +20,17 @@
     .cards-for-cms {
         margin-top: 103px;
     }
+
     .cards-for-cms .card__link {
         margin-top: 20px;
     }
+
     .cards-for-cms .card__btn-download {
         width: 114px;
         top: 466px;
         left: -15px;
     }
+
     .cards-for-cms .card__name-document {
         margin-left: 160px;
         width: 162px;

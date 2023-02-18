@@ -1,3 +1,6 @@
+.voice-card_ruls .card__textarea {
+    max-width: 490px;
+}
 @media screen and (max-width:700px) {
     .voice-card .card__textarea{
         max-width: 291px;

@@ -66,7 +66,7 @@
 @import url(../blocs/card/__link/_download/card__link_download.css);
 @import url(../blocs/card/__name-document/card__name-document.css);
 @import url(../blocs/card/_download/card_download.css);
-
+@import url(../blocs/card/__link/_server/card__link_server.css);
 @import url(../blocs/cards/cards.css);
 
 @import url(../blocs/gameday/__card/gameday__card.css);

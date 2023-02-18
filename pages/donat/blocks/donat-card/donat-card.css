@@ -1,17 +1,6 @@
-.donat-card {
-    background-color: #232229;
-    border-radius: 20px;
-    max-width: 1000px;
-    height: 475px;
-    margin: 0 auto 20px;
-}
-.donat-card:last-of-type {
+.donat-card{
     margin-bottom: 167px;
 }
-.donat-card a {
-    text-decoration-line: none;
-    color: #fff;
-    display: flex;
-    align-items: flex-start;
+.donat-card .card__textarea {
+    max-width: 490px;
 }
-    

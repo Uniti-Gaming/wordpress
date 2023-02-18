@@ -7,3 +7,9 @@
 .information .card__link {
     margin-top: 99px;
 }
+
+@media screen and (max-width:700px) {
+    .information .card__link {
+        margin-top: 20px;
+    }
+}

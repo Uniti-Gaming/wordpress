@@ -6,9 +6,6 @@
     height: 475px;
     position: relative;
     overflow: hidden;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 .card a {
@@ -26,4 +23,13 @@
     .card a {
         flex-direction: column;
     }
+    .card__without-link {
+        flex-direction: column;
+    }
+}
+
+.card__without-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

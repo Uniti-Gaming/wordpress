@@ -14,4 +14,7 @@
     .voice-card__img-instruction {
         margin-left: 50px;
     }
+    .voice-card__img-conteiner {
+        margin-left: calc((100% - 318px)/2);
+    }
 }

@@ -15,9 +15,6 @@
 @import url(../../../blocs/body/body.css);
 @import url(../../../blocs/title/title.css);
 @import url(../../../blocs/subtitle/subtitle.css);
-@import url(../../../blocs/card-title/card-title.css);
-@import url(../../../blocs/card-text/card-text.css);
-@import url(../../../blocs/card-link/card-link.css);
 
 @import url(../../launcher-for-pc/blocs/suport/suport.css);
 @import url(../../launcher-for-pc/blocs/suport/__card/suport__card.css);
@@ -39,6 +36,12 @@
 @import url(../../../blocs/footer/__under-link/footer__under-link.css);
 @import url(../../../blocs/footer/__under-links/footer__under-links.css);
 @import url(../../../blocs/footer/__under/footer__under.css);
+
+@import url(../../launcher-for-pc/blocs/card/card.css);
+@import url(../../launcher-for-pc/blocs/card/__link/card__link.css);
+@import url(../../launcher-for-pc/blocs/card/__text/card__text.css);
+@import url(../../launcher-for-pc/blocs/card/__textarea/card__textarea.css);
+@import url(../../launcher-for-pc/blocs/card/__title/card__title.css);
 /* _______________________________________________________________________ */
 
 @import url(../blocks/donat-main/donat-main.css);
@@ -54,10 +57,6 @@
 @import url(../blocks/donat-card/donat-card.css);
 @import url(../blocks/donat-card/__list-item/donat-card__list-item.css);
 @import url(../blocks/donat-card/__list/donat-card__list.css);
-@import url(../blocks/donat-card/__btn-instruction/donat-card__btn-instruction.css);
-@import url(../blocks/donat-card/__img-instruction/donat-card__img-instruction.css);
-@import url(../blocks/donat-card/__link-instruction/donat-card__link-instruction.css);
-@import url(../blocks/donat-card/__text-container/donat-card__text-container.css);
 @import url(../blocks/donat-card/__img-aplicatin/donat-card__img-aplicatin.css);
 @import url(../blocks/donat-card/__link-aplication/donat-card__link-aplication.css);
 
