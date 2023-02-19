@@ -1,6 +1,10 @@
 .news__time {
-    margin: 11px 24px 0;
+    margin: 11px 32px 0 24px;
     font-weight: 500;
     font-size: 14px;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+.news__time span{
+    font-size: 20px;
 }
