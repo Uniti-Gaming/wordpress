@@ -16,3 +16,15 @@
     padding-top: 10px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width:480px) {
+    .server-games__name {
+        border-bottom-right-radius: 22px;
+        border-bottom-left-radius: 22px;
+        width: 187px;
+        top: 249px;
+        font-size: 26px;
+        padding-bottom: 45px;
+        height: 76px;
+    }
+}

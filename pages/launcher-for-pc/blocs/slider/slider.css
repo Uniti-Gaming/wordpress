@@ -1,52 +1,69 @@
 /* Слайдер */
-.slick-slider{}
+.slick-slider {}
+
 /* Слайдер запущен */
-.slick-slider.slick-initialized{}
+.slick-slider.slick-initialized {}
+
 /* Слайдер с точками */
-.slick-slider.slick-dotted{}
+.slick-slider.slick-dotted {}
+
 /* Ограничивающая оболочка */
 .slick-list {
     overflow: hidden;
 }
+
 /* Лента слайдов */
-.slick-track{
+.slick-track {
     display: flex;
 }
+
 /* Слайд */
-.slick-slide{}
+.slick-slide {}
+
 /* Слайд активный (показывается) */
-.slick-slide.slick-active{}
+.slick-slide.slick-active {}
+
 /* Слайд основной */
-.slick-slide.slick-current{}
+.slick-slide.slick-current {}
+
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.slick-slide.slick-center {}
+
 /* Клонированный слайд */
-.slick-slide.slick-cloned{}
+.slick-slide.slick-cloned {}
+
 /* Стрелка */
-.slick-arrow{}
+.slick-arrow {}
+
 /* Стрелка влево */
-.slick-arrow.slick-prev{}
+.slick-arrow.slick-prev {}
+
 /* Стрелка вправо */
-.slick-arrow.slick-next{}
+.slick-arrow.slick-next {}
+
 /* Стрелка не активная */
-.slick-arrow.slick-disabled{
+.slick-arrow.slick-disabled {
     opacity: 0;
 }
+
 /* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
+.slick-dots {}
+
+.slick-dots li {}
+
 /* Активная точка */
-.slick-dots li.slick-active{}
+.slick-dots li.slick-active {}
+
 /* Элемент точки */
-.slick-dots li button{}
+.slick-dots li button {}
 
 .slider {
     position: relative;
     max-width: 1384px;
     margin: 72px auto 172px;
     padding-left: 29px;
-    border-radius: 36px;
 }
+
 .slider .slick-arrow {
     position: absolute;
     top: 50%;
@@ -54,6 +71,7 @@
     z-index: 5;
     font-size: 0;
     background-image: url(../../../../images/btnslider.png);
+    background-size: cover;
     width: 66px;
     height: 66px;
     background-color: rgba(24, 24, 27, 0);
@@ -67,4 +85,16 @@
 
 .slider .slick-arrow.slick-next {
     right: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .slider {
+        margin: 48px auto 105px;
+        padding-left: 20px;
+    }
+
+    .slider .slick-arrow {
+        width: 48px;
+        height: 48px;
+    }
 }
