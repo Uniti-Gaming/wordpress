@@ -1,0 +1,8 @@
+.about-main__mission .card__image {
+    background-image: url(../../../../../images/about-us/mission.png);
+    width: 831px;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}

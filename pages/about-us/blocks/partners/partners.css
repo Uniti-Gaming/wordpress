@@ -1,0 +1,53 @@
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 147px;
+}
+
+.partners ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 48px auto 67px;
+    padding: 0;
+}
+
+.partners li {
+    list-style: none;
+    background-size: cover;
+}
+
+.partners li:nth-of-type(1) {
+    width: 123px;
+    height: 49px;
+    background-image: url(../../../../images/about-us/logo-partners/unite.svg);
+}
+
+.partners li:nth-of-type(2) {
+    width: 153px;
+    height: 69px;
+    background-image: url(../../../../images/about-us/logo-partners/jayym.svg);
+}
+
+.partners li:nth-of-type(3) {
+    width: 153px;
+    height: 50px;
+    background-image: url(../../../../images/about-us/logo-partners/outs.svg);
+}
+
+.partners li:nth-of-type(4) {
+    width: 131px;
+    height: 34px;
+    background-image: url(../../../../images/about-us/logo-partners/arassa.svg);
+}
+
+.partners li:nth-of-type(5) {
+    width: 133px;
+    height: 48px;
+    background-image: url(../../../../images/about-us/logo-partners/lotta.svg);
+}
+.partners .button {
+    padding: 13px 44px;
+}

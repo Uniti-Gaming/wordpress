@@ -1,0 +1,17 @@
+.about-main__target .card__image {
+    background-image: url(../../../../../images/about-us/target.png);
+    width: 562px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (min-width:700px) {
+    .about-main__target .card__textarea {
+        max-width: 490px;
+    }
+    .about-main__target .card__link {
+        margin-top: 99px;
+    }
+}

@@ -1,13 +1,13 @@
 .card__textarea {
     max-width: 400px;
     padding: 80px 0 0 38px;
+    z-index: 2;
+    position: relative;
 }
 
 @media screen and (min-width:700px) {
     .card__textarea_right {
         margin-left: 434px;
-        z-index: 2;
-        position: relative;
     }
 }
 

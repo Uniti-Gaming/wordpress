@@ -1,0 +1,9 @@
+.news__subtitle {
+    margin: 238px 0 24px;
+    font-weight: 800;
+    font-size: 22px;
+    color: #B7B7B7;
+}
+.news__subtitle+.news__title {
+    margin-bottom: 100px;
+}

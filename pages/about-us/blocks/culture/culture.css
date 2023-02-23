@@ -1,0 +1,28 @@
+.culture  {
+    margin-bottom: 172px;
+}
+
+.culture .subtitle {
+    max-width: 659px;
+    margin: 24px auto 92px;
+}
+
+.culture .card__image {
+    background-image: url(../../../../images/about-us/culture.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 636px;
+}
+
+
+@media screen and (min-width:700px) {
+    .culture .card__textarea {
+        max-width: 512px;
+    }
+
+    .culture .card__text {
+        max-width: 394px;
+    }
+}

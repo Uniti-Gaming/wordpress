@@ -1,8 +1,10 @@
 .news__card {
+    width: 310px;
     display: block;
     background: #232229;
     border-radius: 24px;
     text-decoration-line: none;
     color: #fff;
     padding-bottom: 40px;
+    overflow: hidden;
 }
