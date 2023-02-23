@@ -1,0 +1,69 @@
+@import url(../blocks/card/__buy-game/card__buy-game.css);
+@import url(../blocks/card/__img-battle/card__img-battle.css);
+@import url(../blocks/card/__img-epic/card__img-epic.css);
+@import url(../blocks/card/__img-steam/card__img-steam.css);
+@import url(../blocks/card/__img_partners/card__img_partners.css);
+@import url(../blocks/card/__link_partners/card__link_partners.css);
+@import url(../blocks/card/__partners/card__partners.css);
+@import url(../blocks/card/__text_partners/card__text_partners.css);
+@import url(../blocks/card/__title_partners/card__title_partners.css);
+
+@import url(../blocks/download/download.css);
+@import url(../blocks/download/__card-image/download__card-image.css);
+@import url(../blocks/download/__card-image/_laptop/download__card-image_laptop.css);
+@import url(../blocks/download/__card-image/_monoblock/download__card-image_monoblock.css);
+@import url(../blocks/download/__card-image/_phone/download__card-image_phone.css);
+@import url(../blocks/download/__card-title/download__card-title.css);
+@import url(../blocks/download/__card/download__card.css);
+@import url(../blocks/download/__link/download__link.css);
+
+@import url(../blocks/first-screen/first-screen.css);
+@import url(../blocks/first-screen/__backgroun/first-screen__backgroun.css);
+@import url(../blocks/first-screen/__button-section/first-screen__button-section.css);
+@import url(../blocks/first-screen/__img/first-screen__img.css);
+@import url(../blocks/first-screen/__subtext/first-screen__subtext.css);
+@import url(../blocks/first-screen/__text/first-screen__text.css);
+@import url(../blocks/first-screen/__title/first-screen__title.css);
+
+@import url(../blocks/industry/industry.css);
+@import url(../blocks/industry/__text-container/industry__text-container.css);
+@import url(../blocks/industry/__text/industry__text.css);
+@import url(../blocks/industry/__title/industry__title.css);
+
+@import url(../blocks/other/other.css);
+@import url(../blocks/other/__card/other__card.css);
+@import url(../blocks/other/__subtitle/other__subtitle.css);
+@import url(../blocks/other/__text/other__text.css);
+@import url(../blocks/other/__title/other__title.css);
+
+@import url(../blocks/our-products/our-products.css);
+@import url(../blocks/our-products/__card-img-community/our-products__card-img-community.css);
+@import url(../blocks/our-products/__card-img-popular-game/our-products__card-img-popular-game.css);
+@import url(../blocks/our-products/__card-link/our-products__card-link.css);
+@import url(../blocks/our-products/__card-text/our-products__card-text.css);
+@import url(../blocks/our-products/__card-title/our-products__card-title.css);
+@import url(../blocks/our-products/__card/our-products__card.css);
+@import url(../blocks/our-products/__card/_community/our-products__card_community.css);
+@import url(../blocks/our-products/__card/_popular-games/our-products__card_popular-games.css);
+@import url(../blocks/our-products/__card/_server-games/our-products__card_server-games.css);
+@import url(../blocks/our-products/__img-server-games/our-products__img-server-games.css);
+@import url(../blocks/our-products/__li/our-products__li.css);
+@import url(../blocks/our-products/__subtitle/our-products__subtitle.css);
+@import url(../blocks/our-products/__text/our-products__text.css);
+@import url(../blocks/our-products/__title/our-products__title.css);
+@import url(../blocks/our-products/__ul/our-products__ul.css);
+
+@import url(../blocks/social/__a/social__a.css);
+@import url(../blocks/social/__card/social__card.css);
+@import url(../blocks/social/__cards/social__cards.css);
+@import url(../blocks/social/__image-container/_isq/social__image-container_isq.css);
+@import url(../blocks/social/__image-container/social__image-container.css);
+@import url(../blocks/social/__image/social__image.css);
+@import url(../blocks/social/__image/_isq/social__image_isq.css);
+@import url(../blocks/social/__insta/social__insta.css);
+@import url(../blocks/social/__insta/_isq/social__insta_isq.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__name/social__name.css);
+@import url(../blocks/social/__subtitle/social__subtitle.css);
+@import url(../blocks/social/__text/social__text.css);
+@import url(../blocks/social/__title/social__title.css);

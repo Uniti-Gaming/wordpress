@@ -1,0 +1,14 @@
+@import url(../../../blocks/button/__icon/button__icon.css);
+
+@import url(../blocs/mumble-main/mumble-main.css);
+@import url(../blocs/mumble-main/__buttons/mumble-main__buttons.css);
+
+@import url(../blocs/voice-card/voice-card.css);
+@import url(../blocs/voice-card/__link-ruls/voice-card__link-ruls.css);
+@import url(../blocs/voice-card/__icon/voice-card__icon.css);
+@import url(../blocs/voice-card/__btn-instruction/voice-card__btn-instruction.css);
+@import url(../blocs/voice-card/__img-instruction/voice-card__img-instruction.css);
+@import url(../blocs/voice-card/__link-instruction/voice-card__link-instruction.css);
+@import url(../blocs/voice-card/__list-ip/voice-card__list-ip.css);
+@import url(../blocs/voice-card/__img-ip/voice-card__img-ip.css);
+@import url(../blocs/voice-card/__title-ip/voice-card__title-ip.css);

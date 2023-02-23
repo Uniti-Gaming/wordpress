@@ -1,0 +1,23 @@
+@import url(../blocks/voice/voice.css);
+@import url(../blocks/voice/__download/voice__download.css);
+@import url(../blocks/voice/__grid/voice__grid.css);
+@import url(../blocks/voice/__img/voice__img.css);
+@import url(../blocks/voice/__mumble/voice__mumble.css);
+@import url(../blocks/voice/__name/voice__name.css);
+@import url(../blocks/voice/__search/voice__search.css);
+@import url(../blocks/voice/__teamspeak/voice__teamspeak.css);
+@import url(../blocks/voice/__search-img/voice__search-img.css);
+@import url(../blocks/voice/__search-link/voice__search-link.css);
+@import url(../blocks/voice/__search-text/voice__search-text.css);
+@import url(../blocks/voice/__search-title/voice__search-title.css);
+@import url(../blocks/card/__name-document/card__name-document.css);
+@import url(../blocks/card/__btn-download/card__btn-download.css);
+@import url(../blocks/card/_launcher/card_launcher.css);
+
+@import url(../blocks/download/download.css);
+@import url(../blocks/download/__button/download__button.css);
+@import url(../blocks/download/__buttons/download__buttons.css);
+@import url(../blocks/download/__subtitle/download__subtitle.css);
+@import url(../blocks/download/__text/download__text.css);
+@import url(../blocks/download/__title/download__title.css);
+@import url(../blocks/download/__container/download__container.css);

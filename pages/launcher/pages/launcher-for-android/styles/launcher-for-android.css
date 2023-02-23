@@ -1,0 +1,8 @@
+@import url(../blocks/card/__img/_launcher/card__img_launcher.css);
+@import url(../blocks/card/__first-img/card__first-img.css);
+@import url(../blocks/card/__img/_game-collection/card__img_game-collection.css);
+@import url(../blocks/card/__img/_server/card__img_server.css);
+@import url(../blocks/card/__img/_game-events/card__img_game-events.css);
+@import url(../blocks/card/cards-for-cms.css);
+
+@import url(../blocks/popular/__title/popular__title.css);

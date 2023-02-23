@@ -1,0 +1,9 @@
+.body {
+    background-color: #18181B;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+.body.lock {
+    overflow: hidden;
+}

@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0 20px;
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 40, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    z-index: 2;
+}
+
+@media screen and (max-width:1009px) {
+    .header .button {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .header {
+        justify-content: space-between;
+        height: 55px;
+    }
+
+    .header .button {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.card__server-games {
+    margin-top: 40px;
+}
+
+.card__server-games .card__image {
+    background-image: url(../../../../../../images/server-games/community.png);
+    background-size: cover;
+    height: 100%;
+    width: 47%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.card__server-games .card__textarea {
+    max-width: 490px;
+}
+
+.card__server-games .card__link {
+    margin: 159px 0 0;
+}
+
+@media screen and (max-width:700px) {
+    .card__server-games {
+        margin: 40px 20px;
+    }
+    .card__server-games .card__image {
+        background-image: url(../../../../../../images/server-games/community-phone.png);
+        height: 337px;
+        width: 100%;
+    }
+    .card__server-games .card__textarea {
+        margin-left: 0;
+    }
+    .card__server-games .card__link {
+        margin-top: 20px;
+    }
+}
