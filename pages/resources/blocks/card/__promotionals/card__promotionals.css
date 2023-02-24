@@ -1,0 +1,9 @@
+.card__promotionals .card__image {
+    margin: 95px 0 0 38px;
+}
+
+@media screen and (min-width:900px) {
+    .card__promotionals .card__link {
+        margin-top: 123px;
+    }
+}

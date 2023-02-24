@@ -1,0 +1,12 @@
+.card__elements .card__image {
+    margin: 130px 73px 0 128px;
+}
+
+@media screen and (min-width:900px) {
+    .card__elements .card__textarea {
+        max-width: 490px;
+    }
+    .card__elements .card__link {
+        margin-top: 171px;
+    }
+}

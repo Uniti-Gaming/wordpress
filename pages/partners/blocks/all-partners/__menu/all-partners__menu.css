@@ -1,0 +1,7 @@
+.all-partners__menu {
+    list-style: none;
+    margin: 72px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}

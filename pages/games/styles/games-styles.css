@@ -3,3 +3,5 @@
 @import url(../blocks/server-games/__container/server-games__container.css);
 @import url(../blocks/server-games/__link/server-games__link.css);
 @import url(../blocks/server-games/__name/server-games__name.css);
+
+@import url(../blocks/card__server-games/card__server-games.css);

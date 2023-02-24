@@ -1,0 +1,19 @@
+.card__screensaver .card__image {
+    position: absolute;
+}
+
+.card__screensaver .card__image_phone {
+    left: 759px;
+    top: 89px;
+}
+
+.card__screensaver .card__image_laptop {
+    left: 463px;
+    top: 145px;
+}
+
+@media screen and (min-width:900px) {
+    .card__screensaver .card__link {
+        margin-top: 147px;
+    }
+}

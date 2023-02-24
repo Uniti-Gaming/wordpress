@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unite Gaming</title>
     <link rel="stylesheet" href="../index.css">
-    <link rel="stylesheet" href="./styles/partners-style.css">
+    <link rel="stylesheet" href="./styles/resources-style.css">
 </head>
 
 <body class="body">
@@ -103,45 +103,64 @@
         <button class="button">Регистрация</button>
     </header>
     <main>
-        <section class="all-partners">
-            <h2 class="title">Все партнёры</h2>
-            <nav>
-                <ul class="all-partners__menu">
-                    <li class="all-partners__teg all-partners__teg_all active">
-                        <p>Все</p>
-                    </li>
-                    <li class="all-partners__teg all-partners__teg_libraly">
-                        <p>Игротеки</p>
-                    </li>
-                    <li class="all-partners__teg all-partners__teg_rental">
-                        <p>Прокаты</p>
-                    </li>
-                    <li class="all-partners__teg all-partners__teg_shops">
-                        <p>Магазины</p>
-                    </li>
-                    <li class="all-partners__teg all-partners__teg_other">
-                        <p>Остальные</p>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="all-partners__list">
-                <li class="all-partners__item all-partners__item_other"></li>
-                <li class="all-partners__item all-partners__item_libraly">Игротека</li>
-                <li class="all-partners__item all-partners__item_other"></li>
-                <li class="all-partners__item all-partners__item_libraly">Игротека</li>
-                <li class="all-partners__item all-partners__item_rental">Прокат</li>
-                <li class="all-partners__item all-partners__item_libraly">Игротека</li>
-                <li class="all-partners__item all-partners__item_shop">Магазин</li>
-                <li class="all-partners__item all-partners__item_other"></li>
-                <li class="all-partners__item all-partners__item_other"></li>
-                <li class="all-partners__item all-partners__item_shop">Магазин</li>
-                <li class="all-partners__item all-partners__item_other"></li>
+        <section class="resources">
+            <h1 class="title">Ресурсы</h1>
+            <p class="subtitle">Здесь можно найти и загрузить ресурсы, связанные с брендом Unite Gaming</p>
+            <ul>
+                <li class="card card__logo">
+                    <a href="#">
+                        <div class="card__textarea">
+                            <h3 class="card__title">Логотип</h3>
+                            <p class="card__text">Рекомендуем использовать логотип при упоминании нашего проекта в своих
+                                рекламных материалах или на своем сайте</p>
+                            <p class="card__link">Скачать ></p>
+                        </div>
+                        <img class="card__image" src="../../images/resources/logo.png" alt="">
+                    </a>
+                </li>
+                <li class="card card__background">
+                    <a href="#">
+                        <img class="card__image" src="../../images/resources/background.png" alt="">
+                        <div class="card__textarea">
+                            <h3 class="card__title">Фон</h3>
+                            <p class="card__text">Фоновые изображения нашего проекта, которые не снижают видимость и четкость наших логотипов</p>
+                            <p class="card__link">Скачать ></p>
+                        </div>
+                    </a>
+                </li>
+                <li class="card card__screensaver">
+                    <a href="#">
+                        <div class="card__textarea">
+                            <h3 class="card__title">Заставка</h3>
+                            <p class="card__text">Уникальная заставка Unite Gaming для вашего рабочего стола смартфона и пк.</p>
+                            <p class="card__link">Скачать ></p>
+                        </div>
+                        <img class="card__image card__image_laptop" src="../../images/resources/laptop.png" alt="">
+                        <img class="card__image card__image_phone" src="../../images/resources/phone.png" alt="">
+                    </a>
+                </li>
+                <li class="card card__elements">
+                    <a href="#">
+                        <img class="card__image" src="../../images/resources/elements.png" alt="">
+                        <div class="card__textarea">
+                            <h3 class="card__title">Графические элементы</h3>
+                            <p class="card__text">Все графические элементы, которые мы  используем в нашем брендинге.</p>
+                            <p class="card__link">Скачать ></p>
+                        </div>
+                    </a>
+                </li>
+                <li class="card card__promotionals">
+                    <a href="#">
+                        <div class="card__textarea">
+                            <h3 class="card__title">Логотип</h3>
+                            <p class="card__text">Рекомендуем использовать логотип при упоминании нашего проекта в своих
+                                рекламных материалах или на своем сайте</p>
+                            <p class="card__link">Скачать ></p>
+                        </div>
+                        <img class="card__image" src="../../images/resources/promotionals.png" alt="">
+                    </a>
+                </li>
             </ul>
-        </section>
-        <section class="maps">
-            <h2 class="title">Партнеры на карте</h2>
-            <h5 class="subtitle">Игротеки, прокаты и другие крутые ребята!</h5>
-            <iframe class="maps__map" src="https://www.google.com/maps/d/embed?mid=1CkPl8jsbnnyGHolyjmCztbJ6SnGdB6A&ehbc=2E312F" width="640" height="480"></iframe>
         </section>
         <section class="news">
             <h2 class="news__title title">Новости и мероприятия</h2>
@@ -302,8 +321,9 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <script src="../../scripts/index.js"></script>
-    <script src="./scripts/tabs.js"></script>
+    <script src="../../scripts/rellax.js"></script>
 </body>
 
 </html>

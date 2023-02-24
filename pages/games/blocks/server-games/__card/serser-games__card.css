@@ -3,6 +3,25 @@
     width: 300px;
     border-radius: 36px;
     overflow: hidden;
-    object-fit: cover;
     position: relative;
+}
+
+.serser-games__card img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.serser-games__card-blur {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(48.88%, rgba(0, 0, 0, 0.12)), color-stop(74.43%, rgba(0, 0, 0, 0.48)), to(rgba(0, 0, 0, 0.8)));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.12) 48.88%, rgba(0, 0, 0, 0.48) 74.43%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.12) 48.88%, rgba(0, 0, 0, 0.48) 74.43%, rgba(0, 0, 0, 0.8) 100%);
+    -webkit-backdrop-filter: blur(7.5px);
+            backdrop-filter: blur(7.5px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

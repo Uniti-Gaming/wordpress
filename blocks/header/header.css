@@ -1,7 +1,14 @@
+
 .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 70px;
     position: fixed;
     top: 0;
@@ -19,7 +26,8 @@ header::before {
     height: 100%;
     background: rgba(34, 34, 40, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
     z-index: 2;
 }
 
@@ -31,7 +39,9 @@ header::before {
 
 @media screen and (max-width:800px) {
     .header {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         height: 55px;
     }
 

@@ -1,0 +1,9 @@
+.card__background .card__image {
+    margin: 137px 36px 0 81px;
+}
+
+@media screen and (min-width:900px) {
+    .card__background .card__link {
+        margin-top: 147px;
+    }
+}
