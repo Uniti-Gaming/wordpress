@@ -5,10 +5,10 @@ const tegShops = document.querySelector('.all-partners__teg_shops');
 const tegOther = document.querySelector('.all-partners__teg_other');
 const allTegs = document.querySelectorAll('.all-partners__teg');
 const allItems = document.querySelectorAll('.all-partners__item');
-const shopItems = document.querySelectorAll('.all-partners__item_shop');
-const otherItems = document.querySelectorAll('.all-partners__item_other');
-const libralyItems = document.querySelectorAll('.all-partners__item_libraly');
-const rentalItems = document.querySelectorAll('.all-partners__item_rental');
+const shopItems = document.querySelectorAll('.partner__item_shop');
+const otherItems = document.querySelectorAll('.partner__item_other');
+const libralyItems = document.querySelectorAll('.partner__item_libraly');
+const rentalItems = document.querySelectorAll('.partner__item_rental');
 
 function openTabs(target, array) {
     allTegs.forEach((teg) => {

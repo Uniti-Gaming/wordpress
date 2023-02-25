@@ -1,4 +1,6 @@
 .all-partners__item {
+    padding: 20px;
+    box-sizing: border-box;
     position: relative;
     width: 310px;
     height: 286px;
