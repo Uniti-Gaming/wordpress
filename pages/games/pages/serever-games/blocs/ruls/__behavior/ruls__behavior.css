@@ -8,6 +8,12 @@
     bottom: 0;
 }
 
+@media screen and (min-width:700px) {
+    .ruls__behavior+.card__textarea {
+        max-width: 474px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .ruls__behavior {
         background-image: url(../../../../../../../images/server-games/behavior-phone.png);

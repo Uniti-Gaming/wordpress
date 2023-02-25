@@ -1,0 +1,10 @@
+.post__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 24px auto 72px;
+}
+
+.post__buttons .button {
+    padding: 13px 24px;
+}

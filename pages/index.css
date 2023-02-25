@@ -82,3 +82,16 @@
 @import url(../blocks/item/__img/item__img.css);
 @import url(../blocks/item/__junre/item__junre.css);
 @import url(../blocks/item/__name/item__name.css);
+
+@import url(../blocks/voice/voice.css);
+@import url(../blocks/voice/__download/voice__download.css);
+@import url(../blocks/voice/__grid/voice__grid.css);
+@import url(../blocks/voice/__img/voice__img.css);
+@import url(../blocks/voice/__mumble/voice__mumble.css);
+@import url(../blocks/voice/__name/voice__name.css);
+@import url(../blocks/voice/__search/voice__search.css);
+@import url(../blocks/voice/__teamspeak/voice__teamspeak.css);
+@import url(../blocks/voice/__search-img/voice__search-img.css);
+@import url(../blocks/voice/__search-link/voice__search-link.css);
+@import url(../blocks/voice/__search-text/voice__search-text.css);
+@import url(../blocks/voice/__search-title/voice__search-title.css);

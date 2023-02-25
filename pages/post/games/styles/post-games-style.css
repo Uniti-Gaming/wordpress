@@ -1,0 +1,11 @@
+@import url(../blocks/post/post.css);
+@import url(../blocks/post/__buttons/post__buttons.css);
+@import url(../blocks/post/__janre/post__janre.css);
+@import url(../blocks/post/__img/post__img.css);
+
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__content/description__content.css);
+@import url(../blocks/description/__game-name/description__game-name.css);
+@import url(../blocks/description/__text-content/description__text-content.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__video/description__video.css);

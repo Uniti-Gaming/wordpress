@@ -25,3 +25,10 @@
     top: 0;
     left: 0;
 }
+
+.serser-games__card-blur:hover {
+    cursor: default;
+}
+.serser-games__card-blur+.server-games__name:hover{
+    cursor: default;
+}
