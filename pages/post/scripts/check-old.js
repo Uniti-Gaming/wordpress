@@ -68,10 +68,9 @@ function checkMounth() {
         activeBtn()
     } else if (userMounth - nowMounth === 0) {
         checkDay()
-        formDay.addEventListener('input', () => {
-            checkDay()
-        })
+        formDay.addEventListener('input', checkDay);
     } else {
+        formDay.removeEventListener('input', checkDay);
         disabledBtn()
     }
 }
@@ -81,11 +80,11 @@ function checkOld() {
     if (userYear > 16) {
         activeBtn()
     } else if (userYear === 16) {
-        checkMounth()
-        formMounth.addEventListener('input', () => {
-            checkMounth()
-        });
+        checkMounth();
+        formMounth.addEventListener('input', checkMounth);
     } else {
+        formMounth.removeEventListener('input', checkMounth);
+        formDay.removeEventListener('input', checkDay);
         disabledBtn()
     }
 }
