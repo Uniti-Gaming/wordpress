@@ -1,0 +1,11 @@
+.post {
+    margin-bottom: 193px;
+}
+
+.post__card {
+    margin-top: 93px;
+}
+
+.card__textarea {
+    max-width: 500px;
+}

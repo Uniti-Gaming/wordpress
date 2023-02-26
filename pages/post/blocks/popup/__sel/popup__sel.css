@@ -1,0 +1,22 @@
+.popup__sel {
+    position: absolute;
+    background: #232229;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+.popup__sel.day {
+    left: 96px;
+    width: 90px;
+}
+
+.popup__sel.mouth {
+    left: 200px;
+    width: 130px;
+}
+
+.popup__sel.year {
+    right: 87px;
+    width: 100px;
+}

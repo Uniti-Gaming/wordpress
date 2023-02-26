@@ -1,0 +1,9 @@
+@import url(../blocks/post/post.css);
+@import url(../blocks/post/__card/post__card.css);
+@import url(../blocks/post/__buttons/post__buttons.css);
+@import url(../blocks/post/__teg/post__teg.css);
+@import url(../blocks/post/__img/post__img.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__sel/popup__sel.css);
+@import url(../blocks/popup/__form/popup__form.css);

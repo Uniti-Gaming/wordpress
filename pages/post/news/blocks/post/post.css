@@ -1,9 +1,0 @@
-.post .title {
-    text-align: start;
-}
-
-@media screen and (min-width:900px) {
-    .post .title {
-        font-size: 48px;
-    }
-}

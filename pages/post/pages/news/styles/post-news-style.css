@@ -1,0 +1,5 @@
+@import url(../blocks/post/post.css);
+@import url(../blocks/post/__wraper/post__wraper.css);
+@import url(../blocks/post/__main-text/post__main-text.css);
+@import url(../blocks/post/__data/post__data.css);
+@import url(../blocks/post/__share/post__share.css);
