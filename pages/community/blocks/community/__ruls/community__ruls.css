@@ -1,0 +1,13 @@
+.community__ruls {}
+
+.community__ruls .card__image {
+    margin: 40px 60px 0 125px;
+}
+
+.community__ruls .card__textarea {
+    max-width: 490px;
+}
+
+.community__ruls .card__link {
+    margin-top: 100px;
+}

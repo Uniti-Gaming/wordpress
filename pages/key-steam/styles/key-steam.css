@@ -1,0 +1,8 @@
+@import url(../../index.css);
+
+@import url(../blocks/application/application.css);
+@import url(../blocks/application/__new/application__new.css);
+@import url(../blocks/details/details.css);
+@import url(../blocks/card/__features/card__features.css);
+@import url(../blocks/card/__suported-games/card__suported-games.css);
+@import url(../blocks/card/__important/card__important.css);

@@ -8,3 +8,8 @@
     padding-bottom: 40px;
     overflow: hidden;
 }
+
+.news__card:hover span {
+    color: #232229;
+    background-color: #fff;
+}

@@ -3,6 +3,8 @@
     gap: 28px;
     align-items: center;
     margin-top: 27px;
+    transition: all 500ms ease-in-out;
+
 }
 @media screen and (max-width:700px) {
     .first-screen__button-section {
@@ -10,4 +12,15 @@
         justify-content: center;
         max-width: 190px;
     }
+}
+.first-screen__button-section svg:hover path {
+    fill: #B353D3;
+    transform: scale(105%);
+}
+
+.first-screen__button-section svg:hover path:nth-of-type(5) {
+    fill: #1B171F;
+}
+.first-screen__button-section svg:hover path:nth-of-type(6) {
+    fill: #1B171F;
 }

@@ -1,0 +1,11 @@
+.community__suport {}
+
+.community__suport .card__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.community__suport .card__link {
+    margin-top: 129px;
+}

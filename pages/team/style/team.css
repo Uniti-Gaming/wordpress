@@ -1,0 +1,11 @@
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__developers/team__developers.css);
+@import url(../blocks/team/__founders/team__founders.css);
+
+
+
+
+
+.partners + .start-game {
+    margin-top: 0;
+}

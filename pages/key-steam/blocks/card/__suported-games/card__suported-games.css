@@ -1,0 +1,9 @@
+.card__suported-games {}
+
+.card__suported-games .card__textarea {
+    max-width: 490px;
+}
+
+.card__suported-games .card__image {
+    margin: 55px 0 0 15px;
+}

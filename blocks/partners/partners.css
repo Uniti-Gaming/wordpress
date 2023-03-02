@@ -17,37 +17,50 @@
 .partners li {
     list-style: none;
     background-size: cover;
+    transition: all 500ms ease-in-out;
+}
+
+.partners li a {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .partners li:nth-of-type(1) {
     width: 123px;
     height: 49px;
-    background-image: url(../../../../images/about-us/logo-partners/unite.svg);
+    background-image: url(../../images/about-us/logo-partners/unite.svg);
 }
 
 .partners li:nth-of-type(2) {
     width: 153px;
     height: 69px;
-    background-image: url(../../../../images/about-us/logo-partners/jayym.svg);
+    background-image: url(../../images/about-us/logo-partners/jayym.svg);
 }
 
 .partners li:nth-of-type(3) {
     width: 153px;
     height: 50px;
-    background-image: url(../../../../images/about-us/logo-partners/outs.svg);
+    background-image: url(../../images/about-us/logo-partners/outs.svg);
 }
 
 .partners li:nth-of-type(4) {
     width: 131px;
     height: 34px;
-    background-image: url(../../../../images/about-us/logo-partners/arassa.svg);
+    background-image: url(../../images/about-us/logo-partners/arassa.svg);
 }
 
 .partners li:nth-of-type(5) {
     width: 133px;
     height: 48px;
-    background-image: url(../../../../images/about-us/logo-partners/lotta.svg);
+    background-image: url(../../images/about-us/logo-partners/lotta.svg);
 }
 .partners .button {
     padding: 13px 44px;
+}
+
+@media (any-hover: hover) {
+    .partners li:hover {
+        transform: scale(110%);
+    }
 }

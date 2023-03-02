@@ -1,0 +1,18 @@
+.team__developers {
+    gap: 32px;
+    margin: 72px auto 172px;
+}
+
+.team__developers .news__card {
+    width: 226px;
+    height: 396px;
+    box-sizing: border-box;
+}
+
+.team__developers .news__img {
+    height: 237px;
+}
+
+.team__developers .news__name {
+    margin: 26.5px 17.5px 0;
+}

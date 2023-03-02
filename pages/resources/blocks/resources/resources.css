@@ -5,3 +5,6 @@
     max-width: 671px;
     margin: 24px auto 216px;
 }
+.resources ul {
+    padding: 0;
+}

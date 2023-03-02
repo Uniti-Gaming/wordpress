@@ -1,0 +1,16 @@
+.community__general {}
+
+.community__general .card__image {
+    position: absolute;
+    right: 0;
+    top: 47px;
+    width: 638px;
+}
+
+.community__general .card__textarea {
+    max-width: 390px;
+}
+
+.community__general .card__link {
+    margin-top: 129px;
+}

@@ -1,0 +1,38 @@
+@import url(../../index.css);
+
+.programs {
+    margin: 150px auto 201px;
+    max-width: 1064px;
+}
+
+.programs .news__list {
+    margin: 87px auto 0;
+}
+
+.programs__background {
+    background: linear-gradient(231.81deg, #150B2B 0%, #311861 101.64%);
+    width: 310px;
+    height: 270px;
+}
+
+.programs__icon {
+    background-image: url(../../../images/programs/background.png);
+    width: 310px;
+    height: 270px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programs__icon.programs__icon_unite img {
+    width: 154px;
+}
+.programs__icon.programs__icon_isq img {
+    width: 98.5px;
+}
+
+.programs__card .news__name {
+    margin-top: 25px;
+    height: 75px;
+}

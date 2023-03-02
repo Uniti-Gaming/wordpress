@@ -1,0 +1,9 @@
+.card__important {}
+
+.card__important .card__textarea {
+    max-width: 490px;
+}
+
+.card__important .card__image {
+    margin: 65px 65px 0 95px;
+}

@@ -1,0 +1,21 @@
+.team__founders {
+    margin-top: 72px;
+    margin-bottom: 172px;
+}
+
+.team__founders .news__card {
+    height: 396px;
+    box-sizing: border-box;
+}
+
+.team__founders .news__img {
+    background-color: #BDBBBB;
+    height: 237px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.team__founders .news__name {
+    margin-top: 26.5px;
+}
