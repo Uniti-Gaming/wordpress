@@ -7,4 +7,11 @@
 }
 .news__time span{
     font-size: 20px;
+    border-radius: 50%;
+    width: 26px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease-in-out;
 }
