@@ -1,0 +1,21 @@
+.check-old__inputs {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+}
+
+.check-old__inputs .check-old__day {
+    width: 112px;
+}
+
+.check-old__inputs .check-old__mounth {
+    width: 192px;
+}
+
+.check-old__inputs .check-old__year {
+    width: 131px;
+}

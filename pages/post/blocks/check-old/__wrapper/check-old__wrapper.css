@@ -1,0 +1,17 @@
+.check-old__wrapper {
+    width: 825px;
+    height: 250px;
+    background: #232229;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 54px 0 0 0;
+    box-sizing: border-box;
+}
+
+.check-old__wrapper h2 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: -0.015em;
+    text-align: center;
+}

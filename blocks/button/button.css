@@ -19,7 +19,15 @@
     background: #FFFFFF;
     color: #18181B;
 }
+.button_grey {
+    background: #34323C;
+    color: #A2A2A2;
+}
 .button_white:hover {
     background: #393942;
     color: #fff;
+}
+.button_grey:hover {
+    color: #fff;
+    background: #34323C;
 }

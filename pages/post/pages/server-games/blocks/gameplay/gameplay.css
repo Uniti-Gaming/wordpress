@@ -1,0 +1,13 @@
+.gameplay {
+    margin-top: 132px;
+    margin-bottom: 120px;
+}
+
+.gameplay ul {
+    margin: 72px 0 0;
+    padding: 0;
+}
+
+.gameplay .card__textarea_right {
+    max-width: 490px;
+}

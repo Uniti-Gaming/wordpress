@@ -1,0 +1,22 @@
+.chats {
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+.chats .news__list {
+    margin-top: 72px;
+}
+
+.chats .news__card {
+    height: 448px;
+    box-sizing: border-box;
+}
+
+.chats .news__card img {
+    margin-top: -2px;
+}
+
+.chats .news__name {
+    margin-top: 25px;
+    height: 78px;
+}

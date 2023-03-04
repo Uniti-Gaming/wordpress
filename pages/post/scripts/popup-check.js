@@ -1,6 +1,6 @@
 const body = document.querySelector('.body');
-const popup = document.querySelector('.check-old');
-const popupForm = popup.querySelector('.check-old__form');
+const popup = document.querySelector('.popup');
+const popupForm = popup.querySelector('.popup__form');
 const popupBtn = popupForm.querySelector('.button');
 const now = new Date();
 const nowYear = now.getFullYear();
@@ -13,7 +13,7 @@ let userMes = 12
 let userYear = nowYear
 let userDay = 31
 
-const selectDay = new Select('.check-old__day', {
+const selectDay = new Select('.popup__day', {
     placeholder: 'День',
     data: days,
     onSelect (text, index) {
@@ -23,7 +23,7 @@ const selectDay = new Select('.check-old__day', {
     }
 });
 
-const selectMounth = new Select('.check-old__mounth', {
+const selectMounth = new Select('.popup__mounth', {
     placeholder: 'Месяц',
     data: mounthes,
     onSelect (text, index) {
@@ -33,7 +33,7 @@ const selectMounth = new Select('.check-old__mounth', {
     }
 });
 
-const selectYear = new Select('.check-old__year', {
+const selectYear = new Select('.popup__year', {
     placeholder: 'Год',
     data: years,
     onSelect (text, index) {

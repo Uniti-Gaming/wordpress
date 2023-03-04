@@ -116,8 +116,7 @@
                 <button class="button">Регистрация</button>
             </div>
             <div class="post__card card">
-                <div class="card__image" 
-                style="background-image: url(../../../../images/posts/card-witcher.png);">
+                <div class="card__image" style="background-image: url(../../../../images/posts/card-witcher.png);">
                 </div>
                 <div class="card__textarea">
                     <h3 class="card__title">Описание игры</h3>
@@ -181,60 +180,18 @@
         <form class="popup__form">
             <h2>Пожалуйста, укажите дату своего рождения</h2>
             <div class="popup-wrapper">
-                <select name="day" class="popup__sel day" size = "1">
-                  <option value="31">День</option>
-                  <option value="1">01</option>
-                  <option value="2">02</option>
-                  <option value="3">03</option>
-                  <option value="4">04</option>
-                  <option value="5">05</option>
-                  <option value="6">06</option>
-                  <option value="7">07</option>
-                  <option value="8">08</option>
-                  <option value="9">09</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  <option value="15">15</option>
-                  <option value="16">16</option>
-                  <option value="17">17</option>
-                  <option value="18">18</option>
-                  <option value="19">19</option>
-                  <option value="20">20</option>
-                  <option value="21">21</option>
-                  <option value="22">22</option>
-                  <option value="23">23</option>
-                  <option value="24">24</option>
-                  <option value="25">25</option>
-                  <option value="26">26</option>
-                  <option value="27">27</option>
-                  <option value="28">28</option>
-                  <option value="29">29</option>
-                  <option value="30">30</option>
-                  <option value="31">31</option>
-                </select>
-                <select name="mouth" class="popup__sel mouth" size = "1">
-                    <option value="11">Месяц</option>
-                    <option value="0">января</option>
-                    <option value="1">февраля</option>
-                    <option value="2">марта</option>
-                    <option value="3">апреля</option>
-                    <option value="4">мая</option>
-                    <option value="5">июня</option>
-                    <option value="6">июля</option>
-                    <option value="7">августа</option>
-                    <option value="8">сентября</option>
-                    <option value="9">октября</option>
-                    <option value="10">ноября</option>
-                    <option value="11">декабря</option>
-                </select>
-                <select  name="year" class="popup__sel year" size = "1">
-                    <option  class="popup__option" value="2023">Год</option>
-                </select>
+                <div class="popup__inputs">
+                    <div class="popup__day"></div>
+                    <div class="popup__mounth"></div>
+                    <div class="popup__year"></div>
+                </div>
             </div>
-            <button disabled class="button disabled">Открыть страницу</button>
+            <div class="popup__butons">
+                <button type="submit" disabled class="button popup__submit disabled">Открыть страницу</button>
+                <a href="../../../../index.html">
+                    <button type="button" class="button button_grey">Отмена</button>
+                </a>
+            </div>
         </form>
     </section>
     <footer class="footer">
@@ -348,7 +305,8 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="../../../../scripts/index.js"></script>
-    <script src="../../scripts/check-old.js"></script>
+    <script src="../../scripts/custom-select.js"></script>
+    <script src="../../scripts/popup-check.js"></script>
 </body>
 
 </html>

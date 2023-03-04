@@ -1,0 +1,13 @@
+.check-old__butons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.check-old__butons .button {
+    margin-top: 45px;
+}
+
+.check-old__butons .button.disabled {
+    cursor: no-drop;
+}

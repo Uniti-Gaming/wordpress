@@ -1,9 +1,29 @@
 @import url(../blocks/post/post.css);
+@import url(../blocks/post/__info/post__info.css);
 @import url(../blocks/post/__card/post__card.css);
 @import url(../blocks/post/__buttons/post__buttons.css);
 @import url(../blocks/post/__teg/post__teg.css);
 @import url(../blocks/post/__img/post__img.css);
 
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__content/description__content.css);
+@import url(../blocks/description/__game-name/description__game-name.css);
+@import url(../blocks/description/__text-content/description__text-content.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__video/description__video.css);
+
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__inputs/popup__inputs.css);
 @import url(../blocks/popup/__sel/popup__sel.css);
 @import url(../blocks/popup/__form/popup__form.css);
+
+@import url(../blocks/check-old/check-old.css);
+@import url(../blocks/check-old/__text/check-old__text.css);
+@import url(../blocks/check-old/__inputs/check-old__inputs.css);
+@import url(../blocks/check-old/__butons/check-old__butons.css);
+@import url(../blocks/check-old/__form/check-old__form.css);
+@import url(../blocks/check-old/__name/check-old__name.css);
+@import url(../blocks/check-old/__warning/check-old__warning.css);
+@import url(../blocks/check-old/__wrapper/check-old__wrapper.css);
+
+@import url(../blocks/select/custom-select.css);

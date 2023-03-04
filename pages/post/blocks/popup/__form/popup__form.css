@@ -16,8 +16,7 @@
 .popup__form .button {
     margin-top: 150px;
 }
-.button.disabled {
+.popup__form .button.disabled {
     background: #58585ac4;
     cursor: no-drop;
 }
-

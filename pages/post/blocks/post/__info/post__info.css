@@ -1,0 +1,46 @@
+.post__info {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.post__info>div {
+    width: 226px;
+    height: 200px;
+    background: #232229;
+    border-radius: 24px;
+}
+
+.post__info h5 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    margin: 54px 29px 0;
+    text-align: center;
+}
+
+.post__info p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 110%;
+    margin: 10px 29px 0;
+    text-align: center;
+}
+
+.post__info-stars {
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.post__info-star {
+    background-image: url(../../../../../images/posts/star.png);
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+}
+.post__info-star.yelow {
+    background-image: url(../../../../../images/posts/star-yelowr.png);
+}

@@ -1,0 +1,21 @@
+.popup__inputs {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+}
+
+.popup__inputs .popup__day {
+    width: 112px;
+}
+
+.popup__inputs .popup__mounth {
+    width: 192px;
+}
+
+.popup__inputs .popup__year {
+    width: 131px;
+}
