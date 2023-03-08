@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unite Gaming Launcher</title>
+    <title>Unite Gaming</title>
     <link rel="stylesheet" href="../../../index.css">
     <link rel="stylesheet" href="./styles/post-server-games.css">
 </head>
 
-<body class="body lock">
+<body class="body">
     <header class="header">
         <a href="../../../../index.html"><img class="header__logo" src="../../../../images/logo.svg" alt="логотип"></a>
         <nav class="header__list">
@@ -105,7 +105,7 @@
         <button class="header__btn-menu"></button>
         <button class="button">Регистрация</button>
     </header>
-    <main>
+    <main class="main hide">
         <section class="post">
             <img class="post__img" src="../../../../images/posts/RUST-cover-post.jpg">
             <p class="post__teg">PVP/PVE, Выживание</p>
@@ -288,6 +288,30 @@
             <button class="button">Регистрация</button>
         </section>
     </main>
+    <section class="check-old">
+        <h2 class="check-old__name">RUST</h2>
+        <p class="check-old__warning_blod">Внимание:<br>
+            Игра может содержать контент, не подходящий для всех возрастов или для просмотра на работе.
+        </p>
+        <p class="check-old__warning">Возрастной рейтинг игры от 18 лет</p>
+        <form class="check-old__form">
+            <div class="check-old__wrapper">
+                <h2>Пожалуйста, укажите дату своего рождения</h2>
+                <div class="check-old__inputs">
+                    <div class="check-old__day"></div>
+                    <div class="check-old__mounth"></div>
+                    <div class="check-old__year"></div>
+                </div>
+            </div>
+            <div class="check-old__butons">
+                <button type="submit" disabled class="button check-old__submit disabled">Открыть страницу</button>
+                <a onclick="javascript:history.back(); return false;">
+                    <button type="button" class="button button_grey">Отмена</button>
+                </a>
+            </div>
+        </form>
+        <p class="check-old__text">Это информация исключительно для проверки и не будет сохранять ваши данные </p>
+    </section>
     <footer class="footer">
         <div class="footer__links-container">
             <ul class="footer__links">
@@ -397,142 +421,6 @@
             </div>
         </div>
     </footer>
-    <section class="check-old">
-        <p class="check-old__warning"><span class="check-old__warning_blod">Внимание:</span><br>
-            Возрастной рейтинг игры от 18 лет
-        </p>
-        <h2 class="check-old__name">RUST</h2>
-        <p class="check-old__warning check-old__warning_blod">Внимание:<br>
-            Игра может содержать контент, не подходящий для всех возрастов или для просмотра на работе.
-        </p>
-        <form class="check-old__form">
-            <div class="check-old__wrapper">
-                <h2>Пожалуйста, укажите дату своего рождения</h2>
-                <div class="check-old__inputs">
-                    <div class="check-old__day"></div>
-                    <div class="check-old__mounth"></div>
-                    <div class="check-old__year"></div>
-                </div>
-            </div>
-            <div class="check-old__butons">
-                <button type="submit" disabled class="button check-old__submit disabled">Открыть страницу</button>
-                <a href="../../../../index.html">
-                    <button type="button" class="button button_grey">Отмена</button>
-                </a>
-            </div>
-        </form>
-        <p class="check-old__text">Это информация исключительно для проверки и не будет сохранять ваши данные </p>
-        <footer class="footer">
-            <div class="footer__links-container">
-                <ul class="footer__links">
-                    <li>
-                        <a class="footer__link footer__link_title" href="../../../../index.html">Главная</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../partners/partners.html">Партнёры</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../donat/donat.html">Донат</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../community/community.html">Сообщество</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../suport/suport.html">Поддержка</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../advertisers/advertisers.html">Рекламодателям</a>
-                    </li>
-                </ul>
-                <ul class="footer__links">
-                    <li>
-                        <a class="footer__link footer__link_title" href="../../../products/products.html">Наши
-                            продукты</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="#">Launcher для PC</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../launcher-for-android/index.html">Launcher для Android</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../teamspeak3/teamspeak.html">TeamSpeak для PC</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../mumble/mumble.html">Mumble для Android</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../steam-epic-games/steam-epic-games.html">Покупка игр</a>
-                    </li>
-                </ul>
-                <ul class="footer__links">
-                    <li>
-                        <a class="footer__link footer__link_title" href="../../../games/games.html">Игры</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../serever-games/index.html">Серверные игры</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../network-games/network-games.html">Сетевые игры</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../single-games/single-games.html">Одиночные игры</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../programs/programs.html">Программы для игр</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../android-games/android-games.html">Игры на Android</a>
-                    </li>
-                </ul>
-                <ul class="footer__links">
-                    <li>
-                        <a class="footer__link footer__link_title" href="../../../company/company.html">О компании</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../about-us/about-us.html">О нас</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../team/team.html">Команда</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../culture/culture.html">Культура</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../news/news.html">Новости</a>
-                    </li>
-                    <li>
-                        <a class="footer__link" href="../../../career/career.html">Карьера </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__under">
-                <a href="../../../../index.html"><img class="footer__logo" src="../../../../images/logo.svg" alt=""></a>
-                <ul class="footer__under-links">
-                    <li>
-                        <a class="footer__under-link" href="">Terms</a>
-                    </li>
-                    <li>
-                        <a class="footer__under-link" href="">Privacy</a>
-                    </li>
-                    <li>
-                        <a class="footer__under-link" href="">Cookies</a>
-                    </li>
-                </ul>
-                <div class="footer__social-img">
-                    <a href="">
-                        <img src="../../../../images/tiktok.svg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="../../../../images/instagram.svg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="../../../../images/isq.svg" alt="">
-                    </a>
-                </div>
-            </div>
-        </footer>
-    </section>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="../../../../scripts/index.js"></script>
     <script src="../../scripts/custom-select.js"></script>

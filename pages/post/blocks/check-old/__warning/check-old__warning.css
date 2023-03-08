@@ -1,14 +1,19 @@
 .check-old__warning {
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 115%;
+    margin: 21px auto;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
     text-align: center;
-    letter-spacing: -0.015em;
-    margin: 106px auto 36px;
-    max-width: 1000px;
+    letter-spacing: -0.005em;
+    color: #A1A1A1;
 }
 
 .check-old__warning_blod {
     font-weight: 800;
+    font-size: 38px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: -0.015em;
     margin: 0 auto;
+    max-width: 1000px;
 }

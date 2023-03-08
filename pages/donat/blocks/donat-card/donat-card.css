@@ -1,6 +1,17 @@
-.donat-card{
+.donat-card {
     margin-bottom: 167px;
 }
+
 .donat-card .card__textarea {
     max-width: 490px;
+}
+
+.donat-second-section {
+    padding: 0 20px;
+}
+
+@media screen and (max-width:430px) {
+    .donat-card {
+        margin-bottom: 58px;
+    }
 }

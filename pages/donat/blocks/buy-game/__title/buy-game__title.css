@@ -7,3 +7,9 @@
     position: relative;
     z-index: 2;
 }
+
+@media screen and (max-width:430px) {
+    .buy-game__title {
+        font-size: 34px;
+    }
+}

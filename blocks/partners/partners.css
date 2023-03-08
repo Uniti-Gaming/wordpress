@@ -55,6 +55,7 @@
     height: 48px;
     background-image: url(../../images/about-us/logo-partners/lotta.svg);
 }
+
 .partners .button {
     padding: 13px 44px;
 }
@@ -62,5 +63,15 @@
 @media (any-hover: hover) {
     .partners li:hover {
         transform: scale(110%);
+    }
+}
+
+@media screen and (max-width:430px) {
+    .partners {
+        padding-bottom: 68px;
+    }
+
+    .partners ul {
+        flex-wrap: wrap;
     }
 }

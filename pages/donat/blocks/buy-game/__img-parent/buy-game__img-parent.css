@@ -8,15 +8,29 @@
     z-index: 2;
     position: relative;
 }
-.buy-game__img-parent:first-of-type{
+
+.buy-game__img-parent:first-of-type {
     margin: 0 28px 28px 0;
 }
+
 .buy-game__img-parent_battle {
     background-image: url(../../../../../images/donat/batle-backgraund.jpg);
 }
+
 .buy-game__img-parent_steam {
     background: radial-gradient(116.17% 64.33% at 50% 50%, #27668A 0%, #0F253A 70.18%, #08172B 100%)
 }
+
 .buy-game__img-parent_epic {
     background-image: url(../../../../../images/donat/epic-backgraund.jpg);
+}
+
+@media screen and (max-width:430px) {
+    .buy-game__img-parent {
+        width: 148px;
+        height: 193px;
+    }
+    .buy-game__img-parent:first-of-type {
+        margin-bottom: 17px;
+    }
 }

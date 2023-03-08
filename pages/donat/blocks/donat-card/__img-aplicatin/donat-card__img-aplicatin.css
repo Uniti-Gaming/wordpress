@@ -1,3 +1,10 @@
 .donat-card__img-aplicatin {
     margin: 45px 75px 0 109px;
 }
+
+@media screen and (max-width:430px) {
+    .donat-card__img-aplicatin {
+        width: 181px;
+        margin: 21px 0 0 calc((100% - 181px)/2);
+    }
+}

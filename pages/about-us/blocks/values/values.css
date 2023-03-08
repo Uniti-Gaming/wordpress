@@ -11,3 +11,9 @@
     margin-top: 47px;
     max-width: 223px;
 }
+
+@media screen and (max-width:430px) {
+    .values {
+        padding-bottom: 41px;
+    }
+}

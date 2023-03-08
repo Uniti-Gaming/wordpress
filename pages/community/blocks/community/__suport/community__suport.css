@@ -9,3 +9,14 @@
 .community__suport .card__link {
     margin-top: 129px;
 }
+
+@media screen and (max-width:450px) {
+    .community__suport .card__link {
+        margin-top: 20px;
+    }
+
+    .community__suport .card__image {
+        width: 120%;
+        right: -6%;
+    }
+}

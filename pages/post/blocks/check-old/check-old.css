@@ -1,14 +1,9 @@
 .check-old {
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    background-color: #18181B;
+    padding-top: 248px;
+    position: relative;
     overflow: auto;
 }
 
-.check-old.hide {
+.hide {
     display: none;
 }

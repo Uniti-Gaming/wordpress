@@ -7,6 +7,7 @@
 @import url(../blocks/donat-card/__link-aplication/donat-card__link-aplication.css);
 
 @import url(../blocks/buy-game/buy-game.css);
+@import url(../blocks/buy-game/__img-container/buy-game__img-container.css);
 @import url(../blocks/buy-game/__img-battle/buy-game__img-battle.css);
 @import url(../blocks/buy-game/__img-epic/buy-game__img-epic.css);
 @import url(../blocks/buy-game/__img-parent/buy-game__img-parent.css);

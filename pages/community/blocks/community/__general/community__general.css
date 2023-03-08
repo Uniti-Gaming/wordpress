@@ -14,3 +14,15 @@
 .community__general .card__link {
     margin-top: 129px;
 }
+
+@media screen and (max-width:450px) {
+    .community__general .card__link {
+        margin-top: 20px;
+    }
+
+    .community__general .card__image {
+        width: 100%;
+        top: auto;
+        bottom: 43px;
+    }
+}

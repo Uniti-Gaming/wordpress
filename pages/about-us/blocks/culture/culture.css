@@ -1,5 +1,6 @@
 .culture  {
     margin-bottom: 172px;
+    padding: 0 20px;
 }
 
 .culture .subtitle {
@@ -9,6 +10,7 @@
 
 .culture .card__image {
     background-image: url(../../../../images/about-us/culture.png);
+    background-size: cover;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -24,5 +26,21 @@
 
     .culture .card__text {
         max-width: 394px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .culture  {
+        margin-bottom: 104px;
+    }
+    
+    .culture .card__image {
+        width: 100%;
+        background-image: url(../../../../images/about-us/culture-phone.png);
+    }
+
+    .culture .subtitle {
+        margin-bottom: 72px;
+        max-width: 260px;
     }
 }

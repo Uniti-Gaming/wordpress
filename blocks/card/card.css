@@ -16,6 +16,12 @@
     color: #FFFFFF;
 }
 
+.card__without-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 @media screen and (max-width:700px) {
     .card {
         height: 598px;
@@ -26,10 +32,4 @@
     .card__without-link {
         flex-direction: column;
     }
-}
-
-.card__without-link {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
 }

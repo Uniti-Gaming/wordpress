@@ -17,3 +17,9 @@
         margin-bottom: 60px;
     }
 }
+
+@media screen and (max-width:450px) {
+    .news__list {
+       justify-content: center;
+    }
+}

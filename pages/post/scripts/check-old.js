@@ -1,4 +1,5 @@
 const body = document.querySelector('.body');
+const main = document.querySelector('.main');
 const popup = document.querySelector('.check-old');
 const popupForm = popup.querySelector('.check-old__form');
 const popupBtn = popupForm.querySelector('.button');
@@ -91,7 +92,11 @@ function checkOld() {
 function hidePopup(e) {
     e.preventDefault();
     popup.classList.add('hide')
-    body.classList.remove('lock');
+    main.classList.remove('hide');
+    window.scrollTo({
+        top: 0,
+        left: 0,
+      })
 }
 
 popupForm.addEventListener('submit', hidePopup)

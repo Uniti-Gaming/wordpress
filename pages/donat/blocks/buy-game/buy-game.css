@@ -4,3 +4,11 @@
     align-items: center;
     margin: 172px auto 310px;
 }
+
+@media screen and (max-width:430px) {
+    .buy-game {
+        margin: 131px auto 122.5px;
+        flex-direction: column;
+        gap: 32px;
+    }
+}

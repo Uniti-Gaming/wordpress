@@ -1,8 +1,16 @@
 .about-main__mission .card__image {
     background-image: url(../../../../../images/about-us/mission.png);
+    background-size: cover;
     width: 831px;
     position: absolute;
     height: 100%;
     right: 0;
     bottom: 0;
+}
+
+@media screen and (max-width:430px) {
+    .about-main__mission .card__image {
+        width: 100%;
+        background-image: url(../../../../../images/about-us/mission-phone.png);
+    }
 }

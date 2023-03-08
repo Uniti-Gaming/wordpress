@@ -1,3 +1,9 @@
 .donat-card__link-aplication {
-    margin-top: 99px;
+    margin: 99px 0 0;
+}
+
+@media screen and (max-width:430px) {
+    .donat-card__link-aplication {
+        margin-top: 14px;
+    }
 }

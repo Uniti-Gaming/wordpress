@@ -11,3 +11,14 @@
 .community__main .card__link {
     margin-top: 141px;
 }
+
+@media screen and (max-width:450px) {
+    .community__main .card__link {
+        margin-top: 20px;
+    }
+
+    .community__main .card__image {
+        width: 200px;
+        margin: 58px 0 0 calc((100% - 200px)/2);
+    }
+}

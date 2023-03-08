@@ -1,4 +1,11 @@
 .buy-game__img-steam {
     width: 163px;
-height: 49px;
+    height: 49px;
+}
+
+@media screen and (max-width:430px) {
+    .buy-game__img-steam {
+        width: 104.5px;
+        height: 31.5px;
+    }
 }

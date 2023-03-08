@@ -3,3 +3,10 @@
     height: 115.41px;
     border-radius: 8px;
 }
+
+@media screen and (max-width:430px) {
+    .buy-game__img-epic {
+        width: 64px;
+        height: 74px;
+    }
+}
