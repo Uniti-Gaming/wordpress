@@ -1,0 +1,16 @@
+.career__target .card__image {
+    bottom: 42px;
+    left: 44px;
+    width: 385px;
+    height: 413px;
+}
+
+@media screen and (max-width:450px) {
+    .career__target .card__image {
+        bottom: 12.5px;
+        left: calc((100% - 235px)/2);
+        width: 235px;
+        height: 255px;
+    }
+}
+

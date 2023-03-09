@@ -1,0 +1,9 @@
+.career {
+    padding: 250px 20px 160px;
+}
+
+@media screen and (max-width:450px) {
+    .career {
+        padding: 130px 20px 58px;
+    }
+}

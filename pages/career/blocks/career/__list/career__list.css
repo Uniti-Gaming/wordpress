@@ -1,0 +1,14 @@
+.career__list {
+    margin-top: 220px;
+    padding: 0;
+}
+
+.career__list .card__textarea_right {
+    max-width: 490px;
+}
+
+@media screen and (max-width:450px) {
+    .career__list {
+        margin-top: 135px;
+    }
+}

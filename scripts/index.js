@@ -5,13 +5,12 @@ $(document).ready(function() {
     });
 });
 
-let buttonsSubMenu = document.querySelectorAll('.header__btn-sub-menu');
+let buttonsSubMenu = document.querySelectorAll('.header__link');
 if (buttonsSubMenu.length > 0) {
     for (let index = 0; index < buttonsSubMenu.length; index++) {
         const buttonSubMenu = buttonsSubMenu[index];
         buttonSubMenu.addEventListener('click', function(e) {
             buttonSubMenu.parentElement.classList.toggle('active')
-            buttonSubMenu.classList.toggle('active')
         });
     }
 }

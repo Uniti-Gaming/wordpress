@@ -22,13 +22,11 @@
     .header__menu {
         display: block;
     }
-    .header__menu li {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
     .header__menu li.active .header__submenu {
         display: flex;
+    }
+    .header__menu li.active .header__btn-sub-menu {
+        transform: rotate(180deg);
     }
     .header__menu li.active div {
         position: relative;
