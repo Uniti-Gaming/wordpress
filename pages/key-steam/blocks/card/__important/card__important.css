@@ -7,3 +7,13 @@
 .card__important .card__image {
     margin: 65px 65px 0 95px;
 }
+
+@media screen and (max-width:450px) {
+    .card__important .card__image {
+        width: 202px;
+        margin: 49px 0 0 calc((100% - 202px)/2);
+    }
+    .card__important .card__textarea {
+        max-width: 262px;
+    }
+}

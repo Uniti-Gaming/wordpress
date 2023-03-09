@@ -6,3 +6,9 @@
     letter-spacing: -0.015em;
     margin: 0 0 24px;
 }
+
+@media screen and (max-width:450px) {
+    .check-old__name {
+        font-size: 34px;
+    }
+}

@@ -1,5 +1,6 @@
 .details {
     margin-bottom: 144px;
+    padding: 0 20px;
 }
 
 .details .subtitle {
@@ -9,4 +10,9 @@
 .details ul {
     padding: 0;
     margin: 0;
+}
+@media screen and (max-width:450px) {
+    .details {
+        margin-bottom: 69px;
+    }
 }

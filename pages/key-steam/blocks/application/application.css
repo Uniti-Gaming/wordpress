@@ -1,6 +1,7 @@
 .application {
     margin-top: 251px;
     margin-bottom: 203px;
+    padding: 0 20px;
 }
 
 .application .button {
@@ -26,4 +27,32 @@
 
 .application .card__image-wrap .card__image {
     margin: 12px 0 0 190px;
+}
+
+@media screen and (max-width:450px) {
+    .application {
+        margin-top: 130px;
+        margin-bottom: 75px;
+    }
+
+    .application .button {
+        margin-bottom: 53px;
+    }
+
+    .application .card__image-wrap {
+        margin-left: calc((100% - 174.5px)/2);
+    }
+
+    .application .card__image-wrap span {
+        width: fit-content;
+        padding: 12px 22px;
+        margin: 95px 0 0 75px;
+        font-size: 16px;
+    }
+
+    .application .card__image-wrap .card__image {
+        width: 174.5px;
+        margin-left: 0;
+    }
+
 }

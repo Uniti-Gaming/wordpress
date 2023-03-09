@@ -44,3 +44,11 @@
 .post__info-star.yelow {
     background-image: url(../../../../../images/posts/star-yelowr.png);
 }
+
+@media screen and (max-width:450px) {
+    .post__info {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+}

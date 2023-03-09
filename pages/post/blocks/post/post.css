@@ -1,4 +1,11 @@
 .post {
     padding-top: 69px;
-    margin-bottom: 109px;
+    margin-bottom: 160px;
+}
+
+@media screen and (max-width:450px) {
+    .post {
+        padding-top: 55px;
+        margin-bottom: 60px;
+    }
 }

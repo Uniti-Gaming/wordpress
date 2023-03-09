@@ -1,3 +1,9 @@
 .check-old__form {
     margin: 0 0 74px 0;
 }
+
+@media screen and (max-width:450px) {
+    .check-old__form {
+        margin-bottom: 33px;
+    }
+}

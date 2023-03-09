@@ -7,3 +7,14 @@
         margin-top: 147px;
     }
 }
+
+@media screen and (max-width:450px) {
+    .card__background .card__link {
+        margin-top: 34px;
+        margin-bottom: 0;
+    }
+    .card__background .card__image {
+        width: 247px;
+        margin: 126px 0 0 calc((100% - 247px)/2);
+    }
+}    

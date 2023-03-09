@@ -5,5 +5,12 @@
     text-align: center;
     letter-spacing: -0.005em;
     color: #A1A1A1;
+    margin-top: 0;
     margin-bottom: 160px;
+}
+
+@media screen and (max-width:450px) {
+    .check-old__text {
+        margin-bottom: 69px;
+    }
 }

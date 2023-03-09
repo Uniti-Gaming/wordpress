@@ -19,3 +19,13 @@
 .check-old__inputs .check-old__year {
     width: 131px;
 }
+
+@media screen and (max-width:450px) {
+    .check-old__inputs {
+        flex-direction: column;
+        padding: 0 24px;
+    }
+    .check-old__inputs .check-old__day, .check-old__inputs .check-old__mounth, .check-old__inputs .check-old__year {
+        width: 100%;
+    }
+}

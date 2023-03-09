@@ -11,3 +11,10 @@
 .gameplay .card__textarea_right {
     max-width: 490px;
 }
+
+@media screen and (max-width:450px) {
+    .gameplay {
+        margin-top: 88px;
+        margin-bottom: 56px;
+    }
+}

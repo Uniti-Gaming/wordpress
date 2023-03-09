@@ -3,3 +3,11 @@
     justify-content: space-between;
     margin-bottom: 77px;
 }
+
+@media screen and (max-width:450px) {
+    .description__content {
+        flex-direction: column;
+        gap: 35px;
+        margin-bottom: 55px;
+    }
+}

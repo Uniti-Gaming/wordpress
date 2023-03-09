@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./styles/post-games-style.css">
 </head>
 
-<body class="body lock">
+<body class="body">
     <header class="header">
         <a href="../../../../index.html"><img class="header__logo" src="../../../../images/logo.svg" alt="логотип"></a>
         <nav class="header__list">
@@ -116,8 +116,18 @@
                 <button class="button">Регистрация</button>
             </div>
             <div class="post__card card">
-                <div class="card__image" style="background-image: url(../../../../images/posts/card-witcher.png);">
+                <div class="card__image">
                 </div>
+                <style>
+                    .post__card .card__image {
+                        background-image: url(../../../../images/posts/card-witcher.png);
+                        }
+                    @media screen and (max-width:450px) {
+                        .post__card .card__image {
+                            background-image: url(../../../../images/posts/card-witcher-phone.png);
+                        }
+                    }
+                </style>
                 <div class="card__textarea">
                     <h3 class="card__title">Описание игры</h3>
                     <p class="card__text">В центре сюжета новое вторжение Империи Нильфгаард, поиски Цири и конфликт
@@ -176,7 +186,7 @@
             <button class="button">Регистрация</button>
         </section>
     </main>
-    <section class="popup">
+    <section class="popup hide">
         <form class="popup__form">
             <h2>Пожалуйста, укажите дату своего рождения</h2>
             <div class="popup-wrapper">

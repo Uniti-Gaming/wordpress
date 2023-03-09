@@ -1,8 +1,14 @@
 .post__wraper {
     max-width: 760px;
-    padding: 0 20px;
-    margin: 0 auto 209px;
+    padding: 0 47px;
+    margin: 0 auto;
 }
 .post__wraper .post__teg {
     text-align: start;
+}
+
+@media screen and (max-width:450px) {
+    .post__wraper {
+        padding: 49px 47px 0;
+    }
 }

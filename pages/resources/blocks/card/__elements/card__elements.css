@@ -8,5 +8,17 @@
     }
     .card__elements .card__link {
         margin-top: 171px;
+        margin-bottom: 0;
     }
 }
+
+@media screen and (max-width:450px) {
+    .card__elements .card__link {
+        margin-top: 35px;
+        margin-bottom: 0;
+    }
+    .card__elements .card__image {
+        width: 167px;
+        margin: 130px 0 0 calc((100% - 167px)/2);
+    }
+}    

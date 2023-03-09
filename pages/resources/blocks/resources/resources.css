@@ -8,3 +8,12 @@
 .resources ul {
     padding: 0;
 }
+
+@media screen and (max-width:450px) {
+    .resources {
+        padding: 130px 20px 70px;
+    }
+    .resources .subtitle {
+        margin: 20px auto 75px;
+    }
+}

@@ -4,3 +4,9 @@
     letter-spacing: -0.01em;
     margin: 20px 0 80px;
 }
+
+@media screen and (max-width:450px) {
+    .post__data {
+        margin-bottom: 40px;
+    }
+}

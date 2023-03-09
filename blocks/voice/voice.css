@@ -8,3 +8,10 @@
         margin-bottom: 80px;
     }
 }
+
+@media screen and (max-width:450px) {
+    .voice .subtitle{
+        width: 250px;
+        margin: 24px auto 0;
+    }
+}
