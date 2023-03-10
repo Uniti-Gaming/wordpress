@@ -2,6 +2,11 @@
     display: flex;
     gap: 15px;
 }
+
+.footer__social-img img {
+    opacity: 0.6;
+}
+
 .footer__social-img a {
     border: 1.5px solid rgba(255, 255, 255, 0.1);
     height: 35px;
@@ -14,4 +19,8 @@
 
 .footer__social-img a:hover {
     border: 1.5px solid rgba(255, 255, 255, 1);
+}
+
+.footer__social-img a:hover img {
+    opacity: 1;
 }

@@ -1,0 +1,21 @@
+.contacts {
+    padding: 150px 20px 133px;
+}
+
+.contacts>p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #B7B7B7;
+    margin: 0 0 24px;
+}
+
+@media screen and (max-width:850px) {
+    .contacts {
+        padding: 130px 20px 79px;
+    }
+    .contacts>p {
+        font-size: 16px;
+    }
+}

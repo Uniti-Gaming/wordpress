@@ -1,0 +1,129 @@
+.privacy {
+    padding: 250px 20px 107px;
+}
+
+.privacy .title,
+.privacy .subtitle {
+    max-width: 653px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacy .card {
+    margin-top: 260px;
+}
+
+.privacy .card__image {
+    margin: 46px 0 0 41px;
+}
+
+.privacy .card__textarea {
+    max-width: 520px;
+}
+
+.privacy__content {
+    max-width: 760px;
+    margin: 103px auto 0;
+}
+
+.privacy__content h2 {
+    font-weight: 800;
+    max-width: 500px;
+    font-size: 48px;
+    line-height: 115%;
+    letter-spacing: -0.015em;
+    margin: 0 0 20px;
+}
+
+.privacy__content p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    margin: 0;
+}
+
+.privacy__content p:first-of-type {
+    margin-bottom: 80px;
+}
+
+.privacy__list {
+    list-style: none;
+    margin: 40px auto 96px;
+    padding: 0;
+}
+
+.privacy__list li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+}
+
+.privacy__list>li {
+    margin-bottom: 40px;
+}
+
+.privacy__list span {
+    font-weight: 800;
+    display: block;
+    width: 100%;
+}
+
+.privacy__list ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.privacy__list ul {
+    list-style-type: disc;
+}
+
+.privacy__content time {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    color: #A1A1A1;
+}
+
+@media screen and (max-width:450px) {
+
+    .privacy {
+        padding: 130px 20px 38px;
+    }
+
+    .privacy .title {
+        font-size: 30px;
+    }
+
+    .privacy .subtitle {
+        max-width: 225px;
+    }
+
+    .privacy .card {
+        margin-top: 35px;
+    }
+
+    .privacy .card__textarea {
+       padding: 33px 21px 0 38px;
+    }
+
+    .privacy .card__image {
+        width: 270px;
+        margin: 24px 0 0 calc((100% - 270px)/2);
+    }
+
+    .privacy__content {
+        margin-top: 91px;
+        padding: 0 15px;
+    }
+
+    .privacy__content h2 {
+        font-size: 28px;
+    }
+
+    .privacy__list {
+        margin-bottom: 0;
+    }
+}
