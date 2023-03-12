@@ -1,8 +1,17 @@
 .card__link {
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 4px 10px;
     letter-spacing: -0.01em;
     font-family: 'Manrope', sans-serif;
+    width: fit-content;
+    border-radius: 18px;
+}
+
+@media screen and (max-width:850px) {
+    .card__link {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:700px) {

@@ -1,12 +1,24 @@
 .voice__download {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 20px;
     letter-spacing: -0.01em;
-    margin: 55px 0 0 38px;
+    margin: 51px 0 0 28px;
+    padding: 4px 10px;
+    width: fit-content;
+    border-radius: 18px;
 }
-@media screen and (max-width:1000px) {
+
+@media screen and (max-width:850px) {
+    .voice__download {
+        margin: 14px 0 0 22px;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:570px) {
     .voice__download {
         font-size: 18px;
-        margin-left: 24px;
+        margin: 51px 0 0 14px;
     }
 }

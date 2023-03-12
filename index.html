@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/jpg" href="./images/ico.jpg">
+    <link rel="shortcut icon" type="image/jpg" href="./images/ico.png">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./pages/home/styles/home.css">
     <title>Unite Gaming</title>
@@ -15,6 +15,7 @@
         <a href="#"><img class="header__logo" src="./images/logo.svg" alt="логотип"></a>
         <nav class="header__list">
             <ul class="header__menu">
+                <li><a href="#" class="header__link_home">Главная ></a></li>
                 <li><a href="#" class="header__link">Наши продукты<span class="header__btn-sub-menu"></span></a>
                     <div>
                         <ul class="header__submenu">
@@ -84,6 +85,7 @@
                 <li><a href="./pages/community/community.html" class="header__link">Сообщество</a></li>
                 <li><a href="./pages/suport/suport.html" class="header__link">Поддержка</a></li>
             </ul>
+            <button class="button">Регистрация</button>
         </nav>
         <select class="header__lang" name="lang">
             <option class="header__lang_ru" value="ru" selected>RU</option>
@@ -170,12 +172,32 @@
                 </a>
             </div>
             <div class="industry__text-container">
-                <h2 class="industry__title title">Вместе развиваем игровую индустрию!</h2>
+                <h2 class="industry__title title">Вместе развиваем игровую индустрию!</h2>
                 <p class="industry__text subtitle">Наша цель – создавать лучшие решения для комфортной игры с друзьями и
                     другими
                     игроками!</p>
             </div>
             <div class="industry__mobile">
+                <a href="#">
+                    <div class="game-icon game-icon__rust">
+                        <img src="./images/icon/Warface-logo-tumb.png" alt="rust">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="game-icon game-icon__left-4-dead">
+                        <img src="./images/icon/left-4-dead-2.png" alt="left-4-dead">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="game-icon game-icon__warcraft_pandaria">
+                        <img src="./images/icon/Assassins-Creed-Logo-tumb.png" alt="warcraft_pandaria">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="game-icon game-icon__garrys-mod">
+                        <img src="./images/icon/garrysmod.png" alt="garrys-mod">
+                    </div>
+                </a>
                 <a href="#">
                     <div class="game-icon game-icon__gta-5">
                         <img src="./images/icon/gta5.png" alt="gta-5">
@@ -267,7 +289,7 @@
         </section>
         <section class="our-products">
             <h4 class="our-products__subtitle">Наши продукты</h4>
-            <h2 class="our-products__title title">Играйте на любимой платформе</h2>
+            <h2 class="our-products__title title">Играйте на любимой платформе</h2>
             <p class="our-products__text subtitle">Исследуй наши лучшие продукты и компьютерные игры для классного
                 времяпровождения!</p>
             <div class="download">
@@ -290,7 +312,7 @@
             </div>
             <a href="./pages/games/pages/serever-games/index.html" class="our-products__card our-products__card_server-games">
                 <h3 class="our-products__card-title">Серверные игры</h3>
-                <p class="our-products__card-text">Лучшие из лучших игр уже на серверах Unite Gaming!</p>
+                <p class="our-products__card-text">Лучшие из лучших игр уже на серверах Unite Gaming!</p>
                 <p class="our-products__card-link">Перейти к играм ></p>
                 <img class="our-products__img-server-games" src="./images/servergame.png" alt="">
             </a>
@@ -308,40 +330,40 @@
             </a>
             <ul class="our-products__ul">
                 <li class="our-products__li">
-                    <p>2000+ регистраций</p>
+                    <p><span>2700+</span> регистраций</p>
                 </li>
                 <li class="our-products__li">
-                    <p>35+ видеоигр</p>
+                    <p><span>35+</span> видеоигр</p>
                 </li>
                 <li class="our-products__li">
-                    <p>20мс задержка</p>
+                    <p><span>20мс</span> задержка</p>
                 </li>
                 <li class="our-products__li">
-                    <p>Android и PC платформы</p>
+                    <p><span>Android и PC</span> платформы</p>
                 </li>
             </ul>
         </section>
         <section class="news">
             <h2 class="news__title title">Новости и мероприятия</h2>
             <ul class="news__list">
-                <li>
-                    <a class="news__card" href="./pages/post/news/post-news.html">
+                <li class="news__card">
+                    <a href="./pages/post/news/post-news.html">
                         <img class="news__img" src="./images/watchdogsnew.png" alt="афиша Watchdogs">
                         <p class="news__text">Игра дня</p>
                         <h3 class="news__name">Watchdogs новый релиз</h3>
                         <time class="news__time">16 Января 2023<span>></span></time>
                     </a>
                 </li>
-                <li>
-                    <a class="news__card" href="./pages/post/news/post-news.html">
+                <li class="news__card">
+                    <a href="./pages/post/news/post-news.html">
                         <img class="news__img" src="./images/mincraftnew.png" alt="афиша мфйнкрафт">
                         <p class="news__text">Мероприятия</p>
                         <h3 class="news__name">“Mine, Minecraft Fest 2023”</h3>
                         <time class="news__time">16 Января 2023<span>></span></time>
                     </a>
                 </li>
-                <li>
-                    <a class="news__card" href="./pages/post/news/post-news.html">
+                <li class="news__card">
+                    <a href="./pages/post/news/post-news.html">
                         <img class="news__img" src="./images/rustnew.png" alt="афиша rust">
                         <p class="news__text">Новости</p>
                         <h3 class="news__name">Новый Ивент на Rust “Король Горы”</h3>
@@ -359,7 +381,7 @@
             <p class="social__text subtitle">Новости Unite Gaming в социальных сетях</p>
             <div class="social__cards">
                 <div class="social__card">
-                    <a class="social__a" href="#">
+                    <a class="social__a" href="https://www.instagram.com/unite.gaming_tm/">
                         <img class="social__insta" src="./images/logoinsta.png" alt="">
                         <h3 class="social__name">Наш Instagram</h3>
                         <div class="social__image-container">
@@ -371,7 +393,7 @@
                     </a>
                 </div>
                 <div class="social__card">
-                    <a class="social__a" href="#">
+                    <a class="social__a" href="https://icq.im/UniteGaming">
                         <img class="social__insta social__insta_isq" src="./images/isq.png" alt="">
                         <h3 class="social__name social__name_isq">Наш ICQ канал</h3>
                         <div class="social__image-container_isq">
@@ -508,13 +530,13 @@
             <a href="#"><img class="footer__logo" src="./images/logo.svg" alt=""></a>
             <ul class="footer__under-links">
                 <li>
-                    <a class="footer__under-link" href="./pages/terms/terms.html">Terms</a>
+                    <a class="footer__under-link" href="./pages/terms/terms.html">Правила пользования</a>
                 </li>
                 <li>
-                    <a class="footer__under-link" href="./pages/privacy/privacy.html">Privacy</a>
+                    <a class="footer__under-link" href="./pages/privacy/privacy.html">Политика конфиденциальности</a>
                 </li>
                 <li>
-                    <a class="footer__under-link" href="">Cookies</a>
+                    <a class="footer__under-link" href="./pages/suport/suport.html">Контакты</a>
                 </li>
             </ul>
             <div class="footer__social-img">

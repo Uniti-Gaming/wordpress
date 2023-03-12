@@ -3,3 +3,25 @@
     max-width: 1000px;
     margin: 150px auto 0;
 }
+
+@media screen and (max-width:900px) {
+    .server-games {
+        margin: 135px auto 0;
+    }
+
+    .server-games .title {
+        font-size: 60px;
+    }
+    .server-games  .subtitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .server-games .title {
+        font-size: 34px;
+    }
+    .server-games  .subtitle {
+        font-size: 16px;
+    }
+}

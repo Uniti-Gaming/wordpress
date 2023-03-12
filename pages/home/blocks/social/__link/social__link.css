@@ -1,17 +1,25 @@
 .social__link {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 20px;
     letter-spacing: -0.01em;
-    margin: 57px 7px 51px 20px;
+    margin: 68px 7px 51px 28px;
     display: block;
     border-radius: 18px;
-    padding: 4px 10px 4px 18px;
+    padding: 4px 10px;
     box-sizing: border-box;
-    max-width: 195px;
+    max-width: fit-content;
 }
+
+@media screen and (max-width:850px) {
+    .social__link {
+        font-size: 16px;
+        margin: 54px 0 32px 22px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .social__link {
         font-size: 18px;
-        margin: 42px 15px 50px 10px;
+        margin: 42px 0 50px 10px;
     }
 }

@@ -1,10 +1,21 @@
 .voice__img {
     margin: 100px 0 0 188px;
+    transition: all 500ms ease-in-out;
 }
 
 @media screen and (max-width:1000px) {
     .voice__img {
         margin-top: 70px;
         margin-left: calc((100% - 272px) / 2);
+    }
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:570px) {
+        .voice__img {
+            width: 250px;
+            margin-left: calc((100% - 180px) / 2);
+            margin-top: 40px;
+        }
     }
 }

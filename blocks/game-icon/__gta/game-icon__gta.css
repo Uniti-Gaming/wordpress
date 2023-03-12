@@ -6,7 +6,22 @@
     background: #FFFFFF;
     border-radius: 21px;
 }
+
 @media screen and (min-width:1600px) {
     .game-icon__gta {
         right: 152px;
-    }}
+    }
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .game-icon__gta {
+            width: 174px;
+            height: 174px;
+        }
+
+        .game-icon__gta img {
+            width: 153px;
+        }
+    }
+}

@@ -6,7 +6,16 @@
     background: #414141;
     border-radius: 12px;
 }
-@media screen and (min-width:1600px) {
-    .game-icon__garrys-mod {
-        left: 40px;
-    }}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .game-icon__forest {
+            width: 94.5px;
+            height: 94.5px;
+        }
+
+        .game-icon__forest img {
+            width: 84px;
+        }
+    }
+}

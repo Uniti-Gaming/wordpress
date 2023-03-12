@@ -6,3 +6,16 @@
     background: #D1DCEB;
     border-radius: 9px;
 }
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .game-icon__portal {
+            width: 73px;
+            height: 73px;
+        }
+
+        .game-icon__portal img {
+            width: 66px;
+        }
+    }
+}

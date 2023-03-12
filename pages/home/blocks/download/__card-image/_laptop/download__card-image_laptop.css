@@ -3,7 +3,22 @@
     left: 158px;
     top: 301px;
 }
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:1070px) {
+    .download__card-image_laptop {
+        max-width: 77%;
+        left: 33%;
+        top: 295px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .download__card-image_laptop {
+        top: 210px;
+    }
+}
+
+@media screen and (max-width:450px) {
     .download__card-image_laptop {
         width: 250px;
         left: 110px;

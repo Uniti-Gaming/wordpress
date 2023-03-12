@@ -10,6 +10,14 @@
     object-fit: cover;
 }
 
+@media screen and (max-width:850px) {
+    .slider__item img {
+        width: 227px;
+        height: 394px;
+        border-radius: 27px;
+    }
+}
+
 @media screen and (max-width:480px) {
     .slider__item img {
         width: 187px;

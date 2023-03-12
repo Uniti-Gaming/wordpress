@@ -43,11 +43,16 @@
     }
 }
 
+@media screen and (max-width:850px) {
+    .other__card {
+        height: 382px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .other__card {
         width: 335px;
         height: 525px;
-
     }
 
     .other__card a {

@@ -1,7 +1,7 @@
 .header__lang {
     border: 0;
     color: #fff;
-    margin: 0 55px;
+    margin: 0 55px 0 45px;
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
     .header__lang {
         display: none;
     }

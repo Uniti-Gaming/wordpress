@@ -2,6 +2,15 @@
     margin: 44px 0 0 0;
 }
 
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .information__img-1-card {
+            width: 360px;
+            margin: 81px 0 0 -10px;
+        }
+    }
+}
+
 @media screen and (max-width:700px) {
     .information__img-1-card {
         width: 310px;

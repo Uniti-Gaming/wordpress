@@ -6,7 +6,22 @@
     left: 130px;
     top: 330px;
 }
+
 @media screen and (min-width:1600px) {
     .game-icon__warcraft_pandaria {
         left: 240px;
-    }}
+    }
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .game-icon__warcraft_pandaria {
+            width: 160px;
+            height: 160px;
+        }
+
+        .game-icon__warcraft_pandaria img {
+            width: 135px;
+        }
+    }
+}

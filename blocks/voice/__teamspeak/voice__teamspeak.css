@@ -13,3 +13,14 @@
         height: 525px;
     }
 }
+
+@media (any-hover: hover) {
+    .voice__teamspeak:hover img {
+        transform: scale(105%);
+    }
+
+    .voice__teamspeak:hover .voice__download {
+        color: #393942;
+        background-color: #fff;
+    }
+}

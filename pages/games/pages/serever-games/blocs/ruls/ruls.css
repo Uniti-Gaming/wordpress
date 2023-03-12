@@ -3,14 +3,52 @@
     margin-top: 172px;
     margin-bottom: 200px;
 }
+
 .ruls .subtitle {
     margin-bottom: 72px;
 }
+
+.card_behavior .card__textarea {
+    max-width: 474px;
+}
+
+@media screen and (max-width:850px) {
+    .ruls {
+        margin-top: 80px;
+        margin-bottom: 104px;
+    }
+
+    .ruls .subtitle {
+        margin-bottom: 66px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .card_communication .card__textarea {
+            max-width: 301px;
+        }
+
+        .card_nickname .card__textarea {
+            max-width: 313px;
+        }
+
+        .card_fraud .card__textarea {
+            max-width: 323px;
+        }
+
+        .card_behavior .card__textarea {
+            max-width: 360px;
+        }
+    }
+}
+
 
 @media screen and (max-width:700px) {
     .ruls {
         margin-top: 137px;
     }
+
     .ruls .subtitle {
         margin-bottom: 103px;
     }

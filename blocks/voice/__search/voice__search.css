@@ -5,14 +5,27 @@
     position: relative;
     overflow: hidden;
 }
+
 .voice__search a {
     color: #FFFFFF;
     text-decoration-line: none;
     display: block;
 }
+
 @media screen and (max-width:570px) {
     .voice__search {
         grid-column: span 1;
         height: 598px;
+    }
+}
+
+@media (any-hover: hover) {
+    .voice__search:hover .voice__search-img {
+        transform: scale(105%);
+    }
+
+    .voice__search:hover .voice__search-link {
+        color: #393942;
+        background-color: #fff;
     }
 }

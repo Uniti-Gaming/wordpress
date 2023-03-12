@@ -3,36 +3,34 @@
     margin-bottom: 103px;
 }
 
-.cards-for-cms .card__btn-download {
-    position: absolute;
-    width: 159px;
-    transform: none;
-    margin: 0;
-    top: 349px;
-    left: 449px;
-}
-
 .cards-for-cms .card__link {
     margin-top: 85px;
 }
 
-@media screen and (max-width:700px) {
+.card_launcher:hover img {
+    transform: none;
+}
+
+@media screen and (max-width:850px) {
     .cards-for-cms {
         margin-top: 103px;
     }
 
     .cards-for-cms .card__link {
+        margin-top: 118px;
+    }
+
+    .card_collection .card__link {
+        margin-top: 92px;
+    }
+
+    .card_collection .card__textarea {
+        max-width: 301px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .cards-for-cms .card__link {
         margin-top: 20px;
-    }
-
-    .cards-for-cms .card__btn-download {
-        width: 114px;
-        top: 466px;
-        left: -15px;
-    }
-
-    .cards-for-cms .card__name-document {
-        margin-left: 160px;
-        width: 162px;
     }
 }

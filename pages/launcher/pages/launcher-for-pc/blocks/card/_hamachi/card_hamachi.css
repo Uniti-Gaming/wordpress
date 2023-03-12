@@ -1,5 +1,15 @@
 .card_hamachi .card__textarea {
     margin-left: 434px;
+    max-width: 479px;
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .card_hamachi .card__textarea {
+            margin-left: 372px;
+            max-width: 326px;
+        }
+    }
 }
 
 @media screen and (max-width:700px) {

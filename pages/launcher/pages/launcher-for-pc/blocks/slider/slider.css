@@ -87,6 +87,17 @@
     right: 10px;
 }
 
+@media screen and (max-width:850px) {
+    .slider {
+        margin: 60px auto 142px;
+    }
+
+    .slider .slick-arrow {
+        width: 56px;
+        height: 56px;
+    }
+}
+
 @media screen and (max-width:480px) {
     .slider {
         margin: 48px auto 105px;

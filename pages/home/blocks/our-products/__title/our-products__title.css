@@ -1,5 +1,10 @@
 .our-products__title {
     max-width: 861px;
-    padding: 0 20px;
     margin: 0 auto;
+}
+
+@media screen and (max-width:850px) {
+    .our-products__title {
+        max-width: 450px;
+    }
 }

@@ -10,6 +10,12 @@
     text-decoration-line: none;
 }
 
+@media screen and (max-width:850px) {
+    .popular__grid {
+        gap: 60px 32px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .popular__grid {
         gap: 20px 20px;

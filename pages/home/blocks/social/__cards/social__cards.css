@@ -5,9 +5,15 @@
     gap: 20px;
     padding: 0 20px;
 }
-@media screen and (max-width:1009px) {
+
+@media screen and (max-width:850px) {
+    .social__cards {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:700px) {
     .social__cards {
         flex-wrap: wrap;
-        margin-top: 60px;
     }
 }

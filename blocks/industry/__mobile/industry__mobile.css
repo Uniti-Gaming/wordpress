@@ -1,43 +1,131 @@
-.industry__mobile {
-    position: relative;
-    width: 100vw;
-    height: 496px;
-}
-.industry__mobile .game-icon__gta-5 {
-    top: 118px;
-    left: 11%;
-}
-.industry__mobile .game-icon__pubg {
-    top: 76px;
-    right: 9%;
-}
-.industry__mobile .game-icon__portal {
-    top: 236px;
-    left: 30%;
-}
-.industry__mobile .game-icon__minecraft {
-    top: 252px;
-    left: -18px;
-}
-.industry__mobile .game-icon__7days {
-    top: 241px;
-    right: -35px;
-}
-.industry__mobile .game-icon__warcraft3 {
-    top: 273px;
-    right: 22%;
-}
-.industry__mobile .game-icon__forest {
-   top: 393px;
-   right: 14%;
-   left: auto;
-}
-.industry__mobile .game-icon__gta {
-    top: 358px;
-    left: 9%;
-}
-@media screen and (min-width:700px) {
+@media screen and (min-width:850px) {
     .industry__mobile {
         display: none;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .industry__mobile {
+        position: relative;
+        width: 100vw;
+        height: 670px;
+    }
+
+    .industry__mobile .game-icon__rust {
+        top: 582px;
+        right: 10%;
+    }
+
+    .industry__mobile .game-icon__left-4-dead {
+        top: 375px;
+        right: -12px;
+        left: auto;
+    }
+
+    .industry__mobile .game-icon__warcraft_pandaria {
+        top: 172px;
+        right: 9%;
+        left: auto;
+    }
+
+    .industry__mobile .game-icon__garrys-mod {
+        top: 490px;
+        right: 26%;
+        left: auto;
+    }
+
+    .industry__mobile .game-icon__gta-5 {
+        top: 185px;
+        left: 9%;
+    }
+
+    .industry__mobile .game-icon__pubg {
+        top: 132px;
+        right: 45%;
+    }
+
+    .industry__mobile .game-icon__portal {
+        top: 333px;
+        left: 19%;
+    }
+
+    .industry__mobile .game-icon__minecraft {
+        top: 354px;
+        left: -18px;
+    }
+
+    .industry__mobile .game-icon__7days {
+        top: 340px;
+        right: 32%;
+    }
+
+    .industry__mobile .game-icon__warcraft3 {
+        top: 380px;
+        right: 52%;
+    }
+
+    .industry__mobile .game-icon__forest {
+        top: 531px;
+        right: 46%;
+        left: auto;
+    }
+
+    .industry__mobile .game-icon__gta {
+        top: 487px;
+        left: 7%;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .industry__mobile {
+        height: 496px;
+    }
+
+    .industry__mobile .game-icon__rust,
+    .industry__mobile .game-icon__left-4-dead,
+    .industry__mobile .game-icon__warcraft_pandaria,
+    .industry__mobile .game-icon__garrys-mod {
+        display: none;
+    }
+
+    .industry__mobile .game-icon__gta-5 {
+        top: 118px;
+        left: 11%;
+    }
+
+    .industry__mobile .game-icon__pubg {
+        top: 76px;
+        right: 9%;
+    }
+
+    .industry__mobile .game-icon__portal {
+        top: 236px;
+        left: 30%;
+    }
+
+    .industry__mobile .game-icon__minecraft {
+        top: 252px;
+        left: -18px;
+    }
+
+    .industry__mobile .game-icon__7days {
+        top: 241px;
+        right: -35px;
+    }
+
+    .industry__mobile .game-icon__warcraft3 {
+        top: 273px;
+        right: 22%;
+    }
+
+    .industry__mobile .game-icon__forest {
+        top: 393px;
+        right: 14%;
+    }
+
+    .industry__mobile .game-icon__gta {
+        top: 358px;
+        left: 9%;
     }
 }

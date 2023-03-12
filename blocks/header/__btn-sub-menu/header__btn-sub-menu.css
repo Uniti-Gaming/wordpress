@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
     .header__btn-sub-menu {
         display: block;
     }

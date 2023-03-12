@@ -7,7 +7,15 @@
     right: 0;
     bottom: 0;
     top: 0;
+    transition: all 500ms ease-in-out;
 }
+
+@media screen and (max-width:850px) {
+    .suport__img {
+        width: 88%;
+    }
+}
+
 @media screen and (max-width:550px) {
     .suport__img {
         background-image: url(../../../images/suport-phone.png);

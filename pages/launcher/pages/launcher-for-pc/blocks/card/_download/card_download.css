@@ -1,5 +1,35 @@
+.card_download .card__textarea {
+    max-width: 500px;
+}
+
+.card_download .card__title {
+    max-width: 450px;
+}
+
+.card_download .card__text {
+    letter-spacing: -0.005em;
+}
+
+.card_download .card__image {
+    margin: 57px 0 0 45px;
+    width: 388px;
+}
+
+@media screen and (max-width:850px) {
+    .card_download .card__image {
+        margin: 86px 0 0 32px;
+        width: 311.5px;
+    }
+}
+
 @media screen and (max-width:700px) {
-    .card_download .card__img-area{
-        margin-left: calc((100% - 330px)/2);
+    .card_download .card__image {
+        margin: 96px 0 0 calc((100% - 290px)/2);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .card_download .card__image {
+        width: 290px;
     }
 }

@@ -1,11 +1,28 @@
 .card__img_launcher {
-    margin: -5px 0 0 50px;
+    margin-right: 53px;
+    align-self: flex-end;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (min-width:850px) {
     .card__img_launcher {
-        width: 245px;
-        margin-left: 70px;
-        margin-bottom: -5px;
+        width: 470px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .card__img_launcher {
+        position: absolute;
+        bottom: 0;
+        right: 41px;
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .card__img_launcher {
+        width: 337px;
+        right: 13px;
     }
 }

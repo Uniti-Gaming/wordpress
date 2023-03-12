@@ -1,6 +1,11 @@
 .download {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+@media screen and (max-width:700px) {
+    .download {
+        flex-wrap: wrap;
+    }
 }

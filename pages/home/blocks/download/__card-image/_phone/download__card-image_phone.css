@@ -1,20 +1,38 @@
 .download__card-image_phone {
     position: absolute;
 }
+
 .download__card-image_phone:first-of-type {
     right: -15px;
     bottom: -5px;
 }
+
 .download__card-image_phone:last-of-type {
     right: 67px;
     bottom: 45px;
 }
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:850px) {
+    .download__card-image_phone:last-of-type {
+        right: 57px;
+        bottom: 50px;
+        width: 140px;
+    }
+
+    .download__card-image_phone:first-of-type {
+        right: 0;
+        bottom: 15px;
+        width: 155px;
+    }
+}
+
+@media screen and (max-width:700px) {
     .download__card-image_phone:last-of-type {
         right: 47px;
         bottom: 63px;
         width: 145px;
     }
+
     .download__card-image_phone:first-of-type {
         right: -8px;
         bottom: 29px;

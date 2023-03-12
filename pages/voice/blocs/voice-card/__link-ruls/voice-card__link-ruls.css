@@ -1,6 +1,13 @@
 .voice-card__link-ruls {
     margin-top: 69px;
 }
+
+@media screen and (max-width:850px) {
+    .voice-card__link-ruls {
+        margin-top: 74px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .voice-card__link-ruls {
         margin-top: 20px;

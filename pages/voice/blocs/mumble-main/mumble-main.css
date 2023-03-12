@@ -6,11 +6,19 @@
     max-width: 320px;
     margin: 24px auto 0;
 }
+
+.information {
+    padding: 0 20px;
+}
+
+@media screen and (max-width:850px) {
+    .mumble-main {
+        margin: 201px auto 138px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .mumble-main {
         margin: 130px auto 97px;
     }
-}
-.information {
-    padding: 0 20px;
 }

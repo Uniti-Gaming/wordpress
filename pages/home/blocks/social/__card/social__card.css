@@ -30,6 +30,12 @@
     }
 }
 
+@media screen and (max-width:850px) {
+    .social__card {
+        height: 504px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .social__card {
         width: 335px;

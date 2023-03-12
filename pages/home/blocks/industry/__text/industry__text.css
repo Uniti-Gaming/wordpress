@@ -1,5 +1,10 @@
 .industry__text {
-    padding: 0 20px;
     margin: 24px auto 0;
     max-width: 586px;
+}
+
+@media screen and (max-width:850px) {
+    .industry__text {
+        max-width: 530px;
+    }
 }

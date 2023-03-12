@@ -3,13 +3,22 @@
     display: block;
     background: #232229;
     border-radius: 24px;
-    text-decoration-line: none;
-    color: #fff;
     padding-bottom: 40px;
     overflow: hidden;
+}
+
+.news__card a {
+    text-decoration-line: none;
+    color: #fff;
 }
 
 .news__card:hover span {
     color: #232229;
     background-color: #fff;
+}
+
+@media screen and (max-width:1070px) {
+    .news__card {
+        width: 100%;
+    }
 }

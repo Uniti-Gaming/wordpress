@@ -7,7 +7,7 @@
     padding: 0 20px;
     row-gap: 20px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
     .footer__under {
         flex-wrap: wrap;
     }

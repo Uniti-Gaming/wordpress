@@ -1,17 +1,32 @@
 .card__link_partners {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 20px;
     letter-spacing: -0.01em;
     text-decoration-line: none;
     color: #FFFFFF;
-    margin: 114px 20px 0;
+    margin: 163px 28px 0;
     display: inline-block;
     border-radius: 18px;
-    padding: 4px 14px 4px 18px;
+    padding: 4px 10px;
 }
+
+@media screen and (max-width:850px) {
+    .card__link_partners {
+        margin: 126px 0 0 22px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .card__link_partners {
+        margin-top: 95px;
+    }
+}
+
+
 @media screen and (max-width:700px) {
     .card__link_partners {
-        margin: 6px;
+        margin: 16px;
         font-size: 18px;
     }
 }

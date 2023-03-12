@@ -5,9 +5,15 @@
     margin: 38px 0 0 38px;
 }
 
-@media screen and (max-width:570px) {
+@media screen and (max-width:850px) {
     .voice__name {
         font-size: 28px;
+        margin: 28px 0 0 28px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .voice__name {
         margin: 32px 0 0 24px;
     }
 }

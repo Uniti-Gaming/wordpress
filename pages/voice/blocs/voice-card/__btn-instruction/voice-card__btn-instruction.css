@@ -12,7 +12,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 800;
 }
+
+@media screen and (max-width:850px) {
+    .voice-card__btn-instruction {
+        margin: 78px 101px 19px 92px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .voice-card__btn-instruction {
         margin: 39px 0 28px 50px;

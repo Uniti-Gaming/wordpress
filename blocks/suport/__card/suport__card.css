@@ -8,9 +8,26 @@
     overflow: hidden;
 }
 
+@media screen and (max-width:850px) {
+    .suport__card {
+        height: 450px;
+        margin-top: 80px;
+    }
+}
+
 @media screen and (max-width:550px) {
     .suport__card {
         height: 598px;
-        margin-top: 80px;
+    }
+}
+
+@media (any-hover: hover) {
+    .suport__card:hover .suport__img {
+        transform: scale(105%);
+    }
+
+    .suport__card:hover .suport__link {
+        color: #393942;
+        background-color: #fff;
     }
 }

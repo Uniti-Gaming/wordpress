@@ -18,6 +18,17 @@
     color: #fff;
 }
 
+@media screen and (max-width:850px) {
+    .server-games__name {
+        border-bottom-right-radius: 27px;
+        border-bottom-left-radius: 27px;
+        width: 227px;
+        top: 303px;
+        font-size: 32px;
+        height: 92px;
+    }
+}
+
 @media screen and (max-width:480px) {
     .server-games__name {
         border-bottom-right-radius: 22px;

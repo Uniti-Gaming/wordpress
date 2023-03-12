@@ -9,6 +9,7 @@
 
 @media screen and (max-width:1009px) {
     .our-products__card-title {
-        font-size: 34px;
+        margin: 0 32px;
+        font-size: 28px;
     }
 }

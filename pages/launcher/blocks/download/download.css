@@ -3,14 +3,32 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 66px;
-    overflow: hidden;
 }
 
 .download .game-icon__container {
     margin: 142px 0 100px;
 }
 
-@media screen and (min-width:700px) {
+@media screen and (max-width:1300px) {
+    .download .game-icon__container:first-of-type {
+        margin-left: calc((100vw - 1300px) / 2);
+    }
+
+    .download .game-icon__container:last-of-type {
+        margin-right: calc((100vw - 1300px) / 2);
+    }
+}
+@media screen and (max-width:1000px) {
+    .download .game-icon__container:first-of-type {
+        margin-left: -150px;
+    }
+
+    .download .game-icon__container:last-of-type {
+        margin-right: -150px;
+    }
+}
+
+@media screen and (min-width:850px) {
     .download .game-icon__warcraft_pandaria {
         top: 150px;
     }
@@ -74,9 +92,9 @@
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:850px) {
     .download {
         flex-direction: column;
-        gap: 124.5px;
+        gap: 111px;
     }
 }

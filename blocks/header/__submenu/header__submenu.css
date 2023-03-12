@@ -11,7 +11,7 @@
     gap: 14px;
     display: none;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
     .header__submenu {
         width: 100vw;
         height: auto;

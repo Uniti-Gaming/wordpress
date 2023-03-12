@@ -6,7 +6,9 @@
     background: #FFFFFF;
     border-radius: 22px;
 }
+
 @media screen and (min-width:1600px) {
     .game-icon__left-4-dead {
         left: 0;
-    }}
+    }
+}

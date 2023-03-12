@@ -14,11 +14,11 @@
     top: 23px;
     left: 0;
 }
-@media screen and (min-width:800px) {
+@media screen and (min-width:850px) {
 .header__menu li:hover .header__submenu {
     display: flex;
 }}
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
     .header__menu {
         display: block;
     }

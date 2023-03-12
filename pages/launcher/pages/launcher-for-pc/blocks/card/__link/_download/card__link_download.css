@@ -1,5 +1,12 @@
 .card__link_download {
-    margin-top: 85px;
+    margin-top: 127px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:850px) {
+    .card__link_download {
+        margin-top: 139px;
+    }
 }
 
 @media screen and (max-width:700px) {

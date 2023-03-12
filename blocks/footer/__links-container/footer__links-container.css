@@ -9,13 +9,21 @@
 }
 @media screen and (max-width:850px) {
     .footer__links-container {
-        flex-wrap: wrap;
-        row-gap: 50px;
+        gap: 64px;
+        justify-content: space-between;
     }
 }
+
+@media screen and (max-width:700px) {
+    .footer__links-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width:400px) {
     .footer__links-container {
-        column-gap: 0;
         justify-content: space-between;
+        column-gap: 0;
     }
 }

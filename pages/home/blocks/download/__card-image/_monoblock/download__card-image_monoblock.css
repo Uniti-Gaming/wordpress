@@ -4,7 +4,20 @@
     top: 238px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1070px) {
+    .download__card-image_monoblock {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .download__card-image_monoblock {
+        top: 166px;
+        left: 26px;
+    }
+}
+
+@media screen and (max-width:450px) {
     .download__card-image_monoblock {
         width: 225px;
         top: 245px;

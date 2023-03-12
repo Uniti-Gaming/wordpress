@@ -9,6 +9,12 @@
 
 @media screen and (max-width:900px) {
     .title {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .title {
         font-size: 34px;
     }
 }

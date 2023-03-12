@@ -1,16 +1,17 @@
 .our-products__card-text {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
     margin: 20px 38px 0;
-    max-width: 400px;
+    max-width: 335px;
     position: relative;
     z-index: 1;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     .our-products__card-text {
+        margin: 20px 32px 0;
         font-size: 16px;
-        max-width: 213px;
+        max-width: 264px;
         line-height: 22px;
     }
 }

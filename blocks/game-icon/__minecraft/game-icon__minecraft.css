@@ -6,3 +6,17 @@
     background: #FF6F6F;
     border-radius: 13.1199px;
 }
+
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .game-icon__minecraft {
+            width: 107px;
+            height: 107px;
+        }
+
+        .game-icon__minecraft img {
+            width: 85px;
+        }
+    }
+}

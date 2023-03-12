@@ -3,6 +3,14 @@
     align-items: flex-end;
     margin: 47px 27px 0 0;
 }
+
+@media screen and (max-width:850px) {
+    .social__image-container_isq {
+        justify-content: space-between;
+        margin: 10px 20px 0 0;
+    }
+}
+
 @media screen and (max-width:700px) {
     .social__image-container_isq {
         margin: 33px 18px 0 0;

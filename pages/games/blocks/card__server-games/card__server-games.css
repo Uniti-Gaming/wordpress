@@ -10,6 +10,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    transition: all 500ms ease-in-out;
 }
 
 .card__server-games .card__textarea {
@@ -20,10 +21,27 @@
     margin: 159px 0 0;
 }
 
-@media screen and (max-width:700px) {
+@media (any-hover: hover) {
+    .card:hover .card__image {
+        transform: scale(105%);
+    }
+
+    .card:hover .card__link {
+        color: #393942;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width:1040px) {
     .card__server-games {
         margin: 40px 20px;
     }
+    .card__server-games .card__image {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:700px) {
 
     .card__server-games .card__image {
         background-image: url(../../../../images/server-games/community-phone.png);

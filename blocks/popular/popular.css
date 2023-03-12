@@ -2,3 +2,9 @@
     padding: 0 20px;
     margin-bottom: 172px;
 }
+
+@media screen and (max-width:850px) {
+    .popular {
+        margin-bottom: 120px;
+    }
+}

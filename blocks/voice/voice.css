@@ -3,13 +3,16 @@
     margin-bottom: 172px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:850px) {
     .voice {
-        margin-bottom: 80px;
+        margin-bottom: 72px;
     }
 }
 
 @media screen and (max-width:450px) {
+    .voice {
+        margin-bottom: 80px;
+    }
     .voice .subtitle{
         width: 250px;
         margin: 24px auto 0;

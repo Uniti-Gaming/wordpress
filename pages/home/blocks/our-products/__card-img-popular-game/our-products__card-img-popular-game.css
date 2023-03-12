@@ -13,7 +13,6 @@
         background-image: url(../../../../../images/popular-game-phone.png);
         width: 100%;
         height: 285px;
-        position: static;
-        margin-top: 25px;
+        top: auto;
     }
 }

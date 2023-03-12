@@ -9,6 +9,8 @@
     color: #FFFFFF;
     text-decoration-line: none;
     display: block;
+    padding-top: 140px;
+
 }
 
 @media (any-hover: hover) {
@@ -33,8 +35,17 @@
     }
 }
 
+@media screen and (max-width:850px) {
+    .our-products__card {
+        padding-top: 80px;
+        height: 381px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .our-products__card {
         max-width: 490px;
+        padding-top: 32px;
+        height: 525px;
     }
 }

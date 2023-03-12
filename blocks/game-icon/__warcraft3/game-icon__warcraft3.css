@@ -6,7 +6,22 @@
     background: #FFFFFF;
     border-radius: 14px;
 }
+
 @media screen and (min-width:1600px) {
     .game-icon__warcraft3 {
         right: 234px;
-    }}
+    }
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .game-icon__warcraft3 {
+            width: 113px;
+            height: 113px;
+        }
+
+        .game-icon__warcraft3 img {
+            width: 90px;
+        }
+    }
+}

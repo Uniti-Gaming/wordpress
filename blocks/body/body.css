@@ -7,3 +7,7 @@
 .body.lock {
     overflow: hidden;
 }
+
+main {
+    overflow: hidden;
+}

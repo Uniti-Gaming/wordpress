@@ -8,7 +8,26 @@
     overflow: hidden;
 }
 
+.card img {
+    transition: all 500ms ease-in-out;
+}
+
+@media (any-hover: hover) {
+    .card:hover img {
+        transform: scale(105%);
+    }
+    .card__without-link:hover img {
+        transform: none;
+    }
+    .card:hover .card__link {
+        color: #393942;
+        background-color: #fff;
+    }
+}
+
 .card a {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -20,6 +39,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+@media screen and (max-width:850px) {
+    .card {
+        height: 450px;
+    }
 }
 
 @media screen and (max-width:700px) {

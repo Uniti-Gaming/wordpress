@@ -1,12 +1,12 @@
 .voice-card__list-ip {
     font-weight: 600;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 27px;
     margin: 0;
     padding: 0 0 0 30px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:850px) {
     .voice-card__list-ip {
         font-size: 16px;
         line-height: 22px;

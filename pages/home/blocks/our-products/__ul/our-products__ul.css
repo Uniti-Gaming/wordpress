@@ -3,7 +3,22 @@
     padding: 0;
     margin: 109px 0 140px;
     display: flex;
-    flex-wrap: wrap;
     gap: 13px;
     justify-content: center;
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .our-products__ul {
+            justify-content: space-between;
+            margin: 69px 0 96px;
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .our-products__ul {
+        flex-wrap: wrap;
+        margin: 74px 0 120px;
+    }
 }

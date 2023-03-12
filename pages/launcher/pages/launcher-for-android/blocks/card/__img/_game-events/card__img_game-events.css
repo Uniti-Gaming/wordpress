@@ -1,9 +1,17 @@
 .card__img_game-events {
     margin: 84px 0 0 114px;
 }
+
+@media screen and (max-width:850px) {
+    .card__img_game-events {
+        max-width: 280px;
+        margin: 125px 0 0 85px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .card__img_game-events {
-        width: 260px;
-        margin: 65px 0 0 calc((100% - 210px)/2);
+        height: 300px;
+        margin: 65px 0 0 calc((100% - 205px)/2);
     }
 }

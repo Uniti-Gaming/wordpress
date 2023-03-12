@@ -1,6 +1,27 @@
 .voice-card_ruls .card__textarea {
     max-width: 490px;
 }
+
+.card_ip:hover img {
+    transform: none;
+}
+
+@media (any-hover: hover) {
+    .card_instruction:hover .voice-card__img-conteiner {
+        transform: scale(105%);
+    }
+    .card_instruction:hover img {
+        transform: none;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .voice-card .card__textarea{
+        max-width: 312px;
+    }
+}
+
 @media screen and (max-width:700px) {
     .voice-card .card__textarea{
         max-width: 291px;

@@ -4,3 +4,15 @@
     color: #FFFFFF;
     text-decoration-line: none;
 }
+
+@media screen and (max-width:850px) {
+    .footer__under-link {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .footer__under-link {
+        font-size: 10px;
+    }
+}

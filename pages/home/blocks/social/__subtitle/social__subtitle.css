@@ -3,10 +3,18 @@
     font-weight: 800;
     font-size: 22px;
     text-align: center;
+    color: #A1A1A1;
 }
+
+@media screen and (max-width:850px) {
+    .social__subtitle {
+        margin-top: 120px;
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width:1009px) {
     .social__subtitle {
         margin-top: 85px;
-        font-size: 16px;
     }
 }
