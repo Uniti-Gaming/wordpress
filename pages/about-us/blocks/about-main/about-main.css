@@ -1,15 +1,15 @@
 .about-main {
-    padding: 266px 20px 100px;
+    padding: 266px 20px 0;
 }
 
 @media screen and (max-width:850px) {
     .about-main {
-        padding: 219px 20px 80px;
+        padding: 219px 20px 0;
     }
 }
 
 @media screen and (max-width:430px) {
     .about-main {
-        padding: 130px 20px 116px;
+        padding: 130px 20px 0;
     }
 }
