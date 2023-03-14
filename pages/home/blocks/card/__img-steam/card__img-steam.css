@@ -10,3 +10,9 @@
 
     }
 }
+
+@media screen and (max-width:350px) {
+    .card__img-steam {
+        margin-left: 14px;
+    }
+}

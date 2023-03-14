@@ -89,3 +89,9 @@
         margin-bottom: 22px;
     }
 }
+
+@media screen and (max-width:350px) {
+    .contacts__article {
+        height: 550px;
+    }
+}

@@ -12,13 +12,13 @@
 
 .programs__background {
     background: linear-gradient(231.81deg, #150B2B 0%, #311861 101.64%);
-    width: 310px;
+    width: 100%;
     height: 270px;
 }
 
 .programs__icon {
     background-image: url(../../../images/programs/background.png);
-    width: 310px;
+    width: 100%;
     height: 270px;
     background-size: cover;
     display: flex;

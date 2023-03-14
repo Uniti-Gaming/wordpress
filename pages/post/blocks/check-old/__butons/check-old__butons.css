@@ -9,7 +9,7 @@
     cursor: no-drop;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:850px) {
     .check-old__butons {
         margin-top: 40px;
     }

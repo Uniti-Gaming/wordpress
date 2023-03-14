@@ -17,3 +17,9 @@
         width: 192px;
     }
 }
+
+@media screen and (max-width:350px) {
+    .card__img-battle {
+        margin-left: 43px;
+    }
+}

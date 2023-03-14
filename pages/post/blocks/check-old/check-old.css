@@ -8,8 +8,14 @@
     display: none;
 }
 
+@media screen and (max-width:850px) {
+    .check-old {
+        padding: 150px 47px 0;
+    }
+}
+
 @media screen and (max-width:450px) {
     .check-old {
-        padding-top: 130px;
+        padding: 130px 19px 0;
     }
 }

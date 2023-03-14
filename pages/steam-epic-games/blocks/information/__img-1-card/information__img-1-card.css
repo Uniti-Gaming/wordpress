@@ -16,3 +16,10 @@
         width: 310px;
     }
 }
+
+@media screen and (max-width:360px) {
+    .information__img-1-card {
+        margin-top: 20px;
+        width: 93%;
+    }
+}

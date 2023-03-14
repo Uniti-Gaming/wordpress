@@ -18,6 +18,18 @@
     max-width: 1000px;
 }
 
+@media screen and (max-width:850px) {
+    .check-old__warning {
+        font-size: 16px;
+    }
+    
+    .check-old__warning_blod {
+        max-width: 640px;
+        font-size: 28px;
+    }
+}
+
+
 @media screen and (max-width:450px) {
     .check-old__warning_blod {
         font-size: 28px;

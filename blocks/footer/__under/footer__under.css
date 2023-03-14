@@ -12,3 +12,8 @@
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width:370px) {
+    .footer__under {
+        padding: 0 10px;
+    }
+}

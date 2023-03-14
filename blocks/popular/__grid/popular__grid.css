@@ -19,6 +19,7 @@
 
 @media screen and (max-width:450px) {
     .popular__grid {
+        grid-template-columns: 100%;
         gap: 20px 20px;
     }
 }
