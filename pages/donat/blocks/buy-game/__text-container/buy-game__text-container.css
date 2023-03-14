@@ -7,9 +7,16 @@
     margin-right: 14px;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:850px) {
     .buy-game__text-container {
         order: -1;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .buy-game__text-container {
         max-width: 300px;
         margin-left: 22px;
     }

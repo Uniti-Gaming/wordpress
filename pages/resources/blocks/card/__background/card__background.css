@@ -2,9 +2,22 @@
     margin: 137px 36px 0 81px;
 }
 
-@media screen and (min-width:900px) {
+.card__background .card__link {
+    margin-top: 147px;
+}
+
+@media screen and (max-width:850px) {
     .card__background .card__link {
-        margin-top: 147px;
+        margin-top: 128px;
+    }
+
+    .card__background .card__image {
+        width: 256px;
+        margin: 158px 22px 0 62px;
+    }
+
+    .card__background .card__textarea {
+        max-width: 300px;
     }
 }
 
@@ -13,8 +26,9 @@
         margin-top: 34px;
         margin-bottom: 0;
     }
+
     .card__background .card__image {
         width: 247px;
         margin: 126px 0 0 calc((100% - 247px)/2);
     }
-}    
+}

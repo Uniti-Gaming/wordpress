@@ -54,6 +54,29 @@
     list-style: none;
 }
 
+@media screen and (max-width:850px) {
+    .terms {
+        padding: 175px 40px 129px;
+    }
+    
+    .terms .subtitle {
+        max-width: 406px;
+        margin: 24px auto 0;
+    }
+
+    .terms__content {
+        margin-top: 120px;
+    }
+    
+    .terms__content h2 {
+        font-size: 38px;
+    }
+    
+    .terms__list {
+        margin-bottom: 96px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .terms {
         padding: 130px 45px 74px;

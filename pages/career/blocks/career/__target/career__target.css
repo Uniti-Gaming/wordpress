@@ -5,12 +5,29 @@
     height: 413px;
 }
 
+@media screen and (max-width:850px) {
+    .career__target .card__image {
+        bottom: 38px;
+        left: 10px;
+        width: 340px;
+        height: 380px;
+    }
+
+    .career__target .card__textarea {
+        max-width: 305px;
+        margin-left: 45%;
+    }
+}
+
 @media screen and (max-width:450px) {
     .career__target .card__image {
         bottom: 12.5px;
         left: calc((100% - 235px)/2);
         width: 235px;
         height: 255px;
+    }
+    .career__target .card__textarea {
+        margin-left: 0;
     }
 }
 

@@ -87,6 +87,47 @@
     color: #A1A1A1;
 }
 
+@media screen and (max-width:850px) {
+    .privacy {
+        padding: 175px 20px 125px;
+    }
+
+    .privacy .title {
+        font-size: 38px;
+        max-width: 510px;
+    }
+
+    .privacy .subtitle {
+        max-width: 365px;
+    }
+
+    .privacy .card {
+        margin-top: 80px;
+    }
+
+    .privacy .card__textarea {
+        max-width: 330px;
+    }
+
+    .privacy .card__image {
+        width: 270px;
+        margin: 77px 0 0 40px;
+    }
+
+    .privacy__content {
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+
+    .privacy__content h2 {
+        font-size: 38px;
+    }
+
+    .privacy__list {
+        margin-bottom: 96px;
+    }
+}
+
 @media screen and (max-width:450px) {
 
     .privacy {
@@ -110,7 +151,6 @@
     }
 
     .privacy .card__image {
-        width: 270px;
         margin: 24px 0 0 calc((100% - 270px)/2);
     }
 

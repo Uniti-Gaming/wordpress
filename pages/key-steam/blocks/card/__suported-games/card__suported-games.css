@@ -7,6 +7,18 @@
 .card__suported-games .card__image {
     margin: 55px 0 0 15px;
 }
+
+@media screen and (max-width:850px) {
+    .card__suported-games .card__textarea {
+        max-width: 336px;
+    }
+
+    .card__suported-games .card__image {
+        width: 380px;
+        margin: 90px 0 0 -40px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .card__suported-games .card__image {
         width: 300px;

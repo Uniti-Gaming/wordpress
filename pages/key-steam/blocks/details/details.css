@@ -11,6 +11,17 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width:850px) {
+    .details {
+        margin-bottom: 165px;
+    }
+
+    .details .subtitle {
+        margin-bottom: 54px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .details {
         margin-bottom: 69px;

@@ -8,6 +8,16 @@
     margin: 65px 65px 0 95px;
 }
 
+@media screen and (max-width:850px) {
+    .card__important .card__image {
+        width: 272px;
+        margin: 65px 20px 0 49px;
+    }
+    .card__important .card__textarea {
+        max-width: 315px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .card__important .card__image {
         width: 202px;

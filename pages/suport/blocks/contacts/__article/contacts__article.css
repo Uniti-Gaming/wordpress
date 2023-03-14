@@ -52,6 +52,28 @@
     margin-bottom: 24px;
     display: block;
 }
+
+@media screen and (max-width:850px) {
+    .contacts__article {
+        height: 490px;
+    }
+    .contacts__article_isq img {
+        width: 266px;
+    }
+    .contacts__article_phone img {
+        width: 236px;
+    }
+    .contacts__article h5 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .contacts__article p,
+    .contacts__article a {
+        line-height: 22px;
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .contacts__article {
         width: 100%;
@@ -64,10 +86,6 @@
         width: 276px;
     }
     .contacts__article h5 {
-        font-size: 28px;
         margin-bottom: 22px;
-    }
-    .contacts__article p, .contacts__article a {
-        font-size: 16px;
     }
 }

@@ -1,0 +1,11 @@
+.item {}
+
+.item .item__name {
+    margin-top: 24px;
+    height: 52px;
+}
+
+.item:hover span {
+    color: #232229;
+    background-color: #fff;
+}

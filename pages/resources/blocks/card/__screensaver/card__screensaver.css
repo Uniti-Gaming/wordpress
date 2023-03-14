@@ -12,9 +12,29 @@
     top: 145px;
 }
 
-@media screen and (min-width:900px) {
+.card__screensaver .card__link {
+    margin-top: 147px;
+}
+
+@media screen and (max-width:850px) {
     .card__screensaver .card__link {
-        margin-top: 147px;
+        margin-top: 146px;
+    }
+
+    .card__screensaver .card__textarea {
+        max-width: 330px;
+    }
+
+    .card__screensaver .card__image_phone {
+        width: 155px;
+        left: 555px;
+        top: 120px;
+    }
+    
+    .card__screensaver .card__image_laptop {
+        width: 385px;
+        left: 310px;
+        top: 160px;
     }
 }
 

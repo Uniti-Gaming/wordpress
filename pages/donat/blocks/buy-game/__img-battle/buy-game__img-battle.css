@@ -3,7 +3,14 @@
     height: 44px;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:850px) {
+    .buy-game__img-battle {
+        width: 221px;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width:500px) {
     .buy-game__img-battle {
         width: 129px;
         height: 28px;

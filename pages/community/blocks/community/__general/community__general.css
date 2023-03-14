@@ -15,6 +15,21 @@
     margin-top: 129px;
 }
 
+@media screen and (max-width:850px) {
+    .community__general .card__textarea {
+        max-width: 300px;
+    }
+
+    .community__general .card__link {
+        margin-top: 150px;
+    }
+
+    .community__general .card__image {
+        width: 505px;
+        top: 81px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .community__general .card__link {
         margin-top: 20px;

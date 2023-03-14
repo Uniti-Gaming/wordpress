@@ -1,9 +1,51 @@
 .career {
     padding: 250px 20px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.career .subtitle {
+    margin: 24px auto;
+}
+
+.career .card_serch .card__textarea {
+    max-width: 495px;
+}
+
+.career .card_serch .card__link {
+    margin-top: 100px;
+}
+
+@media (any-hover: hover) {
+    .career .card_serch:hover .card__image_serch {
+        transform: scale(105%);
+    }
+}
+
+@media screen and (max-width:850px) {
+    .career {
+        padding: 135px 20px 120px;
+    }
+
+    .career .card_team .card__textarea {
+        max-width: 300px;
+    }
+
+    .career .card_serch .card__textarea {
+        max-width: 315px;
+    }
+
+    .career .card_serch .card__link {
+        margin-top: 74px;
+    }
 }
 
 @media screen and (max-width:450px) {
     .career {
         padding: 130px 20px 58px;
+    }
+    .career .card_serch .card__link {
+        margin-top: 24px;
     }
 }

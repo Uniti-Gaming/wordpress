@@ -2,9 +2,22 @@
     margin: 124px 0 0 156px;
 }
 
-@media screen and (min-width:900px) {
+.card__logo .card__link {
+    margin-top: 123px;
+}
+
+@media screen and (max-width:850px) {
     .card__logo .card__link {
-        margin-top: 123px;
+        margin-top: 128px;
+    }
+
+    .card__logo .card__textarea {
+        max-width: 300px;
+    }
+
+    .card__logo .card__image {
+        width: 297px;
+        margin: 124px 0 0 58px;
     }
 }
 

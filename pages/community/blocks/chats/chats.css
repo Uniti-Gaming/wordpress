@@ -1,9 +1,9 @@
 .chats {
     max-width: 1064px;
-    margin: 0 auto;
+    margin: 0 auto 160px;
 }
 
-.chats .news__list {
+.chats .popular__grid {
     margin-top: 72px;
 }
 
@@ -19,4 +19,24 @@
 .chats .news__name {
     margin-top: 25px;
     height: 78px;
+}
+
+@media screen and (max-width:850px) {
+    .chats {
+        margin: 0 auto 120px;
+    }
+
+    .chats .popular__grid {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .chats {
+        margin: 0 auto 60px;
+    }
+
+    .chats .popular__grid {
+        margin-top: 88px;
+    }
 }

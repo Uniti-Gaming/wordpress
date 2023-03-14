@@ -5,10 +5,17 @@
     margin: 172px auto 310px;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:850px) {
+    .buy-game {
+        margin: 153px auto 146.5px;
+        flex-direction: column;
+        gap: 87px;
+    }
+}
+
+@media screen and (max-width:500px) {
     .buy-game {
         margin: 131px auto 122.5px;
-        flex-direction: column;
         gap: 32px;
     }
 }

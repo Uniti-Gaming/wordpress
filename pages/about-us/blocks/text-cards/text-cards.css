@@ -26,9 +26,26 @@
 }
 
 .text-cards .card__text {
+    margin-left: 0;
     margin-top: 21px;
     line-height: 24px;
     max-width: 252px;
+}
+
+@media screen and (max-width:850px) {
+    .text-cards {
+        gap: 32px;
+    }
+
+    .text-cards h6 {
+        font-size: 20px;
+    }
+
+    .text-cards li {
+        padding: 24px 9px 0 24px;
+        width: 30%;
+        height: 374px;
+    }
 }
 
 @media screen and (max-width:430px) {

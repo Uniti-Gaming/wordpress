@@ -1,6 +1,13 @@
 .community__list {
-    margin: 82px 0 0;
+    margin: 263px 0 0;
     padding: 0 20px;
+    list-style: none;
+}
+
+@media screen and (max-width:850px) {
+    .community__list {
+        margin-top: 154px;
+    }
 }
 
 @media screen and (max-width:450px) {

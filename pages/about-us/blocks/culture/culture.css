@@ -19,13 +19,38 @@
 }
 
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:850px) {
     .culture .card__textarea {
         max-width: 512px;
     }
 
     .culture .card__text {
         max-width: 394px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .culture  {
+        margin-bottom: 104px;
+    }
+
+    .culture .subtitle {
+        margin-bottom: 60px;
+        max-width: 467px;
+    }
+
+    .culture .card__image {
+        width: 600px;
+    }
+
+    @media screen and (min-width:700px) {
+        .culture .card__textarea {
+            max-width: 400px;
+        }
+    
+        .culture .card__text {
+            max-width: 365px;
+        }
     }
 }
 

@@ -1,5 +1,5 @@
  .card__image {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     position: absolute;
@@ -14,15 +14,19 @@
 }
 
 .card__image_serch {
+    background-position: left;
+    transition: all 500ms ease-in-out;
     background-image: url(../../../../../images/career/search.png);
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:700px) {
     .card__image_team {
         background-image: url(../../../../../images/career/teams-phone.png);
     }
     
     .card__image_serch {
+        background-size: contain;
+        background-position: bottom;
         background-image: url(../../../../../images/career/search-phone.png);
     }
 }

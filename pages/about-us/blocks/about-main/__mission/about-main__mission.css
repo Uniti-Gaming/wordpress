@@ -8,6 +8,16 @@
     bottom: 0;
 }
 
+@media screen and (max-width:850px) {
+    .about-main__mission .card__image {
+        width: 97%;
+    }
+
+    .about-main__mission .card__textarea {
+        max-width: 300px;
+    }
+}
+
 @media screen and (max-width:430px) {
     .about-main__mission .card__image {
         width: 100%;

@@ -2,11 +2,21 @@
     padding: 268px 20px 175px;
 }
 .resources .subtitle {
-    max-width: 671px;
+    max-width: 500px;
     margin: 24px auto 216px;
 }
 .resources ul {
     padding: 0;
+}
+
+@media screen and (max-width:850px) {
+    .resources {
+        padding: 144px 20px 80px;
+    }
+    .resources .subtitle {
+        max-width: 400px;
+        margin: 24px auto 34px;
+    }
 }
 
 @media screen and (max-width:450px) {

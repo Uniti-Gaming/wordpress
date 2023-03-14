@@ -1,4 +1,10 @@
 .donat-card__list {
-    margin: 24px 0 0;
+    margin: 24px 0 0 11px;
     padding-left: 23px;
+}
+
+@media screen and (max-width:850px) {
+    .donat-card__list {
+        padding-left: 18px;
+    }
 }

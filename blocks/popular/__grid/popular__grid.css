@@ -1,4 +1,5 @@
 .popular__grid {
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, 310px);
     justify-content: center;

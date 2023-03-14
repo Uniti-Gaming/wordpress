@@ -1,1 +1,21 @@
 @import url(../blocks/news/__subtitle/news__subtitle.css);
+
+@media screen and (max-width:1070px) {
+    .news__list {
+        gap: 35px;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 160px;
+        max-width: 655px;
+    }
+    .news__card {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .news__list {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+}

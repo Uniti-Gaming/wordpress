@@ -66,12 +66,18 @@
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:850px) {
     .partners {
-        padding-bottom: 68px;
+        padding: 0 100px 100px;
     }
 
     .partners ul {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .partners {
+        padding: 0 0 68px;
     }
 }

@@ -6,14 +6,34 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    transition: all 500ms ease-in-out;
 }
 
-@media screen and (min-width:700px) {
+@media (any-hover: hover) {
+    .about-main__target:hover .card__image {
+        transform: scale(105%);
+    }
+}
+
+@media screen and (min-width:850px) {
     .about-main__target .card__textarea {
         max-width: 490px;
     }
+
     .about-main__target .card__link {
         margin-top: 99px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    @media screen and (min-width:700px) {
+        .about-main__target .card__textarea {
+            max-width: 300px;
+        }
+
+        .about-main__target .card__link {
+            margin-top: 80px;
+        }
     }
 }
 

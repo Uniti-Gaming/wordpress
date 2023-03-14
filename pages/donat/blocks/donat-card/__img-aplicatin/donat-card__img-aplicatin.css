@@ -2,7 +2,14 @@
     margin: 45px 75px 0 109px;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:850px) {
+    .donat-card__img-aplicatin {
+        width: 200px;
+        margin: 65px 53px 0 87px;
+    }
+}
+
+@media screen and (max-width:500px) {
     .donat-card__img-aplicatin {
         width: 181px;
         margin: 21px 0 0 calc((100% - 181px)/2);

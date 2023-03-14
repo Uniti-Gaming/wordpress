@@ -29,6 +29,33 @@
     margin: 12px 0 0 190px;
 }
 
+@media screen and (max-width:850px) {
+    .application {
+        margin-top: 175px;
+        margin-bottom: 83px;
+    }
+
+    .application .button {
+        margin-bottom: 87px;
+    }
+
+    .application .card__textarea {
+        max-width: 300px;
+    }
+
+    .application .card__image-wrap {
+        margin-left: 55px;
+    }
+
+    .application .card__image-wrap span {
+        margin: 55px 0 0 120px;
+    }
+
+    .application .card__image-wrap .card__image {
+        margin-left: 0;
+    }
+}
+
 @media screen and (max-width:450px) {
     .application {
         margin-top: 130px;

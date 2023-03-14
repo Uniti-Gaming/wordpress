@@ -2,20 +2,30 @@
     margin: 130px 73px 0 128px;
 }
 
-@media screen and (min-width:900px) {
+.card__elements .card__textarea {
+    max-width: 490px;
+}
+.card__elements .card__link {
+    margin-top: 171px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:850px) {
     .card__elements .card__textarea {
-        max-width: 490px;
+        max-width: 310px;
     }
     .card__elements .card__link {
-        margin-top: 171px;
-        margin-bottom: 0;
+        margin-top: 136px;
+    }
+    .card__elements .card__image {
+        width: 233px;
+        margin: 112px 25px 0 80px;
     }
 }
 
 @media screen and (max-width:450px) {
     .card__elements .card__link {
         margin-top: 35px;
-        margin-bottom: 0;
     }
     .card__elements .card__image {
         width: 167px;

@@ -1,9 +1,29 @@
 .news__subtitle {
     margin: 238px 0 24px;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 20px;
     color: #B7B7B7;
 }
 .news__subtitle+.news__title {
     margin-bottom: 100px;
+}
+
+@media screen and (max-width:850px) {
+    .news__subtitle {
+        margin: 144px 0 24px;
+        font-size: 16px;
+    }
+    .news__subtitle+.news__title {
+        margin-bottom: 81px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .news__subtitle {
+        margin: 130px 0 24px;
+        font-size: 16px;
+    }
+    .news__subtitle+.news__title {
+        margin-bottom: 40px;
+    }
 }

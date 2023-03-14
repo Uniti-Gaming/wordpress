@@ -3,9 +3,10 @@
 .programs {
     margin: 150px auto 201px;
     max-width: 1064px;
+    padding: 0 30px;
 }
 
-.programs .news__list {
+.programs .popular__grid {
     margin: 87px auto 0;
 }
 
@@ -35,4 +36,16 @@
 .programs__card .news__name {
     margin-top: 25px;
     height: 75px;
+}
+
+@media screen and (max-width:850px) {
+    .programs {
+        margin: 135px auto 103px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .programs {
+        margin: 130px auto 60px;
+    }
 }

@@ -1,21 +1,36 @@
 .team__founders {
-    margin-top: 72px;
-    margin-bottom: 172px;
+    margin: 72px auto 172px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 310px);
+    justify-content: center;
+    gap: 72px 35px;
+    list-style: none;
 }
 
-.team__founders .news__card {
-    height: 396px;
-    box-sizing: border-box;
-}
-
-.team__founders .news__img {
+.team__founders .team__img {
     background-color: #BDBBBB;
     height: 237px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.team__founders .news__name {
-    margin-top: 26.5px;
+.team__founders .team__name,
+.team__founders .team__major {
+    margin-left: 24px;
+}
+
+@media screen and (max-width:850px) {
+    .team__founders {
+        margin: 96px auto 120px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .team__founders {
+        margin: 47px auto 100px;
+        gap: 20px;
+    }
 }

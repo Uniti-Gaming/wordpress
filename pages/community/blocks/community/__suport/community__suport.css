@@ -10,6 +10,20 @@
     margin-top: 129px;
 }
 
+@media screen and (max-width:850px) {
+    .community__suport .card__textarea {
+        max-width: 290px;
+    }
+
+    .community__suport .card__link {
+        margin-top: 150px;
+    }
+
+    .community__suport .card__image {
+        width: 515px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .community__suport .card__link {
         margin-top: 20px;

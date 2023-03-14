@@ -4,7 +4,14 @@
     border-radius: 8px;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:850px) {
+    .buy-game__img-epic {
+        width: 109px;
+        height: 126px;
+    }
+}
+
+@media screen and (max-width:500px) {
     .buy-game__img-epic {
         width: 64px;
         height: 74px;

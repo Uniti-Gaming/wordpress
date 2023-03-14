@@ -7,6 +7,7 @@
     justify-content: center;
     z-index: 2;
     position: relative;
+    background-size: cover;
 }
 
 .buy-game__img-parent:first-of-type {
@@ -25,12 +26,22 @@
     background-image: url(../../../../../images/donat/epic-backgraund.jpg);
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:850px) {
+    .buy-game__img-parent {
+        width: 253px;
+        height: 330px;
+    }
+    .buy-game__img-parent:first-of-type {
+        margin: 0 30px 30px 0;
+    }
+}
+
+@media screen and (max-width:500px) {
     .buy-game__img-parent {
         width: 148px;
         height: 193px;
     }
     .buy-game__img-parent:first-of-type {
-        margin-bottom: 17px;
+        margin: 0 28px 17px 0;
     }
 }

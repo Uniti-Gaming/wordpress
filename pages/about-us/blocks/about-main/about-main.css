@@ -2,6 +2,12 @@
     padding: 266px 20px 100px;
 }
 
+@media screen and (max-width:850px) {
+    .about-main {
+        padding: 219px 20px 80px;
+    }
+}
+
 @media screen and (max-width:430px) {
     .about-main {
         padding: 130px 20px 116px;
