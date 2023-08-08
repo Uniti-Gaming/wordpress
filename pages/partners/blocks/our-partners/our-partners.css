@@ -1,0 +1,23 @@
+.our-partners {
+    padding: 266px 20px 121px;
+}
+
+.our-partners .subtitle {
+    margin: 24px auto 127px;
+}
+
+@media screen and (max-width:850px) {
+    .our-partners {
+        padding: 175px 20px 121px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .our-partners {
+        padding: 130px 20px 121px;
+    }
+    .our-partners .subtitle {
+        margin-bottom: 137px;
+        max-width: 300px;
+    }
+}

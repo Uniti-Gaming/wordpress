@@ -3,9 +3,15 @@
     margin-bottom: 160px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:850px) {
     .post {
         padding-top: 55px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .post {
         margin-bottom: 60px;
     }
 }

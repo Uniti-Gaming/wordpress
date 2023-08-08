@@ -7,7 +7,9 @@ const allTegs = document.querySelectorAll('.all-partners__teg');
 const allItems = document.querySelectorAll('.all-partners__item');
 const shopItems = document.querySelectorAll('.partner__item_shop');
 const otherItems = document.querySelectorAll('.partner__item_other');
-const libralyItems = document.querySelectorAll('.partner__item_libraly');
+const pcItems = document.querySelectorAll('.partner__item_pc');
+const psItems = document.querySelectorAll('.partner__item_ps');
+const libralyItems = [ ...pcItems, ...psItems ];
 const rentalItems = document.querySelectorAll('.partner__item_rental');
 
 function openTabs(target, array) {

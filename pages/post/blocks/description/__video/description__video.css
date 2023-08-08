@@ -4,9 +4,16 @@
     overflow: hidden;
     border-radius: 16px;
 }
-@media screen and (max-width:450px) {
+
+@media screen and (max-width:1040px) {
     .description__video {
         width: 100%;
+        height: 409px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .description__video {
         height: 188.33px;
     }
 }

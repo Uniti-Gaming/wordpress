@@ -1,4 +1,28 @@
+.card__server-games {
+    margin-top: 204px;
+}
 
-.card__server-games+.suport .suport__card {
-    margin-top: 40px;
+.card__image_server {
+    position: absolute;
+    top: 96px;
+    right: -22px;
+    width: 659px;
+}
+
+@media screen and (max-width:850px) {
+    .card__server-games {
+        margin-top: 108px;
+    }
+    .card__image_server {
+        width: 525px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card__image_server {
+        width: 95%;
+        position: static;
+        margin-left: 2.5%;
+        margin-top: 127px;
+    }
 }

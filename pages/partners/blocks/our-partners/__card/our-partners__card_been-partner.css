@@ -1,0 +1,44 @@
+.our-partners__card_been-partner {
+
+}
+
+.our-partners__card_been-partner .card__textarea {
+    max-width: 435px;
+}
+
+.our-partners__card_been-partner .card__text {
+    max-width: 350px;
+}
+
+.our-partners__card_been-partner .card__link {
+    margin-top: 117px;
+}
+
+@media (any-hover: hover) {
+    .our-partners__card_been-partner:hover .card__image {
+        transform: scale(105%);
+    }
+}
+
+@media screen and (max-width:850px) {
+    .our-partners__card_been-partner .card__textarea {
+        max-width: 350px;
+    }
+    
+    .our-partners__card_been-partner .card__text {
+        max-width: 300px;
+    }
+    
+    .our-partners__card_been-partner .card__link {
+        margin-top: 128px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .our-partners__card_been-partner .card__title {
+        max-width: 250px;
+    }
+    .our-partners__card_been-partner .card__link {
+        margin-top: 32px;
+    }
+}

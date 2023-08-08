@@ -39,6 +39,10 @@
     letter-spacing: -0.005em;
 }
 
+.contacts__article img {
+    transition: all 500ms ease-in-out;
+}
+
 .contacts__article_isq p {
     margin-bottom: 24px;
 }
@@ -51,6 +55,12 @@
 .contacts__article_phone a {
     margin-bottom: 24px;
     display: block;
+}
+
+@media (any-hover: hover) {
+    .contacts__article:hover img {
+        transform: scale(105%);
+    }
 }
 
 @media screen and (max-width:850px) {

@@ -7,15 +7,25 @@ const now = new Date();
 const nowYear = now.getFullYear();
 const days = Array.from({length: 31}, (_, i) => i + 1);
 const years = Array(nowYear - (nowYear - 70)).fill('').map((v, idx) => nowYear - idx);
-const mounthes = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
-    'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'
-]
+const lang = document.querySelector('.check-old__mounth')
+function mounthes() {
+    if(lang.classList.contains('tm')) {
+        mounthes = ['Ýanwar', 'Fewral', 'Mart', 'Aprel', 'Maý', 'Iýun',
+        'Iýul', 'Awgust', 'Sentýabr', 'Oktýabr', 'Noýabr', 'Dekabr']
+        return mounthes
+    } else {
+        mounthes =  ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
+        'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+        return mounthes
+    }
+}
+mounthes()
 let userMes = 12
 let userYear = nowYear
 let userDay = 31
 
 const selectDay = new Select('.check-old__day', {
-    placeholder: 'День',
+    placeholder: 1,
     data: days,
     onSelect (text, index) {
         userDay = text;
@@ -25,7 +35,7 @@ const selectDay = new Select('.check-old__day', {
 });
 
 const selectMounth = new Select('.check-old__mounth', {
-    placeholder: 'Месяц',
+    placeholder: lang.textContent,
     data: mounthes,
     onSelect (text, index) {
         userMes = index;
@@ -34,8 +44,9 @@ const selectMounth = new Select('.check-old__mounth', {
     }
 });
 
+
 const selectYear = new Select('.check-old__year', {
-    placeholder: 'Год',
+    placeholder: nowYear,
     data: years,
     onSelect (text, index) {
         userYear = text;

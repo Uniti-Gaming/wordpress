@@ -9,6 +9,12 @@
     padding: 13px 24px;
 }
 
+@media screen and (max-width:850px) {
+    .post__buttons {
+        margin-bottom: 55px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .post__buttons {
         flex-direction: column;

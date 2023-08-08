@@ -1,0 +1,23 @@
+.our-partners__image_team {
+    background-image: url(../../../../../images/partners/hands.png);
+    width: 332px;
+    height: 179px;
+    margin: 139px 50px 0 54px;
+    background-size: cover;
+}
+
+@media screen and (max-width:850px) {
+    .our-partners__image_team {
+        width: 265px;
+        height: 143px;
+        margin: 156px 22px 0 52px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .our-partners__image_team {
+        width: 269px;
+        height: 145px;
+        margin: 130px 0 0 calc((100% - 269px)/2);
+    }
+}

@@ -10,6 +10,15 @@
     max-width: 500px;
 }
 
+@media screen and (max-width:850px) {
+    .post__card {
+        margin-top: 80px;
+    }
+    .post {
+        margin-bottom: 80px;
+    }
+}
+
 @media screen and (max-width:450px) {
     .post__card {
         margin-top: 0;

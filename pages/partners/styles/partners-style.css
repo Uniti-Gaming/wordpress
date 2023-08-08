@@ -6,3 +6,13 @@
 @import url(../blocks/partner/__logo/partner__logo.css);
 @import url(../blocks/maps/__map/maps__map.css);
 @import url(../blocks/maps/maps.css);
+
+@import url(../blocks/our-partners/our-partners.css);
+@import url(../blocks/our-partners/__card/our-partners__card_been-partner.css);
+@import url(../blocks/our-partners/__card/our-partners__card_team.css);
+@import url(../blocks/our-partners/__image/our-partners__image_been-partner.css);
+@import url(../blocks/our-partners/__image/our-partners__image_team.css);
+@import url(../blocks/our-partners);
+
+@import url(../blocks/favorite/favorite.css);
+@import url(../blocks/favorite/__list/favorite__list.css);

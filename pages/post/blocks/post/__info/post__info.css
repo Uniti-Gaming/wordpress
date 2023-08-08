@@ -2,6 +2,7 @@
     display: flex;
     gap: 32px;
     justify-content: center;
+    padding: 0 20px;
 }
 
 .post__info>div {
@@ -43,6 +44,24 @@
 }
 .post__info-star.yelow {
     background-image: url(../../../../../images/posts/star-yelowr.png);
+}
+
+@media screen and (max-width:850px) {
+    .post__info {
+        gap: 20px;
+    }
+    .post__info-stars {
+        gap: 8px;
+    }
+    .post__info-star {
+        width: 19.7px;
+        height: 19.7px;
+    }
+    .post__info p,
+    .post__info h5 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 @media screen and (max-width:450px) {

@@ -4,9 +4,16 @@
     margin-bottom: 77px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:1040px) {
     .description__content {
         flex-direction: column;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .description__content {
         gap: 35px;
         margin-bottom: 55px;
     }

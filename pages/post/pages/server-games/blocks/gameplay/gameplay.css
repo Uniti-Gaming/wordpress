@@ -12,9 +12,40 @@
     max-width: 490px;
 }
 
+.card__image_farm {
+background-image: url(../../../../../../images/posts/rust-farm.png);
+}
+
+.card__image_craft {
+    background-image: url(../../../../../../images/posts/rust-craft.png);
+}
+
+.card__image_bilding {
+    background-image: url(../../../../../../images/posts/rust-farm.png);
+}
+
+.card__image_raid {
+    background-image: url(../../../../../../images/posts/rust-raid.png);
+}
+
 @media screen and (max-width:450px) {
     .gameplay {
         margin-top: 88px;
         margin-bottom: 56px;
     }
+    .card__image_farm {
+        background-image: url(../../../../../../images/posts/rust-farm-phone.png);
+        }
+        
+        .card__image_craft {
+            background-image: url(../../../../../../images/posts/rust-craft-ohone.png);
+        }
+        
+        .card__image_bilding {
+            background-image: url(../../../../../../images/posts/rust-farm-phone.png);
+        }
+        
+        .card__image_raid {
+            background-image: url(../../../../../../images/posts/rust-raid-phone.png);
+        }
 }

@@ -1,0 +1,24 @@
+.our-partners__image_been-partner {
+    background-image: url(../../../../../images/partners/puzle.png);
+    width: 318px;
+    height: 275px;
+    margin: 100px 0 0 113px;
+    transition: all 500ms ease-in-out;
+    background-size: cover;
+}
+
+@media screen and (max-width:850px) {
+    .our-partners__image_been-partner {
+        width: 274px;
+        height: 237px;
+        margin: 112px 0 0 40px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .our-partners__image_been-partner {
+        width: 235px;
+        height: 203px;
+        margin: 74px 0 0 calc((100% - 235px)/2);
+    }
+}
